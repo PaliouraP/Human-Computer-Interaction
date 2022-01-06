@@ -1,0 +1,17 @@
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.csprojAssemblyReference.cache
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.Form1.resources
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.csproj.GenerateResource.cache
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.AssemblyInfoInputs.cache
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.AssemblyInfo.cs
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.csproj.CoreCompileInputs.cache
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.Form2.resources
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.exe
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.deps.json
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.runtimeconfig.json
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.runtimeconfig.dev.json
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.dll
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\bin\Debug\netcoreapp3.1\testSmartAssistant.pdb
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.Properties.Resources.resources
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.dll
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.pdb
+C:\Users\Evi Palioura\source\repos\testSmartAssistant\testSmartAssistant\obj\Debug\netcoreapp3.1\testSmartAssistant.genruntimeconfig.cache
