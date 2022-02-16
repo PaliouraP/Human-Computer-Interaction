@@ -1,0 +1,17 @@
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.exe
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.deps.json
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.json
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.dev.json
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\aboub\source\repos\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.AssemblyReference.cache
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_form.resources
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Properties.Resources.resources
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.GenerateResource.cache
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfoInputs.cache
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfo.cs
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CoreCompileInputs.cache
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
