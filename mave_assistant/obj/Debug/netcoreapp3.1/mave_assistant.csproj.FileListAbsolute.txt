@@ -15,3 +15,6 @@ C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistan
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
+C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
