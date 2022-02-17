@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maria\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {}
+    "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maria\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {
+    "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maria\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj",
         "projectName": "mave_assistant",
-        "projectPath": "C:\\Users\\maria\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+        "projectPath": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maria\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
+        "outputPath": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
