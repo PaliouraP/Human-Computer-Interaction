@@ -1,26 +1,95 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.115.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.115.5": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "[1.0.115.5]"
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.115.5": {
+      "sha512": "WfrqQg6WL+r4H1sVKTenNj6ERLXUukUxqcjH1rqPqXadeIWccTVpydESieD7cZ/NWQVSKLYIHuoBX5du+BFhIQ==",
+      "type": "package",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.115.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.1/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x86/native/SQLite.Interop.dll",
+        "stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+        "stub.system.data.sqlite.core.netstandard.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.115.5": {
+      "sha512": "vADIqqgpxaC5xR6qOV8/KMZkQeSDCfmmWpVOtQx0oEr3Yjq2XdTxX7+jfE4+oO2xPovAbYiz6Q5cLRbSsDkq6Q==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.115.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.core.1.0.115.5.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "System.Data.SQLite.Core >= 1.0.115.5"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj",
+      "projectUniqueName": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
       "projectName": "mave_assistant",
-      "projectPath": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\mave_assistant.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\Downloads\\mave_assistant\\mave_assistant\\obj\\",
+      "projectPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+      "packagesPath": "C:\\Users\\Evi Palioura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Evi Palioura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,6 +114,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "System.Data.SQLite.Core": {
+            "target": "Package",
+            "version": "[1.0.115.5, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -63,7 +138,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -29,6 +29,7 @@ namespace mave_assistant
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home_screen_form));
             this.menu_panel = new System.Windows.Forms.Panel();
             this.logout_btn = new System.Windows.Forms.Button();
             this.about_btn = new System.Windows.Forms.Button();
@@ -654,6 +655,7 @@ namespace mave_assistant
             // 
             // user_icon2
             // 
+            this.user_icon2.Image = ((System.Drawing.Image)(resources.GetObject("user_icon2.Image")));
             this.user_icon2.Location = new System.Drawing.Point(1320, 8);
             this.user_icon2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.user_icon2.Name = "user_icon2";
