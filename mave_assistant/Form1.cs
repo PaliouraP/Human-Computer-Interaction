@@ -87,5 +87,12 @@ namespace mave_assistant
         {
 
         }
+
+        private void logout_btn_Click(object sender, EventArgs e)
+        {
+            Login f = new Login();
+            f.Show(); //shows Login
+            this.Close(); //closes home screen
+        }
     }
 }
