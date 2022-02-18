@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace mave_assistant
 {
     public partial class home_screen_form : Form
     {
+        String connectionString = "Data Source=mave.db;Version=3;";
+        SQLiteConnection conn;
+
+        User u = new User();
         public home_screen_form()
         {
             InitializeComponent();
@@ -93,6 +98,56 @@ namespace mave_assistant
             Login f = new Login();
             f.Show(); //shows Login
             this.Close(); //closes home screen
+        }
+
+        private void home_screen_form_Load(object sender, EventArgs e)
+        {
+            conn = new SQLiteConnection(connectionString); //connecting database
+
+            username_label.Text = Login.SetValueUsername;
+
+            String selectQuery = "Select * from users where username=@user";
+
+            //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
+            using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
+            {
+                conn.Open();
+                command.Parameters.AddWithValue("@user", Login.SetValueUsername);
+                using (SQLiteDataReader reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        u.username = reader.GetString(0);
+                        u.password = reader.GetString(2);
+                        u.name = reader.GetString(1);
+                        u.dob = reader.GetString(3);
+                        u.picture = reader.GetString(4);
+                        user_icon2.ImageLocation = u.picture;
+                        hello_label.Text = "Hello " + u.name; 
+                    }
+
+                }
+                conn.Close();
+            }
+        }
+
+        private void logout_btn_Click_1(object sender, EventArgs e)
+        {
+            Login f = new Login();
+            f.Show(); //shows Login
+            this.Close(); //closes homescreen
+        }
+
+        private void account_btn_Click(object sender, EventArgs e)
+        {
+            // When clicking on "Account" button, account form appears
+            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture));
+        }
+
+        private void username_label_Click(object sender, EventArgs e)
+        {
+            // When clicking on your username, the acoount info form appears
+            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture));
         }
     }
 }

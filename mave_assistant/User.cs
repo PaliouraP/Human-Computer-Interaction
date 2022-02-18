@@ -6,11 +6,11 @@ namespace mave_assistant
 {
     class User
     {
-        public string username;
-        public string password;
-        public string name;
-        public string dob; // date of birth
-        public string picture;
+        public string username { get; set; }
+        public string password { get; set; }
+        public string name { get; set; }
+        public string dob { get; set; } // date of birth
+        public string picture { get; set; }
 
         //constructor
         public User()
