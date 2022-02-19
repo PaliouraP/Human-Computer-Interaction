@@ -77,7 +77,7 @@ namespace mave_assistant
                         if (!reader.Read())
                         {
                             //inserting new user in database
-                            String insertQuery = "Insert into users(username, name, password, dob, picture,pet) values('" + u.username + "', '" + u.name + "', '" + u.password + "', '" + u.dob + "', '" + u.picture + "','" + u.pet +"')";
+                            String insertQuery = "Insert into users(username, name, password, dob, picture, pet) values('" + u.username + "', '" + u.name + "', '" + u.password + "', '" + u.dob + "', '" + u.picture + "','" + u.pet +"')";
                             using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
                             {
                                 cmd.ExecuteNonQuery();

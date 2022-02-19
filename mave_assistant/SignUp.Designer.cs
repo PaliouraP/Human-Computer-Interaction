@@ -161,13 +161,12 @@ namespace mave_assistant
             // nameTextBox
             // 
             this.nameTextBox.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nameTextBox.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.nameTextBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.nameTextBox.Location = new System.Drawing.Point(809, 354);
             this.nameTextBox.Multiline = true;
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(420, 41);
             this.nameTextBox.TabIndex = 17;
-            this.nameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // signup_btn
             // 
@@ -227,7 +226,7 @@ namespace mave_assistant
             this.remove_pfp.Location = new System.Drawing.Point(1034, 245);
             this.remove_pfp.Margin = new System.Windows.Forms.Padding(0);
             this.remove_pfp.Name = "remove_pfp";
-            this.remove_pfp.Size = new System.Drawing.Size(33, 30);
+            this.remove_pfp.Size = new System.Drawing.Size(31, 29);
             this.remove_pfp.TabIndex = 25;
             this.remove_pfp.Text = "X";
             this.remove_pfp.UseVisualStyleBackColor = false;
