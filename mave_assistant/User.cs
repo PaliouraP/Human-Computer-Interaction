@@ -11,6 +11,7 @@ namespace mave_assistant
         public string name;
         public string dob; // date of birth
         public string picture;
+        public string pet;
 
         //constructor
         public User()
@@ -20,6 +21,7 @@ namespace mave_assistant
             name = SignUp.SetValueForName;
             dob = SignUp.SetValueForDob;
             picture = SignUp.SetValueForPicture;
+            pet = SignUp.SetValueForPet();
         }
     }
 }

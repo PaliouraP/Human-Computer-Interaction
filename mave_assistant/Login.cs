@@ -33,6 +33,16 @@ namespace mave_assistant
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            conn = new SQLiteConnection(connectionString); //connecting database
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             SetValueUsername = textBox1.Text;
             SetValuePassword = textBox2.Text;
             SetValueForCheckBox1 = checkBox1.Checked;
@@ -69,11 +79,6 @@ namespace mave_assistant
                     this.Hide(); //hides Login
                 }
             }
-        }
-
-        private void Login_Load(object sender, EventArgs e)
-        {
-            conn = new SQLiteConnection(connectionString); //connecting database
         }
     }
 }
