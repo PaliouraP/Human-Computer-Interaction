@@ -21,7 +21,7 @@ namespace mave_assistant
             name = SignUp.SetValueForName;
             dob = SignUp.SetValueForDob;
             picture = SignUp.SetValueForPicture;
-            pet = SignUp.SetValueForPet();
+            pet = SignUp.SetValueForPet;
         }
     }
 }
