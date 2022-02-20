@@ -27,6 +27,7 @@ namespace mave_assistant
 
         private void account_Load(object sender, EventArgs e)
         {
+            name_tag.Text = u_name;
             user.Text = username;
             name.Text = u_name;
             dob.Text = birth_date;
