@@ -326,6 +326,7 @@ namespace mave_assistant
             this.digital_planner_btn.TabIndex = 2;
             this.digital_planner_btn.Text = "Digital Planner";
             this.digital_planner_btn.UseVisualStyleBackColor = true;
+            this.digital_planner_btn.Click += new System.EventHandler(this.digital_planner_btn_Click);
             // 
             // home_screen_btn
             // 

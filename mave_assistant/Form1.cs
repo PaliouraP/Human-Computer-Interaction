@@ -144,5 +144,11 @@ namespace mave_assistant
             f.Show(); //shows Login
             this.Close(); //closes home screen
         }
+
+        private void digital_planner_btn_Click(object sender, EventArgs e)
+        {
+            // When clicking on your username, the acoount info form appears
+            openChildForm(new planner(u.username));
+        }
     }
 }
