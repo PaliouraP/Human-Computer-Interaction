@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "B400r/7TkHfOOYlCdImoXgoPNnvd1VT391jaKSMUYdCOJZbpoINNG3y1WWrLdQtWuMVHrqatPKah/gCppJhN3A==",
+  "dgSpecHash": "eA7oK5/rEDc1QfsRbkFyNMYygUYibqksSU4TJt8AgEYttDPfucagotnv5XnEqA96jrUhnzU9vqDJsN67BHbzhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+  "projectFilePath": "C:\\Users\\maria\\Source\\Repos\\Human-Computer-Interaction2\\mave_assistant\\mave_assistant.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Evi Palioura\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\Evi Palioura\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
+    "C:\\Users\\maria\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512"
   ],
   "logs": []
 }
