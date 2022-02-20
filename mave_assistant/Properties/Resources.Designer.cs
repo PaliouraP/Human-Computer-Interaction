@@ -173,6 +173,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap copyright1 {
+            get {
+                object obj = ResourceManager.GetObject("copyright1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap disarm {
             get {
                 object obj = ResourceManager.GetObject("disarm", resourceCulture);
@@ -246,6 +256,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap help_icon {
             get {
                 object obj = ResourceManager.GetObject("help_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hi_mave {
+            get {
+                object obj = ResourceManager.GetObject("hi_mave", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,6 +376,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap mave_hi {
             get {
                 object obj = ResourceManager.GetObject("mave_hi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mave_walk {
+            get {
+                object obj = ResourceManager.GetObject("mave_walk", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
