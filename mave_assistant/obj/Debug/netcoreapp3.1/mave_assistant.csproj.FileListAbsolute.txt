@@ -18,3 +18,121 @@ C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistan
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
 C:\Users\aboub\source\repos\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.exe
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.deps.json
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.json
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.dev.json
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.AssemblyReference.cache
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_form.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Login.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Properties.Resources.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SignUp.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.GenerateResource.cache
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfoInputs.cache
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfo.cs
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CoreCompileInputs.cache
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CopyComplete
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\maria\Source\Repos\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.exe
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.deps.json
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.json
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.dev.json
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.AssemblyReference.cache
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_form.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Login.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Properties.Resources.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SignUp.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.GenerateResource.cache
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfoInputs.cache
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfo.cs
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CoreCompileInputs.cache
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CopyComplete
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csprojAssemblyReference.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.exe
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.deps.json
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.json
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.dev.json
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_form.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Login.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Properties.Resources.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SignUp.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.GenerateResource.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfoInputs.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfo.cs
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CoreCompileInputs.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CopyComplete
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.account.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.planner.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControl1.resources
+C:\Users\Evi Palioura\Documents\Examino 5\Human Computer Interaction\final\PaliouraP\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlDays.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.exe
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.deps.json
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.json
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.runtimeconfig.dev.json
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csprojAssemblyReference.cache
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.about.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.account.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_form.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Login.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.planner.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Properties.Resources.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SignUp.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_home.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_living.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControl1.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlDays.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.GenerateResource.cache
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfoInputs.cache
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.AssemblyInfo.cs
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CoreCompileInputs.cache
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.CopyComplete
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pdb
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.genruntimeconfig.cache
