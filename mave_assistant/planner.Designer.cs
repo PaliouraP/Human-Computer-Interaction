@@ -52,9 +52,9 @@ namespace mave_assistant
             this.digital_planner_label.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.digital_planner_label.Location = new System.Drawing.Point(3, 12);
             this.digital_planner_label.Name = "digital_planner_label";
-            this.digital_planner_label.Size = new System.Drawing.Size(244, 54);
+            this.digital_planner_label.Size = new System.Drawing.Size(283, 54);
             this.digital_planner_label.TabIndex = 15;
-            this.digital_planner_label.Text = "Smart Home";
+            this.digital_planner_label.Text = "Digital Planner";
             // 
             // day_container
             // 
