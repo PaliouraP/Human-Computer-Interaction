@@ -50,9 +50,9 @@ namespace mave_assistant
             // 
             this.account_label.AutoSize = true;
             this.account_label.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.account_label.Location = new System.Drawing.Point(3, 9);
+            this.account_label.Location = new System.Drawing.Point(3, 12);
             this.account_label.Name = "account_label";
-            this.account_label.Size = new System.Drawing.Size(137, 45);
+            this.account_label.Size = new System.Drawing.Size(168, 54);
             this.account_label.TabIndex = 15;
             this.account_label.Text = "Account";
             // 
@@ -71,18 +71,19 @@ namespace mave_assistant
             this.completed_tasks_panel.Controls.Add(this.user);
             this.completed_tasks_panel.Controls.Add(this.label5);
             this.completed_tasks_panel.Controls.Add(this.label2);
-            this.completed_tasks_panel.Location = new System.Drawing.Point(264, 80);
+            this.completed_tasks_panel.Location = new System.Drawing.Point(302, 107);
+            this.completed_tasks_panel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.completed_tasks_panel.Name = "completed_tasks_panel";
-            this.completed_tasks_panel.Size = new System.Drawing.Size(467, 471);
+            this.completed_tasks_panel.Size = new System.Drawing.Size(534, 628);
             this.completed_tasks_panel.TabIndex = 17;
             // 
             // name_tag
             // 
             this.name_tag.AutoSize = true;
             this.name_tag.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name_tag.Location = new System.Drawing.Point(94, 172);
+            this.name_tag.Location = new System.Drawing.Point(107, 229);
             this.name_tag.Name = "name_tag";
-            this.name_tag.Size = new System.Drawing.Size(303, 45);
+            this.name_tag.Size = new System.Drawing.Size(375, 54);
             this.name_tag.TabIndex = 36;
             this.name_tag.Text = "Firstname Lastname";
             this.name_tag.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,9 +92,9 @@ namespace mave_assistant
             // 
             this.pet.AutoSize = true;
             this.pet.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pet.Location = new System.Drawing.Point(288, 389);
+            this.pet.Location = new System.Drawing.Point(329, 519);
             this.pet.Name = "pet";
-            this.pet.Size = new System.Drawing.Size(52, 21);
+            this.pet.Size = new System.Drawing.Size(65, 28);
             this.pet.TabIndex = 35;
             this.pet.Text = "label1";
             // 
@@ -103,9 +104,9 @@ namespace mave_assistant
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(52, 389);
+            this.label6.Location = new System.Drawing.Point(59, 519);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 21);
+            this.label6.Size = new System.Drawing.Size(96, 28);
             this.label6.TabIndex = 34;
             this.label6.Text = "Pet Name";
             // 
@@ -113,10 +114,9 @@ namespace mave_assistant
             // 
             this.profile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.profile.Image = ((System.Drawing.Image)(resources.GetObject("profile.Image")));
-            this.profile.Location = new System.Drawing.Point(167, 33);
-            this.profile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.profile.Location = new System.Drawing.Point(191, 44);
             this.profile.Name = "profile";
-            this.profile.Size = new System.Drawing.Size(134, 137);
+            this.profile.Size = new System.Drawing.Size(153, 183);
             this.profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.profile.TabIndex = 29;
             this.profile.TabStop = false;
@@ -125,9 +125,9 @@ namespace mave_assistant
             // 
             this.dob.AutoSize = true;
             this.dob.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dob.Location = new System.Drawing.Point(288, 343);
+            this.dob.Location = new System.Drawing.Point(329, 457);
             this.dob.Name = "dob";
-            this.dob.Size = new System.Drawing.Size(37, 21);
+            this.dob.Size = new System.Drawing.Size(48, 28);
             this.dob.TabIndex = 33;
             this.dob.Text = "dob";
             // 
@@ -137,9 +137,9 @@ namespace mave_assistant
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(52, 343);
+            this.label4.Location = new System.Drawing.Point(59, 457);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 21);
+            this.label4.Size = new System.Drawing.Size(100, 28);
             this.label4.TabIndex = 28;
             this.label4.Text = "Birth Date";
             // 
@@ -147,9 +147,9 @@ namespace mave_assistant
             // 
             this.name.AutoSize = true;
             this.name.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name.Location = new System.Drawing.Point(288, 298);
+            this.name.Location = new System.Drawing.Point(329, 397);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(49, 21);
+            this.name.Size = new System.Drawing.Size(60, 28);
             this.name.TabIndex = 31;
             this.name.Text = "name";
             // 
@@ -157,9 +157,9 @@ namespace mave_assistant
             // 
             this.user.AutoSize = true;
             this.user.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.user.Location = new System.Drawing.Point(288, 247);
+            this.user.Location = new System.Drawing.Point(329, 329);
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(40, 21);
+            this.user.Size = new System.Drawing.Size(48, 28);
             this.user.TabIndex = 30;
             this.user.Text = "user";
             // 
@@ -169,9 +169,9 @@ namespace mave_assistant
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(52, 298);
+            this.label5.Location = new System.Drawing.Point(59, 397);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 21);
+            this.label5.Size = new System.Drawing.Size(64, 28);
             this.label5.TabIndex = 27;
             this.label5.Text = "Name";
             // 
@@ -181,21 +181,20 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(52, 247);
+            this.label2.Location = new System.Drawing.Point(59, 329);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 21);
+            this.label2.Size = new System.Drawing.Size(99, 28);
             this.label2.TabIndex = 25;
             this.label2.Text = "Username";
             // 
             // account
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(965, 637);
+            this.ClientSize = new System.Drawing.Size(1103, 849);
             this.Controls.Add(this.completed_tasks_panel);
             this.Controls.Add(this.account_label);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "account";
             this.Text = "account";
             this.Load += new System.EventHandler(this.account_Load);

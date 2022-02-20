@@ -21,7 +21,37 @@ namespace mave_assistant
         public home_screen_form()
         {
             InitializeComponent();
+            dropDownMenu();
         }
+
+        //Method that initially makes sub menus invisible
+        private void dropDownMenu()
+        {
+            panelSmartLiving.Visible = false;
+            panelSmartHome.Visible = false;
+        }
+
+        //Method that hides drop down sub menus if they are open
+        private void hideSubMenu()
+        {
+            if (panelSmartLiving.Visible == true)
+                panelSmartLiving.Visible = false;
+            if (panelSmartHome.Visible == true)
+                panelSmartHome.Visible = false;
+        }
+
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false; 
+        }
+
 
         private Form activeForm = null;
 
@@ -63,9 +93,7 @@ namespace mave_assistant
             openChildForm(new smart_home());
         }
 
-        private void hello_label_Click(object sender, EventArgs e)
-        {
-        }
+        
 
         private void home_screen_btn_Click(object sender, EventArgs e)
         {
@@ -76,29 +104,11 @@ namespace mave_assistant
             }
 
         }
-
-        private void smart_living_btn_Click(object sender, EventArgs e)
-        {
-            // When clicking on "Smart Living" button, smart_living form appears
-            openChildForm(new smart_living());
-        }
-
-        private void about_btn_Click(object sender, EventArgs e)
-        {
-            about about = new about();
-            about.ShowDialog(); // Shows Form2
-        }
-
         private void panel_childform_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void account_btn_Click(object sender, EventArgs e)
-        {
-            // When clicking on "Account" button, account form appears
-            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture, u.pet));
-        }
 
         private void username_label_Click(object sender, EventArgs e)
         {
@@ -149,6 +159,40 @@ namespace mave_assistant
         {
             // When clicking on your username, the acoount info form appears
             openChildForm(new planner(u.username));
+        }
+               
+           
+        private void smart_living_btn_Click_1(object sender, EventArgs e)
+        {
+            // When clicking on "Smart Living" button, smart_living form appears
+            openChildForm(new smart_living());
+        }
+
+        private void account_btn_Click_1(object sender, EventArgs e)
+        {
+            // When clicking on "Account" button, account form appears
+            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture, u.pet));
+        }
+
+        private void help_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void about_btn_Click_1(object sender, EventArgs e)
+        {
+            about about = new about();
+            about.ShowDialog(); // Shows about form
+        }
+
+        private void smart_living_btn_MouseHover(object sender, EventArgs e)
+        {
+            showSubMenu(panelSmartLiving);
+        }
+
+        private void smart_home_btn_MouseHover(object sender, EventArgs e)
+        {
+            showSubMenu(panelSmartHome);
         }
     }
 }
