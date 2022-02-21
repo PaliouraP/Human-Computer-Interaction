@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\mave_assistant"
+    "\\mave_assistant",
+    "\\mave_assistant\\bin"
   ],
-  "SelectedNode": "\\mave_assistant\\smart_living.cs",
+  "SelectedNode": "\\mave_assistant\\mave_assistant.sln",
   "PreviewInSolutionExplorer": false
 }
