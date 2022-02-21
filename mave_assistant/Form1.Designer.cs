@@ -46,6 +46,12 @@ namespace mave_assistant
             this.button1 = new System.Windows.Forms.Button();
             this.smart_living_btn = new System.Windows.Forms.Button();
             this.panelSmartHome = new System.Windows.Forms.Panel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.smart_home_btn = new System.Windows.Forms.Button();
             this.digital_planner_btn = new System.Windows.Forms.Button();
@@ -60,8 +66,7 @@ namespace mave_assistant
             this.username_label = new System.Windows.Forms.Label();
             this.panel_childform = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.progress_bar = new System.Windows.Forms.PictureBox();
+            this.progressBarTasks = new CircularProgressBar.CircularProgressBar();
             this.completed_tasks_label = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -132,15 +137,9 @@ namespace mave_assistant
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.notifications_label = new System.Windows.Forms.Label();
             this.hello_label = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
             this.menu_panel.SuspendLayout();
             this.panelMenuButtons.SuspendLayout();
             this.panelSmartLiving.SuspendLayout();
@@ -152,7 +151,6 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.user_icon2)).BeginInit();
             this.panel_childform.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.progress_bar)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
@@ -355,6 +353,7 @@ namespace mave_assistant
             this.button13.TabIndex = 5;
             this.button13.Text = "Trash Bin";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button12
             // 
@@ -459,6 +458,102 @@ namespace mave_assistant
             this.panelSmartHome.Name = "panelSmartHome";
             this.panelSmartHome.Size = new System.Drawing.Size(240, 155);
             this.panelSmartHome.TabIndex = 65;
+            // 
+            // button17
+            // 
+            this.button17.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button17.ForeColor = System.Drawing.Color.White;
+            this.button17.Image = global::mave_assistant.Properties.Resources.boiler_icon;
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.Location = new System.Drawing.Point(0, 276);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(219, 46);
+            this.button17.TabIndex = 49;
+            this.button17.Text = "Boiler";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Image = global::mave_assistant.Properties.Resources.temp_icon;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(0, 230);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(219, 46);
+            this.button11.TabIndex = 48;
+            this.button11.Text = "Temperature Control\r\n";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Image = global::mave_assistant.Properties.Resources.humidity_icon;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.Location = new System.Drawing.Point(0, 184);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(219, 46);
+            this.button10.TabIndex = 47;
+            this.button10.Text = "Humidity Control\r\n";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Image = global::mave_assistant.Properties.Resources.watering_icon;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(0, 138);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(219, 46);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Watering System";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Image = global::mave_assistant.Properties.Resources.doorbell_icon;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(0, 92);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(219, 46);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "Smart Doorbell\r\n";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = global::mave_assistant.Properties.Resources.alarm_icon;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 46);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(219, 46);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Alarm System";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -610,10 +705,10 @@ namespace mave_assistant
             // 
             // user_icon2
             // 
-            this.user_icon2.Location = new System.Drawing.Point(1320, 8);
+            this.user_icon2.Location = new System.Drawing.Point(1311, 8);
             this.user_icon2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.user_icon2.Name = "user_icon2";
-            this.user_icon2.Size = new System.Drawing.Size(35, 41);
+            this.user_icon2.Size = new System.Drawing.Size(44, 44);
             this.user_icon2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.user_icon2.TabIndex = 5;
             this.user_icon2.TabStop = false;
@@ -623,7 +718,7 @@ namespace mave_assistant
             this.username_label.AutoSize = true;
             this.username_label.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.username_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.username_label.Location = new System.Drawing.Point(1219, 12);
+            this.username_label.Location = new System.Drawing.Point(1210, 16);
             this.username_label.Name = "username_label";
             this.username_label.Size = new System.Drawing.Size(95, 25);
             this.username_label.TabIndex = 6;
@@ -650,37 +745,44 @@ namespace mave_assistant
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.label18);
-            this.panel2.Controls.Add(this.progress_bar);
+            this.panel2.Controls.Add(this.progressBarTasks);
             this.panel2.Controls.Add(this.completed_tasks_label);
             this.panel2.Location = new System.Drawing.Point(297, 357);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(543, 525);
             this.panel2.TabIndex = 55;
             // 
-            // label18
+            // progressBarTasks
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Nirmala UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label18.Location = new System.Drawing.Point(194, 253);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(135, 62);
-            this.label18.TabIndex = 36;
-            this.label18.Text = "60 %";
-            // 
-            // progress_bar
-            // 
-            this.progress_bar.BackColor = System.Drawing.Color.Transparent;
-            this.progress_bar.Image = ((System.Drawing.Image)(resources.GetObject("progress_bar.Image")));
-            this.progress_bar.Location = new System.Drawing.Point(29, 72);
-            this.progress_bar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.progress_bar.Name = "progress_bar";
-            this.progress_bar.Size = new System.Drawing.Size(486, 431);
-            this.progress_bar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.progress_bar.TabIndex = 35;
-            this.progress_bar.TabStop = false;
+            this.progressBarTasks.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.progressBarTasks.AnimationSpeed = 500;
+            this.progressBarTasks.BackColor = System.Drawing.Color.Transparent;
+            this.progressBarTasks.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.progressBarTasks.ForeColor = System.Drawing.Color.Silver;
+            this.progressBarTasks.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.progressBarTasks.InnerMargin = 1;
+            this.progressBarTasks.InnerWidth = 10;
+            this.progressBarTasks.Location = new System.Drawing.Point(70, 119);
+            this.progressBarTasks.MarqueeAnimationSpeed = 2000;
+            this.progressBarTasks.Name = "progressBarTasks";
+            this.progressBarTasks.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.progressBarTasks.OuterMargin = -40;
+            this.progressBarTasks.OuterWidth = 40;
+            this.progressBarTasks.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
+            this.progressBarTasks.ProgressWidth = 40;
+            this.progressBarTasks.SecondaryFont = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.progressBarTasks.Size = new System.Drawing.Size(391, 361);
+            this.progressBarTasks.StartAngle = 270;
+            this.progressBarTasks.SubscriptColor = System.Drawing.Color.DimGray;
+            this.progressBarTasks.SubscriptMargin = new System.Windows.Forms.Padding(-80, -5, 0, 1);
+            this.progressBarTasks.SubscriptText = "tasks completed";
+            this.progressBarTasks.SuperscriptColor = System.Drawing.Color.Goldenrod;
+            this.progressBarTasks.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.progressBarTasks.SuperscriptText = "";
+            this.progressBarTasks.TabIndex = 38;
+            this.progressBarTasks.Text = "68%";
+            this.progressBarTasks.TextMargin = new System.Windows.Forms.Padding(80, -20, 20, 0);
+            this.progressBarTasks.Value = 68;
             // 
             // completed_tasks_label
             // 
@@ -728,6 +830,7 @@ namespace mave_assistant
             this.checkBox6.TabIndex = 54;
             this.checkBox6.Text = "Finish HCI Essay";
             this.checkBox6.UseVisualStyleBackColor = false;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // pictureBox22
             // 
@@ -753,6 +856,7 @@ namespace mave_assistant
             this.checkBox5.TabIndex = 52;
             this.checkBox5.Text = "Apply for Erasmus";
             this.checkBox5.UseVisualStyleBackColor = false;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // pictureBox19
             // 
@@ -778,6 +882,7 @@ namespace mave_assistant
             this.checkBox4.TabIndex = 50;
             this.checkBox4.Text = "Grocery Shopping";
             this.checkBox4.UseVisualStyleBackColor = false;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // pictureBox17
             // 
@@ -803,6 +908,7 @@ namespace mave_assistant
             this.checkBox3.TabIndex = 48;
             this.checkBox3.Text = "Cryptography Assigment";
             this.checkBox3.UseVisualStyleBackColor = false;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -816,6 +922,7 @@ namespace mave_assistant
             this.checkBox2.TabIndex = 47;
             this.checkBox2.Text = "Study for Math Exam";
             this.checkBox2.UseVisualStyleBackColor = false;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox1
             // 
@@ -829,6 +936,7 @@ namespace mave_assistant
             this.checkBox1.TabIndex = 46;
             this.checkBox1.Text = "Wake up at 8 AM";
             this.checkBox1.UseVisualStyleBackColor = false;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // to_do_title
             // 
@@ -1534,54 +1642,6 @@ namespace mave_assistant
             this.hello_label.TabIndex = 20;
             this.hello_label.Text = "Hello ";
             // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = global::mave_assistant.Properties.Resources.alarm_icon;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 46);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(219, 46);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Alarm System";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = global::mave_assistant.Properties.Resources.doorbell_icon;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 92);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(219, 46);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "Smart Doorbell\r\n";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = global::mave_assistant.Properties.Resources.watering_icon;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(0, 138);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(219, 46);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Watering System";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
@@ -1624,54 +1684,6 @@ namespace mave_assistant
             this.button8.Text = "Alarm System";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // button10
-            // 
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Image = global::mave_assistant.Properties.Resources.humidity_icon;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(0, 184);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(219, 46);
-            this.button10.TabIndex = 47;
-            this.button10.Text = "Humidity Control\r\n";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = global::mave_assistant.Properties.Resources.temp_icon;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(0, 230);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(219, 46);
-            this.button11.TabIndex = 48;
-            this.button11.Text = "Temperature Control\r\n";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = global::mave_assistant.Properties.Resources.boiler_icon;
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(0, 276);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(219, 46);
-            this.button17.TabIndex = 49;
-            this.button17.Text = "Boiler";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
             // home_screen_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -1704,7 +1716,6 @@ namespace mave_assistant
             this.panel_childform.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.progress_bar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
@@ -1764,8 +1775,6 @@ namespace mave_assistant
         private System.Windows.Forms.Panel panel_childform;
         private System.Windows.Forms.Label hello_label;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox progress_bar;
         private System.Windows.Forms.Label completed_tasks_label;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.CheckBox checkBox6;
@@ -1860,6 +1869,7 @@ namespace mave_assistant
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button17;
+        private CircularProgressBar.CircularProgressBar progressBarTasks;
     }
 }
 

@@ -13,26 +13,35 @@ namespace mave_assistant
         public smart_living()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        }               
+             
+              
+        private void smart_living_Load(object sender, EventArgs e)
         {
-
+            progressBar.Value = Login.SetValueForPercentage;
+            progressBar.Text = Login.SetValueForPercentage.ToString() + "%";
+            changePicture(Login.SetValueForPercentage);
         }
-
-        private void button4_Click(object sender, EventArgs e)
+        private void changePicture(int percentage)
         {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
+            if (percentage < 60)
+            {
+                progressBar.ProgressColor = ColorTranslator.FromHtml("#4bb543");
+               // progressBar.InnerColor = ColorTranslator.FromHtml("#4bb543");
+                BinMessage.Text = "No need to take the trash out yet!";
+            }
+            else if (percentage >= 60 && percentage < 75)
+            {
+                progressBar.ProgressColor = ColorTranslator.FromHtml("#eed202");
+               // progressBar.InnerColor = ColorTranslator.FromHtml("#eed202");
+                BinMessage.Text = "You should consider taking the trash out!";
+            }
+            else
+            {
+                progressBar.ProgressColor = ColorTranslator.FromHtml("#ff0033");
+               //progressBar.InnerColor = ColorTranslator.FromHtml("#ff0033");
+                BinMessage.Text = "You need to take the trash out!";
+            }
         }
     }
 }

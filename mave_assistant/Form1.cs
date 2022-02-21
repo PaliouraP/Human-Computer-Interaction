@@ -118,8 +118,10 @@ namespace mave_assistant
 
         private void home_screen_form_Load(object sender, EventArgs e)
         {
-            conn = new SQLiteConnection(connectionString); //connecting database
-
+            //progress bar reset
+            progressBarTasks.Value = 0;
+            progressBarTasks.Text = "0%";
+            conn = new SQLiteConnection(connectionString); //connecting database            
             username_label.Text = Login.SetValueUsername;
 
             String selectQuery = "Select * from users where username=@user";
@@ -193,6 +195,33 @@ namespace mave_assistant
         private void smart_home_btn_MouseHover(object sender, EventArgs e)
         {
             showSubMenu(panelSmartHome);
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Bin());
+        }
+
+        //Method that increases progress bar value when a checkbox is checked 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            if (cb.Checked && progressBarTasks.Value<83)
+            {
+                progressBarTasks.Value += 17;
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
+            else if(cb.Checked && progressBarTasks.Value >= 83)
+            {
+                progressBarTasks.Value = 100;
+                MessageBox.Show("Congrats!You completed all of your tasks for today");
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
+            else
+            {
+                progressBarTasks.Value -= 17;
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
         }
     }
 }

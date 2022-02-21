@@ -133,6 +133,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bin_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("bin-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap boiler_icon {
             get {
                 object obj = ResourceManager.GetObject("boiler_icon", resourceCulture);
@@ -386,6 +396,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap mave_walk {
             get {
                 object obj = ResourceManager.GetObject("mave_walk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap panel_lila {
+            get {
+                object obj = ResourceManager.GetObject("panel_lila", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
