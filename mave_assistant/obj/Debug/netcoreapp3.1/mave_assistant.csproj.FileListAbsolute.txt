@@ -176,3 +176,8 @@ C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\bin\Debug\netcoreapp3.1\CircularProgressBar.dll
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\bin\Debug\netcoreapp3.1\WinFormAnimation.dll
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csproj.AssemblyReference.cache
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\CircularProgressBar.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\bin\Debug\netcoreapp3.1\WinFormAnimation.dll
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Bin.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SmartCloset.resources
+C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.EventForm.resources

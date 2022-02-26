@@ -42,6 +42,8 @@ namespace mave_assistant
             this.prev_btn = new System.Windows.Forms.PictureBox();
             this.next_btn = new System.Windows.Forms.PictureBox();
             this.month_year_label = new System.Windows.Forms.Label();
+            this.add_btn = new System.Windows.Forms.Button();
+            this.del_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.prev_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_btn)).BeginInit();
             this.SuspendLayout();
@@ -159,12 +161,33 @@ namespace mave_assistant
             this.month_year_label.TabIndex = 26;
             this.month_year_label.Text = "MONTH YEAR";
             // 
+            // add_btn
+            // 
+            this.add_btn.Location = new System.Drawing.Point(967, 822);
+            this.add_btn.Name = "add_btn";
+            this.add_btn.Size = new System.Drawing.Size(94, 67);
+            this.add_btn.TabIndex = 0;
+            this.add_btn.Text = "Add Event";
+            this.add_btn.UseVisualStyleBackColor = true;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
+            // 
+            // del_btn
+            // 
+            this.del_btn.Location = new System.Drawing.Point(857, 822);
+            this.del_btn.Name = "del_btn";
+            this.del_btn.Size = new System.Drawing.Size(94, 67);
+            this.del_btn.TabIndex = 27;
+            this.del_btn.Text = "Delete Event";
+            this.del_btn.UseVisualStyleBackColor = true;
+            // 
             // planner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(1121, 901);
+            this.Controls.Add(this.del_btn);
+            this.Controls.Add(this.add_btn);
             this.Controls.Add(this.month_year_label);
             this.Controls.Add(this.next_btn);
             this.Controls.Add(this.prev_btn);
@@ -201,5 +224,7 @@ namespace mave_assistant
         private System.Windows.Forms.PictureBox prev_btn;
         private System.Windows.Forms.PictureBox next_btn;
         private System.Windows.Forms.Label month_year_label;
+        private System.Windows.Forms.Button add_btn;
+        private System.Windows.Forms.Button del_btn;
     }
 }
