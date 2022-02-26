@@ -16,8 +16,11 @@ namespace mave_assistant
         String connectionString = "Data Source=mave.db;Version=3;";
         SQLiteConnection conn;
 
-        string username = "";
+        public static string username = "";
         int month, year;
+
+        public static string static_month = "";
+        public static string static_year = "";
         public planner(string usr)
         {
             username = usr;
@@ -36,8 +39,12 @@ namespace mave_assistant
             DateTime now = DateTime.Now;
             month = now.Month;
             year = now.Year;
-
+            
             String month_name = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+
+            static_month = month_name;
+            static_year = year.ToString();
+
             month_year_label.Text = month_name + " " + year;
             //Getting first day of the month
             DateTime startofmonth = new DateTime(year, month, 1);
@@ -106,6 +113,10 @@ namespace mave_assistant
             month--;
 
             String month_name = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+
+            static_month = month_name;
+            static_year = year.ToString();
+
             month_year_label.Text = month_name + " " + year;
 
             DateTime startofmonth = new DateTime(year, month, 1);
@@ -180,6 +191,10 @@ namespace mave_assistant
             month++;
 
             String month_name = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+
+            static_month = month_name;
+            static_year = year.ToString();
+
             month_year_label.Text = month_name + " " + year;
 
             DateTime startofmonth = new DateTime(year, month, 1);

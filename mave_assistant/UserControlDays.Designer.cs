@@ -101,7 +101,7 @@ namespace mave_assistant
             this.Controls.Add(this.days_label);
             this.Name = "UserControlDays";
             this.Size = new System.Drawing.Size(150, 100);
-            this.Load += new System.EventHandler(this.UserControlDays_Load);
+            this.Click += new System.EventHandler(this.UserControlDays_Click);
             ((System.ComponentModel.ISupportInitialize)(this.dot4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dot3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dot2)).EndInit();
