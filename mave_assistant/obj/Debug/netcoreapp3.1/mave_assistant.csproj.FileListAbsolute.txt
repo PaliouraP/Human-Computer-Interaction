@@ -182,3 +182,6 @@ C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_ass
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.EventForm.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Events.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlEvents.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.EventForm.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Events.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlEvents.resources
