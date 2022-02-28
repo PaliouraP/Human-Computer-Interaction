@@ -163,6 +163,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap car {
+            get {
+                object obj = ResourceManager.GetObject("car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cloudy_sunny {
             get {
                 object obj = ResourceManager.GetObject("cloudy_sunny", resourceCulture);
@@ -453,6 +463,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap route_by_car {
+            get {
+                object obj = ResourceManager.GetObject("route_by_car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search_icon {
             get {
                 object obj = ResourceManager.GetObject("search_icon", resourceCulture);
@@ -543,6 +563,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap train_public_transport {
+            get {
+                object obj = ResourceManager.GetObject("train-public-transport", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user_2 {
             get {
                 object obj = ResourceManager.GetObject("user_2", resourceCulture);
@@ -556,6 +586,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap user_icon {
             get {
                 object obj = ResourceManager.GetObject("user_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap walker {
+            get {
+                object obj = ResourceManager.GetObject("walker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

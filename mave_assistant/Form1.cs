@@ -214,7 +214,7 @@ namespace mave_assistant
             else if(cb.Checked && progressBarTasks.Value >= 83)
             {
                 progressBarTasks.Value = 100;
-                MessageBox.Show("Congrats!You completed all of your tasks for today");
+                MessageBox.Show("Congrats! You completed all of your tasks for today.");
                 progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
             }
             else
@@ -222,6 +222,17 @@ namespace mave_assistant
                 progressBarTasks.Value -= 17;
                 progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
             }
+        }
+
+        
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
