@@ -508,6 +508,7 @@ namespace mave_assistant
             this.button6.TabIndex = 3;
             this.button6.Text = "Smart Doorbell\r\n";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -751,6 +752,7 @@ namespace mave_assistant
             this.progressBarTasks.Text = "68%";
             this.progressBarTasks.TextMargin = new System.Windows.Forms.Padding(80, -20, 20, 0);
             this.progressBarTasks.Value = 68;
+            this.progressBarTasks.Click += new System.EventHandler(this.progressBarTasks_Click);
             // 
             // completed_tasks_label
             // 

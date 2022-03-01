@@ -51,6 +51,7 @@ namespace mave_assistant
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.time = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.stop = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -67,7 +68,6 @@ namespace mave_assistant
             this.map = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.time = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.line_pb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -387,6 +387,44 @@ namespace mave_assistant
             this.panel4.Size = new System.Drawing.Size(299, 616);
             this.panel4.TabIndex = 20;
             // 
+            // time
+            // 
+            this.time.DisplayMember = "Home";
+            this.time.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.time.ForeColor = System.Drawing.Color.DimGray;
+            this.time.FormattingEnabled = true;
+            this.time.Items.AddRange(new object[] {
+            "00:00",
+            "01:00",
+            "02:00",
+            "03:00",
+            "04:00",
+            "05:00",
+            "06:00",
+            "07:00",
+            "08:00",
+            "09:00",
+            "10:00",
+            "11:00",
+            "12:00",
+            "13:00",
+            "14:00",
+            "15:00",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "20:00",
+            "21:00",
+            "22:00",
+            "23:00"});
+            this.time.Location = new System.Drawing.Point(90, 231);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(184, 23);
+            this.time.TabIndex = 35;
+            this.time.Text = "10:00";
+            this.time.ValueMember = "Home";
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -407,7 +445,7 @@ namespace mave_assistant
             this.stop.ForeColor = System.Drawing.Color.DimGray;
             this.stop.FormattingEnabled = true;
             this.stop.Items.AddRange(new object[] {
-            "Coffe",
+            "Coffee",
             "Food",
             "Gas",
             "ATM",
@@ -520,8 +558,7 @@ namespace mave_assistant
             this.from.Items.AddRange(new object[] {
             "Home",
             "University of Piraeus",
-            "Gym",
-            "Mall"});
+            "Gym"});
             this.from.Location = new System.Drawing.Point(90, 89);
             this.from.Name = "from";
             this.from.Size = new System.Drawing.Size(184, 23);
@@ -537,8 +574,7 @@ namespace mave_assistant
             this.to.Items.AddRange(new object[] {
             "Home",
             "University of Piraeus",
-            "Gym",
-            "Mall"});
+            "Gym"});
             this.to.Location = new System.Drawing.Point(90, 124);
             this.to.Name = "to";
             this.to.Size = new System.Drawing.Size(184, 23);
@@ -586,7 +622,7 @@ namespace mave_assistant
             // 
             // map
             // 
-            this.map.Image = global::mave_assistant.Properties.Resources.route_by_car;
+            this.map.Image = global::mave_assistant.Properties.Resources.attica_map;
             this.map.Location = new System.Drawing.Point(20, 303);
             this.map.Name = "map";
             this.map.Size = new System.Drawing.Size(254, 293);
@@ -617,44 +653,6 @@ namespace mave_assistant
             this.label9.TabIndex = 0;
             this.label9.Text = "Mave Maps";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // time
-            // 
-            this.time.DisplayMember = "Home";
-            this.time.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.time.ForeColor = System.Drawing.Color.DimGray;
-            this.time.FormattingEnabled = true;
-            this.time.Items.AddRange(new object[] {
-            "00:00",
-            "01:00",
-            "02:00",
-            "03:00",
-            "04:00",
-            "05:00",
-            "06:00",
-            "07:00",
-            "08:00",
-            "09:00",
-            "10:00",
-            "11:00",
-            "12:00",
-            "13:00",
-            "14:00",
-            "15:00",
-            "16:00",
-            "17:00",
-            "18:00",
-            "19:00",
-            "20:00",
-            "21:00",
-            "22:00",
-            "23:00"});
-            this.time.Location = new System.Drawing.Point(90, 231);
-            this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(184, 23);
-            this.time.TabIndex = 35;
-            this.time.Text = "10:00";
-            this.time.ValueMember = "Home";
             // 
             // smart_living
             // 

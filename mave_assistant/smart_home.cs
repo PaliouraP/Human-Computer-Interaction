@@ -30,6 +30,7 @@ namespace mave_assistant
             pictureBox6.Image = disarm;
 
             // Setting images of toggles when form loads
+            pictureBox21.Image = off;
             pictureBox24.Image = on;
             pictureBox25.Image = off;
             pictureBox26.Image = off;
@@ -217,6 +218,56 @@ namespace mave_assistant
                 alarm_label.ForeColor = System.Drawing.ColorTranslator.FromHtml("#FA314A");
             }
             // -----------------------------------------------------------------------
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            if (pictureBox21.Image == off)
+            {
+                pictureBox21.Image = on;
+            }
+            else
+            {
+                pictureBox21.Image = off;
+            }
+        }
+
+        // Click events for rooms
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(kitchen.Image, "Kitchen");
+            rc.ShowDialog();
+        }
+
+        private void dining_room_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(dining_room.Image, "Dining Room");
+            rc.ShowDialog();
+        }
+
+        private void living_room_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(living_room.Image, "Living Room");
+            rc.ShowDialog();
+        }
+
+        private void bedroom_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(bedroom.Image, "Bedroom");
+            rc.ShowDialog();
+        }
+
+        private void office_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(office.Image, "Office");
+            rc.ShowDialog();
+        }
+
+        private void bathroom_Click(object sender, EventArgs e)
+        {
+            room_control rc = new room_control(bathroom.Image, "Bathroom");
+            rc.ShowDialog();
         }
     }
 }

@@ -253,10 +253,22 @@ namespace mave_assistant
 
         private void notifications_label_Click(object sender, EventArgs e)
         {
-
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             openChildForm(new SmartCloset());
+        }   
+        private void progressBarTasks_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // Smart doorbell button click event
+        private void button6_Click(object sender, EventArgs e)
+        {
+            /*smart_doorbell sd = new smart_doorbell();
+            sd.ShowDialog();*/
+            openChildForm(new smart_doorbell());
         }
     }
 }
