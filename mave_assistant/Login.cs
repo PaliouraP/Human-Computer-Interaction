@@ -19,6 +19,7 @@ namespace mave_assistant
         public static bool SetValueForCheckBox1; // remember me
         bool f = false;
         public static int SetValueForPercentage; //in form Bin
+        public static string SetValueForWeather; //in form Smart Closet
 
         public Login()
         {
@@ -46,8 +47,12 @@ namespace mave_assistant
             SetValuePassword = textBox2.Text;
             SetValueForCheckBox1 = checkBox1.Checked;
             Random random = new Random();
+            //bin percentage
             int percentage = random.Next(1, 100);
-            
+            //weather
+            List<string> weather = new List<string>() {"Sunny","Rainy" };
+            int index = random.Next(weather.Count);
+            string randomWeather = weather[index];
 
             String selectQuery = "Select username from users where username=@user and password=@pass";
 
@@ -77,6 +82,7 @@ namespace mave_assistant
                 if (f)
                 {
                     SetValueForPercentage = percentage;
+                    SetValueForWeather = randomWeather;
                     home_screen_form f = new home_screen_form();
                     f.Show(); //shows home screen                 
                     this.Hide(); //hides Login

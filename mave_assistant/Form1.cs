@@ -254,6 +254,9 @@ namespace mave_assistant
         private void notifications_label_Click(object sender, EventArgs e)
         {
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new SmartCloset());
         }
     }
 }

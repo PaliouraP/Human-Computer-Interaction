@@ -39,11 +39,11 @@ namespace mave_assistant
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bin_btn = new System.Windows.Forms.Button();
+            this.coffee_btn = new System.Windows.Forms.Button();
+            this.vacuum_btn = new System.Windows.Forms.Button();
+            this.pet_feeder_btn = new System.Windows.Forms.Button();
+            this.smart_closet_btn = new System.Windows.Forms.Button();
             this.smart_living_btn = new System.Windows.Forms.Button();
             this.panelSmartHome = new System.Windows.Forms.Panel();
             this.button17 = new System.Windows.Forms.Button();
@@ -249,11 +249,11 @@ namespace mave_assistant
             this.panelSmartLiving.Controls.Add(this.button16);
             this.panelSmartLiving.Controls.Add(this.button15);
             this.panelSmartLiving.Controls.Add(this.button14);
-            this.panelSmartLiving.Controls.Add(this.button13);
-            this.panelSmartLiving.Controls.Add(this.button12);
-            this.panelSmartLiving.Controls.Add(this.button3);
-            this.panelSmartLiving.Controls.Add(this.button2);
-            this.panelSmartLiving.Controls.Add(this.button1);
+            this.panelSmartLiving.Controls.Add(this.bin_btn);
+            this.panelSmartLiving.Controls.Add(this.coffee_btn);
+            this.panelSmartLiving.Controls.Add(this.vacuum_btn);
+            this.panelSmartLiving.Controls.Add(this.pet_feeder_btn);
+            this.panelSmartLiving.Controls.Add(this.smart_closet_btn);
             this.panelSmartLiving.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSmartLiving.Location = new System.Drawing.Point(0, 398);
             this.panelSmartLiving.Name = "panelSmartLiving";
@@ -308,94 +308,95 @@ namespace mave_assistant
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(219, 45);
             this.button14.TabIndex = 6;
-            this.button14.Text = "Washing \r\nMachine";
+            this.button14.Text = "Washing Machine";
             this.button14.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // bin_btn
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(0, 180);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(219, 45);
-            this.button13.TabIndex = 5;
-            this.button13.Text = "Trash Bin";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.bin_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.bin_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bin_btn.FlatAppearance.BorderSize = 0;
+            this.bin_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bin_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bin_btn.ForeColor = System.Drawing.Color.White;
+            this.bin_btn.Image = ((System.Drawing.Image)(resources.GetObject("bin_btn.Image")));
+            this.bin_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bin_btn.Location = new System.Drawing.Point(0, 184);
+            this.bin_btn.Name = "bin_btn";
+            this.bin_btn.Size = new System.Drawing.Size(219, 46);
+            this.bin_btn.TabIndex = 5;
+            this.bin_btn.Text = "Trash Bin";
+            this.bin_btn.UseVisualStyleBackColor = false;
+            this.bin_btn.Click += new System.EventHandler(this.button13_Click);
             // 
-            // button12
+            // coffee_btn
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(0, 135);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(219, 45);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "Coffee \r\nMaking";
-            this.button12.UseVisualStyleBackColor = false;
+            this.coffee_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.coffee_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.coffee_btn.FlatAppearance.BorderSize = 0;
+            this.coffee_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.coffee_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.coffee_btn.ForeColor = System.Drawing.Color.White;
+            this.coffee_btn.Image = ((System.Drawing.Image)(resources.GetObject("coffee_btn.Image")));
+            this.coffee_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.coffee_btn.Location = new System.Drawing.Point(0, 138);
+            this.coffee_btn.Name = "coffee_btn";
+            this.coffee_btn.Size = new System.Drawing.Size(219, 46);
+            this.coffee_btn.TabIndex = 4;
+            this.coffee_btn.Text = "Coffee Making";
+            this.coffee_btn.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // vacuum_btn
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 90);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(219, 45);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Vacuum \r\nCleaner";
-            this.button3.UseVisualStyleBackColor = false;
+            this.vacuum_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.vacuum_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.vacuum_btn.FlatAppearance.BorderSize = 0;
+            this.vacuum_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vacuum_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.vacuum_btn.ForeColor = System.Drawing.Color.White;
+            this.vacuum_btn.Image = ((System.Drawing.Image)(resources.GetObject("vacuum_btn.Image")));
+            this.vacuum_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.vacuum_btn.Location = new System.Drawing.Point(0, 92);
+            this.vacuum_btn.Name = "vacuum_btn";
+            this.vacuum_btn.Size = new System.Drawing.Size(219, 46);
+            this.vacuum_btn.TabIndex = 3;
+            this.vacuum_btn.Text = "Vacuum \r\nCleaner";
+            this.vacuum_btn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // pet_feeder_btn
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 45);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(219, 45);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Pet Feeder";
-            this.button2.UseVisualStyleBackColor = false;
+            this.pet_feeder_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.pet_feeder_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pet_feeder_btn.FlatAppearance.BorderSize = 0;
+            this.pet_feeder_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pet_feeder_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pet_feeder_btn.ForeColor = System.Drawing.Color.White;
+            this.pet_feeder_btn.Image = ((System.Drawing.Image)(resources.GetObject("pet_feeder_btn.Image")));
+            this.pet_feeder_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.pet_feeder_btn.Location = new System.Drawing.Point(0, 46);
+            this.pet_feeder_btn.Name = "pet_feeder_btn";
+            this.pet_feeder_btn.Size = new System.Drawing.Size(219, 46);
+            this.pet_feeder_btn.TabIndex = 2;
+            this.pet_feeder_btn.Text = "Pet Feeder";
+            this.pet_feeder_btn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // smart_closet_btn
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(219, 45);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Smart Closet";
-            this.button1.UseVisualStyleBackColor = false;
+            this.smart_closet_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.smart_closet_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.smart_closet_btn.FlatAppearance.BorderSize = 0;
+            this.smart_closet_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.smart_closet_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.smart_closet_btn.ForeColor = System.Drawing.Color.White;
+            this.smart_closet_btn.Image = ((System.Drawing.Image)(resources.GetObject("smart_closet_btn.Image")));
+            this.smart_closet_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.smart_closet_btn.Location = new System.Drawing.Point(0, 0);
+            this.smart_closet_btn.Name = "smart_closet_btn";
+            this.smart_closet_btn.Size = new System.Drawing.Size(219, 46);
+            this.smart_closet_btn.TabIndex = 1;
+            this.smart_closet_btn.Text = "Smart Closet";
+            this.smart_closet_btn.UseVisualStyleBackColor = false;
+            this.smart_closet_btn.Click += new System.EventHandler(this.button1_Click);
             // 
             // smart_living_btn
             // 
@@ -1587,11 +1588,11 @@ namespace mave_assistant
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bin_btn;
+        private System.Windows.Forms.Button coffee_btn;
+        private System.Windows.Forms.Button vacuum_btn;
+        private System.Windows.Forms.Button pet_feeder_btn;
+        private System.Windows.Forms.Button smart_closet_btn;
         private System.Windows.Forms.Button smart_living_btn;
         private System.Windows.Forms.Panel panelSmartHome;
         private System.Windows.Forms.Button button4;
