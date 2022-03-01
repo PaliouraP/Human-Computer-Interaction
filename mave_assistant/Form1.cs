@@ -22,6 +22,22 @@ namespace mave_assistant
         {
             InitializeComponent();
             dropDownMenu();
+            //test motification
+            UserControlNotifications ucnotif = new UserControlNotifications();
+            ucnotif.title.Text = "Welcome Back!";
+            ucnotif.details.Text = "test notification";
+
+            notification_container.Controls.Add(ucnotif);
+
+            //trash notification 
+            if (Login.SetValueForPercentage > 75)
+            {
+                UserControlNotifications trash_notif = new UserControlNotifications();
+                trash_notif.title.Text = "Trash bin Full!";
+                trash_notif.details.Text = "Take the trash out.";
+
+                notification_container.Controls.Add(trash_notif);
+            }
         }
 
         //Method that initially makes sub menus invisible
@@ -231,6 +247,11 @@ namespace mave_assistant
         }
 
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notifications_label_Click(object sender, EventArgs e)
         {
 
         }

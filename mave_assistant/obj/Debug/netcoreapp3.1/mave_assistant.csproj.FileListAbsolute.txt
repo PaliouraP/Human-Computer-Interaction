@@ -189,3 +189,5 @@ C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\
 C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Events.resources
 C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.SmartCloset.resources
 C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlEvents.resources
+C:\Users\Evi Palioura\source\repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.csprojAssemblyReference.cache
+C:\Users\Evi Palioura\source\repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlNotifications.resources
