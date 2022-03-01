@@ -29,9 +29,9 @@ namespace mave_assistant
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(about));
             this.about_mave_label = new System.Windows.Forms.Label();
             this.logo = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,12 +42,13 @@ namespace mave_assistant
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +65,7 @@ namespace mave_assistant
             // 
             // logo
             // 
-            this.logo.Image = global::mave_assistant.Properties.Resources.logo;
+            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
             this.logo.Location = new System.Drawing.Point(12, 12);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(170, 64);
@@ -72,19 +73,9 @@ namespace mave_assistant
             this.logo.TabIndex = 16;
             this.logo.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::mave_assistant.Properties.Resources.mave_hi;
-            this.pictureBox1.Location = new System.Drawing.Point(321, 194);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(328, 214);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::mave_assistant.Properties.Resources.this_is_mave;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(364, 150);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(111, 28);
@@ -94,8 +85,8 @@ namespace mave_assistant
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::mave_assistant.Properties.Resources.arrow;
-            this.pictureBox3.Location = new System.Drawing.Point(399, 184);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(377, 184);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(53, 61);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +113,7 @@ namespace mave_assistant
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(303, 42);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Anastasia Boublini, Paraskevi Palioura,\r\nMarinna Petropoulou";
+            this.label2.Text = "Anastasia Boublini, Paraskevi Palioura,\r\nMariana Petropoulou";
             // 
             // label3
             // 
@@ -190,35 +181,44 @@ namespace mave_assistant
             this.label8.TabIndex = 27;
             this.label8.Text = "4.2.2";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::mave_assistant.Properties.Resources.copyright;
-            this.pictureBox4.Location = new System.Drawing.Point(200, 383);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(17, 16);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 28;
-            this.pictureBox4.TabStop = false;
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(223, 383);
+            this.label9.Location = new System.Drawing.Point(202, 380);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(127, 16);
+            this.label9.Size = new System.Drawing.Size(157, 16);
             this.label9.TabIndex = 29;
             this.label9.Text = "All Rights Reserved 2022";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::mave_assistant.Properties.Resources.hi_mave;
+            this.pictureBox1.Location = new System.Drawing.Point(283, 197);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(328, 219);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::mave_assistant.Properties.Resources.copyright1;
+            this.pictureBox4.Location = new System.Drawing.Point(180, 380);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(16, 19);
+            this.pictureBox4.TabIndex = 30;
+            this.pictureBox4.TabStop = false;
             // 
             // about
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(66)))), ((int)(((byte)(156)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.ClientSize = new System.Drawing.Size(543, 405);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -236,9 +236,9 @@ namespace mave_assistant
             this.Name = "about";
             this.Text = "About Mave";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -249,7 +249,6 @@ namespace mave_assistant
 
         private System.Windows.Forms.Label about_mave_label;
         private System.Windows.Forms.PictureBox logo;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label1;
@@ -260,7 +259,8 @@ namespace mave_assistant
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

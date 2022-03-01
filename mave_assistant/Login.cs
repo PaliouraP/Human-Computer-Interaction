@@ -18,9 +18,12 @@ namespace mave_assistant
         public static string SetValuePassword = "";
         public static bool SetValueForCheckBox1; // remember me
         bool f = false;
+        public static int SetValueForPercentage; //in form Bin
+
         public Login()
         {
             InitializeComponent();
+            
         }
 
 
@@ -31,11 +34,20 @@ namespace mave_assistant
             this.Hide(); //hides Login
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            conn = new SQLiteConnection(connectionString); //connecting database
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             SetValueUsername = textBox1.Text;
             SetValuePassword = textBox2.Text;
             SetValueForCheckBox1 = checkBox1.Checked;
+            Random random = new Random();
+            int percentage = random.Next(1, 100);
+            
 
             String selectQuery = "Select username from users where username=@user and password=@pass";
 
@@ -64,16 +76,24 @@ namespace mave_assistant
                 //opening homescreen if username and password correct
                 if (f)
                 {
+                    SetValueForPercentage = percentage;
                     home_screen_form f = new home_screen_form();
-                    f.Show(); //shows home screen
+                    f.Show(); //shows home screen                 
                     this.Hide(); //hides Login
+
+
                 }
             }
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            conn = new SQLiteConnection(connectionString); //connecting database
+
         }
+
+       
     }
+  
 }
+    
+

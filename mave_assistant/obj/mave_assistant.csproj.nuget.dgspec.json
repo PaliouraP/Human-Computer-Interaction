@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {}
+    "C:\\Users\\Evi Palioura\\source\\repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {
+    "C:\\Users\\Evi Palioura\\source\\repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+        "projectUniqueName": "C:\\Users\\Evi Palioura\\source\\repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
         "projectName": "mave_assistant",
-        "projectPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+        "projectPath": "C:\\Users\\Evi Palioura\\source\\repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
         "packagesPath": "C:\\Users\\Evi Palioura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
+        "outputPath": "C:\\Users\\Evi Palioura\\source\\repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Evi Palioura\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "CircularProgressBar": {
+              "target": "Package",
+              "version": "[2.8.0.16, )"
+            },
             "System.Data.SQLite.Core": {
               "target": "Package",
               "version": "[1.0.115.5, )"
+            },
+            "WinFormAnimation": {
+              "target": "Package",
+              "version": "[1.6.0.4, )"
             }
           },
           "imports": [

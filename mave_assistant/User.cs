@@ -6,11 +6,12 @@ namespace mave_assistant
 {
     class User
     {
-        public string username { get; set; }
-        public string password { get; set; }
-        public string name { get; set; }
-        public string dob { get; set; } // date of birth
-        public string picture { get; set; }
+        public string username;
+        public string password;
+        public string name;
+        public string dob; // date of birth
+        public string picture;
+        public string pet;
 
         //constructor
         public User()
@@ -20,6 +21,7 @@ namespace mave_assistant
             name = SignUp.SetValueForName;
             dob = SignUp.SetValueForDob;
             picture = SignUp.SetValueForPicture;
+            pet = SignUp.SetValueForPet;
         }
     }
 }

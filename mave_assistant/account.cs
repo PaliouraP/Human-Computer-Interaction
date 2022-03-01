@@ -12,26 +12,37 @@ namespace mave_assistant
     {
         string username = "";
         string u_name = "";
-        string password = "";
         string birth_date = "";
         string pic_path = "";
-        public account(string usr, string pass, string nm, string bd, string pfp)
+        string pet_name = "";
+        public account(string usr, string pass, string nm, string bd, string pfp, string pn)
         {
             username = usr;
             u_name = nm;
-            password = pass;
             birth_date = bd;
             pic_path = pfp;
+            pet_name = pn;
             InitializeComponent();
         }
 
         private void account_Load(object sender, EventArgs e)
         {
+            name_tag.Text = u_name;
             user.Text = username;
-            pass.Text = password;
             name.Text = u_name;
             dob.Text = birth_date;
+            pet.Text = pet_name;
             profile.ImageLocation = pic_path;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pass_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

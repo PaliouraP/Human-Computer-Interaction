@@ -19,6 +19,7 @@ namespace mave_assistant
         public static string SetValueForName = "";
         public static string SetValueForDob = ""; // date of birth
         public static string SetValueForPicture = "Resources/user_2.png";
+        public static string SetValueForPet = "";
         public SignUp()
         {
             InitializeComponent();
@@ -26,9 +27,7 @@ namespace mave_assistant
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Login f = new Login();
-            f.Show(); //shows Login
-            this.Close(); //closes sign up
+            
         }
 
         private void upload_pfp_btn_Click(object sender, EventArgs e)
@@ -53,6 +52,84 @@ namespace mave_assistant
         }
 
         private void signup_btn_Click(object sender, EventArgs e)
+        {
+            SetValueForUsername = usernameTextBox.Text;
+            SetValueForPassword = passwordTextBox.Text;
+            SetValueForName = nameTextBox.Text;
+            SetValueForDob = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+            SetValueForPet = petTextBox.Text;
+
+
+            User u = new User();
+
+            if (u.username.Trim() != "" && u.password.Trim() != "" && u.name.Trim() != "" && u.pet.Trim() != "")
+            {
+                String selectQuery = "Select username from users where username=@user";
+
+                //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
+                using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
+                {
+                    conn.Open(); //opening database
+                    command.Parameters.AddWithValue("@user", u.username);
+                    using (SQLiteDataReader reader = command.ExecuteReader())
+                    {
+                        //checking if user already exists in database, if they don't they get inserted, if they do their picture gets changed
+                        if (!reader.Read())
+                        {
+                            //inserting new user in database
+                            String insertQuery = "Insert into users(username, name, password, dob, picture, pet) values('" + u.username + "', '" + u.name + "', '" + u.password + "', '" + u.dob + "', '" + u.picture + "','" + u.pet +"')";
+                            using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
+                            {
+                                cmd.ExecuteNonQuery();
+                                MessageBox.Show("You signed up succesfully!");
+                                conn.Close(); //closing database
+                                Login f = new Login();
+                                f.Show(); //shows Login
+                                this.Close(); //closes sign up
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Username already exists.");
+                        }
+                    }
+
+                }
+            }
+            else if (u.username.Trim() == "")
+            {
+                MessageBox.Show("Username can't be empty.");
+            }
+            else if (u.password.Trim() == "")
+            {
+                MessageBox.Show("Password can't be empty.");
+            }
+            else if (u.name.Trim() == "")
+            {
+                MessageBox.Show("Name can't be empty.");
+            }
+            else if (u.pet.Trim() == "")
+            {
+                MessageBox.Show("Pet's Name can't be empty.");
+            }
+            else 
+            {
+                MessageBox.Show("Something went horribly wrong.");
+            }
+        }
+
+        private void SignUp_Load(object sender, EventArgs e)
+        {
+            conn = new SQLiteConnection(connectionString); //connecting database
+        }
+
+        private void remove_pfp_Click(object sender, EventArgs e)
+        {
+            pictureBox2.ImageLocation = "Resources/user_2.png";
+            SetValueForPicture = "Resources/user_2.png";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             SetValueForUsername = usernameTextBox.Text;
             SetValueForPassword = passwordTextBox.Text;
@@ -107,22 +184,17 @@ namespace mave_assistant
             {
                 MessageBox.Show("Name can't be empty.");
             }
-            else 
+            else
             {
                 MessageBox.Show("Something went horribly wrong.");
             }
         }
 
-        private void SignUp_Load(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            conn = new SQLiteConnection(connectionString); //connecting database
+            Login f = new Login();
+            f.Show(); //shows Login
+            this.Close(); //closes sign up
         }
-
-        private void remove_pfp_Click(object sender, EventArgs e)
-        {
-            pictureBox2.ImageLocation = "Resources/user_2.png";
-            SetValueForPicture = "Resources/user_2.png";
-        }
-
     }
 }

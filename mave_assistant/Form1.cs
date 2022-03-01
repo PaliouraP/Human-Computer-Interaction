@@ -17,10 +17,57 @@ namespace mave_assistant
         SQLiteConnection conn;
 
         User u = new User();
+
         public home_screen_form()
         {
             InitializeComponent();
+            dropDownMenu();
+            //test motification
+            UserControlNotifications ucnotif = new UserControlNotifications();
+            ucnotif.title.Text = "Welcome Back!";
+            ucnotif.details.Text = "test notification";
+
+            notification_container.Controls.Add(ucnotif);
+
+            //trash notification 
+            if (Login.SetValueForPercentage > 75)
+            {
+                UserControlNotifications trash_notif = new UserControlNotifications();
+                trash_notif.title.Text = "Trash bin Full!";
+                trash_notif.details.Text = "Take the trash out.";
+
+                notification_container.Controls.Add(trash_notif);
+            }
         }
+
+        //Method that initially makes sub menus invisible
+        private void dropDownMenu()
+        {
+            panelSmartLiving.Visible = false;
+            panelSmartHome.Visible = false;
+        }
+
+        //Method that hides drop down sub menus if they are open
+        private void hideSubMenu()
+        {
+            if (panelSmartLiving.Visible == true)
+                panelSmartLiving.Visible = false;
+            if (panelSmartHome.Visible == true)
+                panelSmartHome.Visible = false;
+        }
+
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+                subMenu.Visible = false; 
+        }
+
 
         private Form activeForm = null;
 
@@ -62,9 +109,7 @@ namespace mave_assistant
             openChildForm(new smart_home());
         }
 
-        private void hello_label_Click(object sender, EventArgs e)
-        {
-        }
+        
 
         private void home_screen_btn_Click(object sender, EventArgs e)
         {
@@ -75,35 +120,24 @@ namespace mave_assistant
             }
 
         }
-
-        private void smart_living_btn_Click(object sender, EventArgs e)
-        {
-            // When clicking on "Smart Living" button, smart_living form appears
-            openChildForm(new smart_living());
-        }
-
-        private void about_btn_Click(object sender, EventArgs e)
-        {
-            about about = new about();
-            about.ShowDialog(); // Shows Form2
-        }
-
         private void panel_childform_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void logout_btn_Click(object sender, EventArgs e)
+
+        private void username_label_Click(object sender, EventArgs e)
         {
-            Login f = new Login();
-            f.Show(); //shows Login
-            this.Close(); //closes home screen
+            // When clicking on your username, the acoount info form appears
+            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture, u.pet));
         }
 
         private void home_screen_form_Load(object sender, EventArgs e)
         {
-            conn = new SQLiteConnection(connectionString); //connecting database
-
+            //progress bar reset
+            progressBarTasks.Value = 0;
+            progressBarTasks.Text = "0%";
+            conn = new SQLiteConnection(connectionString); //connecting database            
             username_label.Text = Login.SetValueUsername;
 
             String selectQuery = "Select * from users where username=@user";
@@ -122,8 +156,9 @@ namespace mave_assistant
                         u.name = reader.GetString(1);
                         u.dob = reader.GetString(3);
                         u.picture = reader.GetString(4);
+                        u.pet = reader.GetString(5);
                         user_icon2.ImageLocation = u.picture;
-                        hello_label.Text = "Hello " + u.name; 
+                        hello_label.Text = "Hello " + u.name;
                     }
 
                 }
@@ -131,23 +166,94 @@ namespace mave_assistant
             }
         }
 
-        private void logout_btn_Click_1(object sender, EventArgs e)
+        private void logout_btn_Click(object sender, EventArgs e)
         {
             Login f = new Login();
             f.Show(); //shows Login
-            this.Close(); //closes homescreen
+            this.Close(); //closes home screen
         }
 
-        private void account_btn_Click(object sender, EventArgs e)
-        {
-            // When clicking on "Account" button, account form appears
-            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture));
-        }
-
-        private void username_label_Click(object sender, EventArgs e)
+        private void digital_planner_btn_Click(object sender, EventArgs e)
         {
             // When clicking on your username, the acoount info form appears
-            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture));
+            openChildForm(new planner(u.username));
+        }
+               
+           
+        private void smart_living_btn_Click_1(object sender, EventArgs e)
+        {
+            // When clicking on "Smart Living" button, smart_living form appears
+            openChildForm(new smart_living());
+        }
+
+        private void account_btn_Click_1(object sender, EventArgs e)
+        {
+            // When clicking on "Account" button, account form appears
+            openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture, u.pet));
+        }
+
+        private void help_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void about_btn_Click_1(object sender, EventArgs e)
+        {
+            about about = new about();
+            about.ShowDialog(); // Shows about form
+        }
+
+        private void smart_living_btn_MouseHover(object sender, EventArgs e)
+        {
+            showSubMenu(panelSmartLiving);
+        }
+
+        private void smart_home_btn_MouseHover(object sender, EventArgs e)
+        {
+            showSubMenu(panelSmartHome);
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Bin());
+        }
+
+        //Method that increases progress bar value when a checkbox is checked 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            CheckBox cb = (CheckBox)sender;
+            if (cb.Checked && progressBarTasks.Value<83)
+            {
+                progressBarTasks.Value += 17;
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
+            else if(cb.Checked && progressBarTasks.Value >= 83)
+            {
+                progressBarTasks.Value = 100;
+                MessageBox.Show("Congrats! You completed all of your tasks for today.");
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
+            else
+            {
+                progressBarTasks.Value -= 17;
+                progressBarTasks.Text = progressBarTasks.Value.ToString() + "%";
+            }
+        }
+
+        
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void notifications_label_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
