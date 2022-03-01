@@ -179,6 +179,7 @@ namespace mave_assistant
             this.del_btn.TabIndex = 27;
             this.del_btn.Text = "Delete Event";
             this.del_btn.UseVisualStyleBackColor = true;
+            this.del_btn.Click += new System.EventHandler(this.del_btn_Click);
             // 
             // planner
             // 

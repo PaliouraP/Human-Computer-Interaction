@@ -40,6 +40,8 @@ namespace mave_assistant
                         UserControlEvents current_events = new UserControlEvents();
                         current_events.type.Text = reader.GetString(1);
                         current_events.details.Text = reader.GetString(3);
+                        current_events.date.Text = "";
+                        current_events.delete.Hide();
 
                         if (reader.GetString(1) == "Social")
                         {
@@ -70,6 +72,11 @@ namespace mave_assistant
                 }
                 
             }
+        }
+
+        private void Events_Leave(object sender, EventArgs e)
+        {
+
         }
     }
 }

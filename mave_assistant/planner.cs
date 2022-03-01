@@ -33,6 +33,43 @@ namespace mave_assistant
             displayDays();
         }
 
+        private void displayEvents(int i, string date_string)
+        {
+            UserControlDays ucdays = new UserControlDays();
+
+            //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
+            String selectQuery = "Select * from events where username='" + username + "' and date='" + date_string + "'";
+            using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
+            {
+                conn.Open(); //opening database
+                using (SQLiteDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read()) //while an event exists on a certain day
+                    {
+                        if (reader.GetString(1) == "Social")
+                        {
+                            ucdays.dot1.Load("Resources/dot1.png");
+                        }
+                        if (reader.GetString(1) == "Work")
+                        {
+                            ucdays.dot2.Load("Resources/dot2.png");
+                        }
+                        if (reader.GetString(1) == "Appointment")
+                        {
+                            ucdays.dot3.Load("Resources/dot3.png");
+                        }
+                        if (reader.GetString(1) == "Other")
+                        {
+                            ucdays.dot4.Load("Resources/dot4.png");
+                        }
+                    }
+
+                    conn.Close(); //closing database
+                }
+                ucdays.days(i);
+                day_container.Controls.Add(ucdays);
+            }
+        }
         private void displayDays()
         {
 
@@ -66,41 +103,7 @@ namespace mave_assistant
             for (int i = 1; i <= days; i++)
             {
                 string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
-
-                UserControlDays ucdays = new UserControlDays();
-
-                //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
-                String selectQuery = "Select * from events where username='" + username + "' and date='" + date_string + "'";
-                using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
-                {
-                    conn.Open(); //opening database
-                    using (SQLiteDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read()) //while an event exists on a certain day
-                        {
-                            if (reader.GetString(1) == "Social")
-                            {
-                                ucdays.dot1.Load("Resources/dot1.png");
-                            }
-                            if (reader.GetString(1) == "Work")
-                            {
-                                ucdays.dot2.Load("Resources/dot2.png");
-                            }
-                            if (reader.GetString(1) == "Appointment")
-                            {
-                                ucdays.dot3.Load("Resources/dot3.png");
-                            }
-                            if (reader.GetString(1) == "Other")
-                            {
-                                ucdays.dot4.Load("Resources/dot4.png");
-                            }
-                        }
-
-                        conn.Close(); //closing database
-                    }
-                    ucdays.days(i);
-                    day_container.Controls.Add(ucdays);
-                }
+                displayEvents(i, date_string);
             }
         }
 
@@ -138,41 +141,7 @@ namespace mave_assistant
             for (int i = 1; i <= days; i++)
             {
                 string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
-
-                UserControlDays ucdays = new UserControlDays();
-
-                //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
-                String selectQuery = "Select * from events where username='" + username + "' and date='" + date_string + "'";
-                using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
-                {
-                    conn.Open(); //opening database
-                    using (SQLiteDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read()) //while an event exists on a certain day
-                        {
-                            if (reader.GetString(1) == "Social")
-                            {
-                                ucdays.dot1.Load("Resources/dot1.png");
-                            }
-                            if (reader.GetString(1) == "Work")
-                            {
-                                ucdays.dot2.Load("Resources/dot2.png");
-                            }
-                            if (reader.GetString(1) == "Appointment")
-                            {
-                                ucdays.dot3.Load("Resources/dot3.png");
-                            }
-                            if (reader.GetString(1) == "Other")
-                            {
-                                ucdays.dot4.Load("Resources/dot4.png");
-                            }
-                        }
-
-                        conn.Close(); //closing database
-                    }
-                    ucdays.days(i);
-                    day_container.Controls.Add(ucdays);
-                }
+                displayEvents(i, date_string);
             }
         }
 
@@ -180,6 +149,13 @@ namespace mave_assistant
         {
             EventForm ev = new EventForm(username);
             ev.ShowDialog(); // Shows event form
+            day_container.Controls.Clear();
+            displayDays();
+        }
+
+        private void del_btn_Click(object sender, EventArgs e)
+        {
+            //DeleteEvent del = new DeleteEvent(username);
         }
 
         private void next_btn_Click(object sender, EventArgs e)
@@ -216,41 +192,7 @@ namespace mave_assistant
             for (int i = 1; i <= days; i++)
             {
                 string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
-
-                UserControlDays ucdays = new UserControlDays();
-
-                //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
-                String selectQuery = "Select * from events where username='" + username + "' and date='" + date_string + "'";
-                using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
-                {
-                    conn.Open(); //opening database
-                    using (SQLiteDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read()) //while an event exists on a certain day
-                        {
-                            if (reader.GetString(1) == "Social")
-                            {
-                                ucdays.dot1.Load("Resources/dot1.png");
-                            }
-                            if (reader.GetString(1) == "Work")
-                            {
-                                ucdays.dot2.Load("Resources/dot2.png");
-                            }
-                            if (reader.GetString(1) == "Appointment")
-                            {
-                                ucdays.dot3.Load("Resources/dot3.png");
-                            }
-                            if (reader.GetString(1) == "Other")
-                            {
-                                ucdays.dot4.Load("Resources/dot4.png");
-                            }
-                        }
-
-                        conn.Close(); //closing database
-                    }
-                    ucdays.days(i);
-                    day_container.Controls.Add(ucdays);
-                }
+                displayEvents(i, date_string);
             }
         }
     }

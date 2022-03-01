@@ -48,6 +48,7 @@ namespace mave_assistant
                 MessageBox.Show("New event added succesfully!");
                 conn.Close(); //closing database
                 this.Close(); //closes sign up
+                
             }
         }
 

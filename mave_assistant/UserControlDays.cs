@@ -28,5 +28,6 @@ namespace mave_assistant
             Events evnts = new Events();
             evnts.ShowDialog(); // Shows events form
         }
+
     }
 }
