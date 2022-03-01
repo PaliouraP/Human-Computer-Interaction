@@ -118,14 +118,14 @@
         NHNUJI5gBqHFMWjWfpIkyS96ej7efKJp3wAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bin_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAGlJREFUSEvt
         jUEOgDAIBPvCvsmjD+0/kOqcTBDaQ2OUSTgQZtnyD0Rk07mzcx6D8DS8scGbhjfP4MZkBT3sry9gDe8u
         +Flgg58FNvhZYIO/rsAD/V0F7YoM0Yj7qFx74IzF6G4l/ilKOQCF/KKzpqcQPgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="coffee_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAahJREFUWEft
         lDEvQ2EYhZuQWgmbiIWRUaRmwoofQJixi7EEu5il7GIjUT9AmJnbCIuQjuJ1vp7jimhuv/dWGsKTvEm/
@@ -138,7 +138,7 @@
         v+zXUhUAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="vacuum_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAApFJREFUSEut
         lc1ujFEchxtdIW2FSpg2WFAJNpSNqIWS+KiUlIVLaEsa0QsQGnEHWtK6CGWnWOACiGGFEoTa1NfCYjzP
@@ -155,7 +155,7 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pet_feeder_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAVtJREFUSEvt
         lTFKA1EQhjeVnRCInbUgAc+QRvAGWnkAU3iBBLWxtPMgNoKFxAMkhZUIFukE0S5dxPF/M/8+V3bfy5DE
@@ -166,7 +166,7 @@
         SMF5+fMxZBRBdmctuWKUBtKbuXLISMH5qcXyxCiC7Mha9d4/ToriG976upSlm4F/AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="smart_closet_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAPNJREFUSEvN
         lUEKwkAAA/su0bv6Kt/pUa/+oWY0SGHTgAXBgWDTbKfgpdOSeZ7Pyl3ZCs+erBvxgZ3rgLYLcR3Qtldu
