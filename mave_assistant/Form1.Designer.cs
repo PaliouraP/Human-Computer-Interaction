@@ -65,6 +65,8 @@ namespace mave_assistant
             this.user_icon2 = new System.Windows.Forms.PictureBox();
             this.username_label = new System.Windows.Forms.Label();
             this.panel_childform = new System.Windows.Forms.Panel();
+            this.notification_container = new System.Windows.Forms.FlowLayoutPanel();
+            this.notifications_label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.progressBarTasks = new CircularProgressBar.CircularProgressBar();
             this.completed_tasks_label = new System.Windows.Forms.Label();
@@ -102,26 +104,12 @@ namespace mave_assistant
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.events_label = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.dot1 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.hello_label = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.notification_container = new System.Windows.Forms.FlowLayoutPanel();
-            this.notifications_label = new System.Windows.Forms.Label();
+            this.current_events_container = new System.Windows.Forms.FlowLayoutPanel();
             this.menu_panel.SuspendLayout();
             this.panelMenuButtons.SuspendLayout();
             this.panelSmartLiving.SuspendLayout();
@@ -132,6 +120,7 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.search_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user_icon2)).BeginInit();
             this.panel_childform.SuspendLayout();
+            this.notification_container.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
@@ -147,17 +136,8 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dot1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
-            this.notification_container.SuspendLayout();
+            this.current_events_container.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu_panel
@@ -695,11 +675,11 @@ namespace mave_assistant
             // 
             // panel_childform
             // 
+            this.panel_childform.Controls.Add(this.current_events_container);
             this.panel_childform.Controls.Add(this.notification_container);
             this.panel_childform.Controls.Add(this.panel2);
             this.panel_childform.Controls.Add(this.panel3);
             this.panel_childform.Controls.Add(this.panel4);
-            this.panel_childform.Controls.Add(this.panel1);
             this.panel_childform.Controls.Add(this.hello_label);
             this.panel_childform.Location = new System.Drawing.Point(247, 63);
             this.panel_childform.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -707,6 +687,29 @@ namespace mave_assistant
             this.panel_childform.Size = new System.Drawing.Size(1121, 901);
             this.panel_childform.TabIndex = 12;
             this.panel_childform.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_childform_Paint);
+            // 
+            // notification_container
+            // 
+            this.notification_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("notification_container.BackgroundImage")));
+            this.notification_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.notification_container.Controls.Add(this.notifications_label);
+            this.notification_container.Location = new System.Drawing.Point(857, 26);
+            this.notification_container.Name = "notification_container";
+            this.notification_container.Size = new System.Drawing.Size(250, 856);
+            this.notification_container.TabIndex = 62;
+            // 
+            // notifications_label
+            // 
+            this.notifications_label.AutoSize = true;
+            this.notifications_label.BackColor = System.Drawing.Color.Transparent;
+            this.notifications_label.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.notifications_label.Location = new System.Drawing.Point(53, 10);
+            this.notifications_label.Margin = new System.Windows.Forms.Padding(53, 10, 3, 0);
+            this.notifications_label.Name = "notifications_label";
+            this.notifications_label.Size = new System.Drawing.Size(149, 32);
+            this.notifications_label.TabIndex = 25;
+            this.notifications_label.Text = "Notifications";
+            this.notifications_label.Click += new System.EventHandler(this.notifications_label_Click);
             // 
             // panel2
             // 
@@ -1212,170 +1215,17 @@ namespace mave_assistant
             this.pictureBox28.TabIndex = 36;
             this.pictureBox28.TabStop = false;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.events_label);
-            this.panel1.Controls.Add(this.pictureBox15);
-            this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.pictureBox13);
-            this.panel1.Controls.Add(this.pictureBox14);
-            this.panel1.Controls.Add(this.label16);
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.pictureBox12);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.pictureBox10);
-            this.panel1.Controls.Add(this.dot1);
-            this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Location = new System.Drawing.Point(11, 67);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(264, 267);
-            this.panel1.TabIndex = 61;
-            // 
             // events_label
             // 
             this.events_label.AutoSize = true;
+            this.events_label.BackColor = System.Drawing.Color.Transparent;
             this.events_label.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.events_label.Location = new System.Drawing.Point(62, 16);
+            this.events_label.Location = new System.Drawing.Point(58, 10);
+            this.events_label.Margin = new System.Windows.Forms.Padding(58, 10, 3, 0);
             this.events_label.Name = "events_label";
             this.events_label.Size = new System.Drawing.Size(152, 30);
             this.events_label.TabIndex = 35;
             this.events_label.Text = "Today\'s Events";
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(13, 228);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(17, 20);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 45;
-            this.pictureBox15.TabStop = false;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label17.Location = new System.Drawing.Point(37, 224);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(226, 25);
-            this.label17.TabIndex = 46;
-            this.label17.Text = "17:00 - 17:00 Facetime Evi";
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(5, 200);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(254, 20);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 44;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(13, 173);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(17, 20);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 42;
-            this.pictureBox14.TabStop = false;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label16.Location = new System.Drawing.Point(37, 169);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(234, 25);
-            this.label16.TabIndex = 43;
-            this.label16.Text = "10:00 - 12:00 Math Lecture";
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(5, 145);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(254, 20);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 41;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(13, 119);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(17, 20);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 39;
-            this.pictureBox12.TabStop = false;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label15.Location = new System.Drawing.Point(37, 115);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(226, 25);
-            this.label15.TabIndex = 40;
-            this.label15.Text = "16:00 - 17:00 Pilates Class";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(5, 91);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(254, 20);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 38;
-            this.pictureBox10.TabStop = false;
-            // 
-            // dot1
-            // 
-            this.dot1.Image = ((System.Drawing.Image)(resources.GetObject("dot1.Image")));
-            this.dot1.Location = new System.Drawing.Point(13, 64);
-            this.dot1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.dot1.Name = "dot1";
-            this.dot1.Size = new System.Drawing.Size(17, 20);
-            this.dot1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.dot1.TabIndex = 34;
-            this.dot1.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label14.Location = new System.Drawing.Point(37, 60);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(234, 25);
-            this.label14.TabIndex = 36;
-            this.label14.Text = "10:00 - 12:00 Math Lecture";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(5, 36);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(254, 20);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 37;
-            this.pictureBox9.TabStop = false;
             // 
             // hello_label
             // 
@@ -1428,28 +1278,15 @@ namespace mave_assistant
             this.button8.Text = "Alarm System";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // notification_container
+            // current_events_container
             // 
-            this.notification_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("notification_container.BackgroundImage")));
-            this.notification_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.notification_container.Controls.Add(this.notifications_label);
-            this.notification_container.Location = new System.Drawing.Point(857, 26);
-            this.notification_container.Name = "notification_container";
-            this.notification_container.Size = new System.Drawing.Size(250, 856);
-            this.notification_container.TabIndex = 62;
-            // 
-            // notifications_label
-            // 
-            this.notifications_label.AutoSize = true;
-            this.notifications_label.BackColor = System.Drawing.Color.Transparent;
-            this.notifications_label.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.notifications_label.Location = new System.Drawing.Point(53, 10);
-            this.notifications_label.Margin = new System.Windows.Forms.Padding(53, 10, 3, 0);
-            this.notifications_label.Name = "notifications_label";
-            this.notifications_label.Size = new System.Drawing.Size(149, 32);
-            this.notifications_label.TabIndex = 25;
-            this.notifications_label.Text = "Notifications";
-            this.notifications_label.Click += new System.EventHandler(this.notifications_label_Click);
+            this.current_events_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("current_events_container.BackgroundImage")));
+            this.current_events_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.current_events_container.Controls.Add(this.events_label);
+            this.current_events_container.Location = new System.Drawing.Point(11, 67);
+            this.current_events_container.Name = "current_events_container";
+            this.current_events_container.Size = new System.Drawing.Size(264, 267);
+            this.current_events_container.TabIndex = 63;
             // 
             // home_screen_form
             // 
@@ -1481,6 +1318,8 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.user_icon2)).EndInit();
             this.panel_childform.ResumeLayout(false);
             this.panel_childform.PerformLayout();
+            this.notification_container.ResumeLayout(false);
+            this.notification_container.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1499,19 +1338,9 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dot1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.notification_container.ResumeLayout(false);
-            this.notification_container.PerformLayout();
+            this.current_events_container.ResumeLayout(false);
+            this.current_events_container.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1565,20 +1394,7 @@ namespace mave_assistant
         private System.Windows.Forms.PictureBox pictureBox27;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label events_label;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox dot1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel panelMenuButtons;
         private System.Windows.Forms.Button about_btn;
         private System.Windows.Forms.Button help_btn;
@@ -1611,6 +1427,7 @@ namespace mave_assistant
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.FlowLayoutPanel notification_container;
         private System.Windows.Forms.Label notifications_label;
+        private System.Windows.Forms.FlowLayoutPanel current_events_container;
     }
 }
 

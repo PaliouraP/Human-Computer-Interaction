@@ -89,6 +89,7 @@ namespace mave_assistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.delete);
             this.Controls.Add(this.date);
             this.Controls.Add(this.details);
