@@ -40,7 +40,7 @@ namespace mave_assistant
             this.current_events_container.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.current_events_container.Location = new System.Drawing.Point(141, 60);
             this.current_events_container.Name = "current_events_container";
-            this.current_events_container.Size = new System.Drawing.Size(437, 500);
+            this.current_events_container.Size = new System.Drawing.Size(437, 738);
             this.current_events_container.TabIndex = 1;
             // 
             // del_btn
@@ -76,7 +76,7 @@ namespace mave_assistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 572);
+            this.ClientSize = new System.Drawing.Size(800, 840);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cancel_btn);
             this.Controls.Add(this.del_btn);

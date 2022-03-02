@@ -38,7 +38,7 @@ namespace mave_assistant
             this.current_events_container.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.current_events_container.Location = new System.Drawing.Point(24, 100);
             this.current_events_container.Name = "current_events_container";
-            this.current_events_container.Size = new System.Drawing.Size(495, 191);
+            this.current_events_container.Size = new System.Drawing.Size(495, 238);
             this.current_events_container.TabIndex = 0;
             // 
             // date_lbl
@@ -54,7 +54,7 @@ namespace mave_assistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 303);
+            this.ClientSize = new System.Drawing.Size(562, 417);
             this.Controls.Add(this.date_lbl);
             this.Controls.Add(this.current_events_container);
             this.Name = "Events";
