@@ -203,3 +203,8 @@ C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_ass
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_doorbell.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Dishwasher.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Washer.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.DeleteEvent.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Dishwasher.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlNotifications.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Washer.resources
+C:\Users\aboub\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.alarm_system.resources

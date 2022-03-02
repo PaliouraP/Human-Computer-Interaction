@@ -14,17 +14,33 @@ namespace mave_assistant
         Image off = Properties.Resources.toggle_off;
         Image on = Properties.Resources.toggle_on;
 
-        // Setting images of alarm system panel
+        // Initializing a local reference to alarm system images
         Image away = Properties.Resources.arm_away;
         Image stay = Properties.Resources.arm_sleep;
         Image disarm = Properties.Resources.disarm;
 
+        // Initializing a local reference to room images
+        // Lights on
+        Image kitch = Properties.Resources.kitchen;
+        Image bath = Properties.Resources.bathroom;
+        Image liv = Properties.Resources.living_room;
+        Image off_space = Properties.Resources.office;
+        Image dining = Properties.Resources.dining_room;
+        Image bedr = Properties.Resources.bedroom;
+
+        // Lights off
+        Image dark_kitch = Properties.Resources.kitchen_dark;
+        Image dark_bath = Properties.Resources.bathroom_dark;
+        Image dark_liv = Properties.Resources.living_room_dark;
+        Image dark_off_space = Properties.Resources.office_dark;
+        Image dark_dining = Properties.Resources.dining_room_dark;
+        Image dark_bedr = Properties.Resources.bedroom_dark;
 
         public smart_home()
         {
             InitializeComponent();
             
-            // Setting images of toggles when form loads
+            // Setting images of alarm system when form loads
             pictureBox9.Image = away;
             pictureBox8.Image = stay;
             pictureBox6.Image = disarm;
@@ -40,6 +56,7 @@ namespace mave_assistant
 
         private void smart_home_Load(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -47,17 +64,38 @@ namespace mave_assistant
         {
 
         }
-
+        Boolean lights;
         // Click events for on/off ---------------------------------------------------
         // If the image of the picture box is "toggle_on" we change it to "toggle_off" and vice versa.
         private void pictureBox24_Click(object sender, EventArgs e)
         {
             if (pictureBox24.Image == off)
             {
+                // Setting the toggle on
                 pictureBox24.Image = on;
+
+                // Setting images of pic boxes as if lights were on
+                kitchen.Image = kitch;
+                bathroom.Image = bath;
+                office.Image = off_space;
+                bedroom.Image = bedr;
+                dining_room.Image = dining;
+                living_room.Image = liv;
+                lights = true;
+
             } else
             {
+                // Setting the toggle off
                 pictureBox24.Image = off;
+
+                // Setting images of pic boxes as if lights were off
+                kitchen.Image = dark_kitch;
+                bathroom.Image = dark_bath;
+                office.Image = dark_off_space;
+                bedroom.Image = dark_bedr;
+                dining_room.Image = dark_dining;
+                living_room.Image = dark_liv;
+                lights = false;
             }
 
         }

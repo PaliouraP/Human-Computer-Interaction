@@ -336,5 +336,11 @@ namespace mave_assistant
         {
             openChildForm(new Dishwasher());
         }
+
+        // Alarm system button
+        private void button5_Click(object sender, EventArgs e)
+        {
+            openChildForm(new alarm_system());
+        }
     }
 }
