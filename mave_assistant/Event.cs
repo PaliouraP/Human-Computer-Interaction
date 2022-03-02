@@ -4,7 +4,7 @@ using System.Text;
 
 namespace mave_assistant
 {
-    class Event
+    public class Event
     {
         public string username;
         public string date;

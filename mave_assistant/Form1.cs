@@ -38,8 +38,61 @@ namespace mave_assistant
 
                 notification_container.Controls.Add(trash_notif);
             }
+
+            
         }
 
+        // Method to show today's events
+        public void todaysEvents()
+        {
+            DateTime now = DateTime.Now;
+            string date_string = now.ToString("yyyy-MMMM-dd");
+
+            //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
+            String selectQuery = "Select * from events where username='" + Login.SetValueUsername + "' and date='" + date_string + "'";
+
+            using (SQLiteCommand command = new SQLiteCommand(selectQuery, conn))
+            {
+                conn.Open(); //opening database
+                using (SQLiteDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read()) //while an event exists on a certain day
+                    {
+                        UserControlEvents current_events = new UserControlEvents();
+                        current_events.type.Text = reader.GetString(1);
+                        current_events.details.Text = reader.GetString(3);
+                        current_events.date.Text = "";
+                        current_events.delete.Hide();
+
+                        if (reader.GetString(1) == "Social")
+                        {
+                            current_events.dot.Load("Resources/dot1.png");
+
+                        }
+                        else if (reader.GetString(1) == "Work")
+                        {
+                            current_events.dot.Load("Resources/dot2.png");
+
+                        }
+                        else if (reader.GetString(1) == "Appointment")
+                        {
+                            current_events.dot.Load("Resources/dot3.png");
+
+                        }
+                        else if (reader.GetString(1) == "Other")
+                        {
+                            current_events.dot.Load("Resources/dot4.png");
+
+                        }
+                        current_events_container.Controls.Add(current_events);
+
+                    }
+
+                    conn.Close(); //closing database
+
+                }
+            }
+        }
         //Method that initially makes sub menus invisible
         private void dropDownMenu()
         {
@@ -163,7 +216,10 @@ namespace mave_assistant
 
                 }
                 conn.Close();
+                
             }
+
+            todaysEvents();
         }
 
         private void logout_btn_Click(object sender, EventArgs e)
