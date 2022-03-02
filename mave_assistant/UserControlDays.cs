@@ -24,7 +24,15 @@ namespace mave_assistant
 
         private void UserControlDays_Click(object sender, EventArgs e)
         {
-            static_day = days_label.Text;
+            if (int.Parse(days_label.Text) < 10)
+            {
+                static_day = "0" + days_label.Text;
+            } 
+            else
+            {
+                static_day = days_label.Text;
+            }
+            
             Events evnts = new Events();
             evnts.ShowDialog(); // Shows events form
         }

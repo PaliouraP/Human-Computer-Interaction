@@ -102,7 +102,15 @@ namespace mave_assistant
             //Days
             for (int i = 1; i <= days; i++)
             {
-                string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                string date_string = "";
+                if (i < 10)
+                {
+                    date_string = year + "-" + month_name + "-0" + i; //the date format we save event dates in database
+                }
+                else
+                {
+                    date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                }
                 displayEvents(i, date_string);
             }
         }
@@ -140,7 +148,16 @@ namespace mave_assistant
             //Days
             for (int i = 1; i <= days; i++)
             {
-                string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                string date_string = "";
+                if (i<10)
+                {
+                    date_string = year + "-" + month_name + "-0" + i; //the date format we save event dates in database
+                }
+                else
+                {
+                    date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                }
+                
                 displayEvents(i, date_string);
             }
         }
@@ -155,7 +172,10 @@ namespace mave_assistant
 
         private void del_btn_Click(object sender, EventArgs e)
         {
-            //DeleteEvent del = new DeleteEvent(username);
+            DeleteEvent del = new DeleteEvent();
+            del.ShowDialog(); //Shows delete event form
+            day_container.Controls.Clear();
+            displayDays();
         }
 
         private void next_btn_Click(object sender, EventArgs e)
@@ -191,7 +211,15 @@ namespace mave_assistant
             //Days
             for (int i = 1; i <= days; i++)
             {
-                string date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                string date_string = "";
+                if (i < 10)
+                {
+                    date_string = year + "-" + month_name + "-0" + i; //the date format we save event dates in database
+                }
+                else
+                {
+                    date_string = year + "-" + month_name + "-" + i; //the date format we save event dates in database
+                }
                 displayEvents(i, date_string);
             }
         }

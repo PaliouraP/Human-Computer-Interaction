@@ -33,7 +33,7 @@ namespace mave_assistant
             this.type = new System.Windows.Forms.Label();
             this.details = new System.Windows.Forms.Label();
             this.date = new System.Windows.Forms.Label();
-            this.delete = new System.Windows.Forms.Button();
+            this.delete = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dot)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,12 +76,14 @@ namespace mave_assistant
             // 
             // delete
             // 
-            this.delete.Location = new System.Drawing.Point(299, 13);
+            this.delete.AutoSize = true;
+            this.delete.Dock = System.Windows.Forms.DockStyle.Right;
+            this.delete.Location = new System.Drawing.Point(396, 0);
             this.delete.Name = "delete";
-            this.delete.Size = new System.Drawing.Size(94, 29);
+            this.delete.Size = new System.Drawing.Size(18, 48);
             this.delete.TabIndex = 43;
-            this.delete.Text = "delete";
             this.delete.UseVisualStyleBackColor = true;
+            this.delete.CheckedChanged += new System.EventHandler(this.delete_CheckedChanged);
             // 
             // UserControlEvents
             // 
@@ -106,6 +108,6 @@ namespace mave_assistant
         public System.Windows.Forms.Label type;
         public System.Windows.Forms.Label details;
         public System.Windows.Forms.Label date;
-        public System.Windows.Forms.Button delete;
+        public System.Windows.Forms.CheckBox delete;
     }
 }
