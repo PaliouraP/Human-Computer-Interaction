@@ -65,6 +65,8 @@ namespace mave_assistant
             this.user_icon2 = new System.Windows.Forms.PictureBox();
             this.username_label = new System.Windows.Forms.Label();
             this.panel_childform = new System.Windows.Forms.Panel();
+            this.current_events_container = new System.Windows.Forms.FlowLayoutPanel();
+            this.events_label = new System.Windows.Forms.Label();
             this.notification_container = new System.Windows.Forms.FlowLayoutPanel();
             this.notifications_label = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -104,12 +106,10 @@ namespace mave_assistant
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.events_label = new System.Windows.Forms.Label();
             this.hello_label = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.current_events_container = new System.Windows.Forms.FlowLayoutPanel();
             this.menu_panel.SuspendLayout();
             this.panelMenuButtons.SuspendLayout();
             this.panelSmartLiving.SuspendLayout();
@@ -120,6 +120,7 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.search_icon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.user_icon2)).BeginInit();
             this.panel_childform.SuspendLayout();
+            this.current_events_container.SuspendLayout();
             this.notification_container.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -137,7 +138,6 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
-            this.current_events_container.SuspendLayout();
             this.SuspendLayout();
             // 
             // menu_panel
@@ -250,7 +250,7 @@ namespace mave_assistant
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(0, 315);
+            this.button16.Location = new System.Drawing.Point(0, 320);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(219, 41);
             this.button16.TabIndex = 8;
@@ -267,12 +267,13 @@ namespace mave_assistant
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(0, 270);
+            this.button15.Location = new System.Drawing.Point(0, 275);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(219, 45);
             this.button15.TabIndex = 7;
             this.button15.Text = "Dish Washer";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button14
             // 
@@ -284,12 +285,13 @@ namespace mave_assistant
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(0, 225);
+            this.button14.Location = new System.Drawing.Point(0, 230);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(219, 45);
             this.button14.TabIndex = 6;
             this.button14.Text = "Washing Machine";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // bin_btn
             // 
@@ -689,6 +691,28 @@ namespace mave_assistant
             this.panel_childform.Size = new System.Drawing.Size(1121, 901);
             this.panel_childform.TabIndex = 12;
             this.panel_childform.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_childform_Paint);
+            // 
+            // current_events_container
+            // 
+            this.current_events_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("current_events_container.BackgroundImage")));
+            this.current_events_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.current_events_container.Controls.Add(this.events_label);
+            this.current_events_container.Location = new System.Drawing.Point(11, 67);
+            this.current_events_container.Name = "current_events_container";
+            this.current_events_container.Size = new System.Drawing.Size(264, 267);
+            this.current_events_container.TabIndex = 63;
+            // 
+            // events_label
+            // 
+            this.events_label.AutoSize = true;
+            this.events_label.BackColor = System.Drawing.Color.Transparent;
+            this.events_label.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.events_label.Location = new System.Drawing.Point(58, 10);
+            this.events_label.Margin = new System.Windows.Forms.Padding(58, 10, 3, 0);
+            this.events_label.Name = "events_label";
+            this.events_label.Size = new System.Drawing.Size(152, 30);
+            this.events_label.TabIndex = 35;
+            this.events_label.Text = "Today\'s Events";
             // 
             // notification_container
             // 
@@ -1218,18 +1242,6 @@ namespace mave_assistant
             this.pictureBox28.TabIndex = 36;
             this.pictureBox28.TabStop = false;
             // 
-            // events_label
-            // 
-            this.events_label.AutoSize = true;
-            this.events_label.BackColor = System.Drawing.Color.Transparent;
-            this.events_label.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.events_label.Location = new System.Drawing.Point(58, 10);
-            this.events_label.Margin = new System.Windows.Forms.Padding(58, 10, 3, 0);
-            this.events_label.Name = "events_label";
-            this.events_label.Size = new System.Drawing.Size(152, 30);
-            this.events_label.TabIndex = 35;
-            this.events_label.Text = "Today\'s Events";
-            // 
             // hello_label
             // 
             this.hello_label.AutoSize = true;
@@ -1281,16 +1293,6 @@ namespace mave_assistant
             this.button8.Text = "Alarm System";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // current_events_container
-            // 
-            this.current_events_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("current_events_container.BackgroundImage")));
-            this.current_events_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.current_events_container.Controls.Add(this.events_label);
-            this.current_events_container.Location = new System.Drawing.Point(11, 67);
-            this.current_events_container.Name = "current_events_container";
-            this.current_events_container.Size = new System.Drawing.Size(264, 267);
-            this.current_events_container.TabIndex = 63;
-            // 
             // home_screen_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -1321,6 +1323,8 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.user_icon2)).EndInit();
             this.panel_childform.ResumeLayout(false);
             this.panel_childform.PerformLayout();
+            this.current_events_container.ResumeLayout(false);
+            this.current_events_container.PerformLayout();
             this.notification_container.ResumeLayout(false);
             this.notification_container.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -1342,8 +1346,6 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.current_events_container.ResumeLayout(false);
-            this.current_events_container.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -326,5 +326,15 @@ namespace mave_assistant
             sd.ShowDialog();*/
             openChildForm(new smart_doorbell());
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Washer());
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Dishwasher());
+        }
     }
 }

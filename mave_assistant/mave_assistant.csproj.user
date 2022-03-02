@@ -14,6 +14,9 @@
     <Compile Update="DeleteEvent.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Dishwasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="EventForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +64,9 @@
     </Compile>
     <Compile Update="UserControlNotifications.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Washer.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 </Project>
