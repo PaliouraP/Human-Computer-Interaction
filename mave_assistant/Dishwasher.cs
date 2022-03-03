@@ -10,6 +10,8 @@ namespace mave_assistant
 {
     public partial class Dishwasher : Form
     {
+        string program = "";
+        bool flag = false;
         public Dishwasher()
         {
             InitializeComponent();
@@ -45,11 +47,17 @@ namespace mave_assistant
             {
                 MessageBox.Show("You need to add dish soap to the dishwasher first!");
             }
+            else if (flag)
+            {
+                MessageBox.Show("You have already programmed a wash.");
+            }
             else
             {
-                MessageBox.Show("Programmed -insert program- wash at " + dateTimePicker1.Text + " succesfully!");
+                flag = true;
+                cancel_wash.Visible = true;
+                MessageBox.Show("Programmed " + program + " wash at " + dateTimePicker1.Text + " succesfully!");
             }
-            
+
         }
 
         private void Dishwasher_Load(object sender, EventArgs e)
@@ -57,6 +65,55 @@ namespace mave_assistant
             progressBar.Value = Login.SetValueForDishSoap;
             progressBar.Text = Login.SetValueForDishSoap.ToString() + "%";
             changePicture(Login.SetValueForDishSoap);
+        }
+
+        private void eco_btn_Click(object sender, EventArgs e)
+        {
+            program = "Economy";
+            temperature_lbl.Text = "45°C";
+            duration_lbl.Text = "120";
+        }
+
+        private void delicate_btn_Click(object sender, EventArgs e)
+        {
+            program = "Delicate";
+            temperature_lbl.Text = "40°C";
+            duration_lbl.Text = "150";
+        }
+
+        private void intensive_lbl_Click(object sender, EventArgs e)
+        {
+            program = "Intensive";
+            temperature_lbl.Text = "70°C";
+            duration_lbl.Text = "180";
+        }
+
+        private void normal_btn_Click(object sender, EventArgs e)
+        {
+            program = "Normal";
+            temperature_lbl.Text = "55°C";
+            duration_lbl.Text = "150";
+        }
+
+        private void half_load_btn_Click(object sender, EventArgs e)
+        {
+            program = "Half Load";
+            temperature_lbl.Text = "55°C";
+            duration_lbl.Text = "75";
+        }
+
+        private void rapid_btn_Click(object sender, EventArgs e)
+        {
+            program = "Rapid";
+            temperature_lbl.Text = "50°C";
+            duration_lbl.Text = "30";
+        }
+
+        private void cancel_wash_Click(object sender, EventArgs e)
+        {
+            flag = false;
+            cancel_wash.Visible = false;
+            MessageBox.Show("Canceled programmed wash succesfully!");
         }
     }
 }

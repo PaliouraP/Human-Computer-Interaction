@@ -10,6 +10,8 @@ namespace mave_assistant
 {
     public partial class Washer : Form
     {
+        string program = "";
+        bool flag = false;
         public Washer()
         {
             InitializeComponent();
@@ -38,11 +40,6 @@ namespace mave_assistant
             }
         }
 
-        private void wash_btn_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Programmed -insert program- wash at " + dateTimePicker1.Text + " succesfully!");
-        }
-
         private void Washer_Load(object sender, EventArgs e)
         {
             progressBar.Value = Login.SetValueForLaundryDetergent;
@@ -52,14 +49,80 @@ namespace mave_assistant
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Login.SetValueForDishSoap < 15)
+            if (Login.SetValueForLaundryDetergent < 15)
             {
                 MessageBox.Show("You need to add laundry detergent to the dishwasher first!");
             }
+            else if (flag)
+            {
+                MessageBox.Show("You have already programmed a wash.");
+            }
             else
             {
-                MessageBox.Show("Programmed -insert program- wash at " + dateTimePicker1.Text + " succesfully!");
+                flag = true;
+                cancel_wash.Visible = true;
+                MessageBox.Show("Programmed " + program + " wash at " + dateTimePicker1.Text + " succesfully!");
             }
+        }
+
+        private void time_lbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eco_btn_Click(object sender, EventArgs e)
+        {
+            program = "Economy";
+            temperature_lbl.Text = "20°C";
+            spins_lbl.Text = "1000";
+            duration_lbl.Text = "60";
+        }
+
+        private void delicate_btn_Click(object sender, EventArgs e)
+        {
+            program = "Delicate";
+            temperature_lbl.Text = "30°C";
+            spins_lbl.Text = "400";
+            duration_lbl.Text = "180";
+        }
+
+        private void rapid_btn_Click(object sender, EventArgs e)
+        {
+            program = "Rapid";
+            temperature_lbl.Text = "30°C";
+            spins_lbl.Text = "1000";
+            duration_lbl.Text = "30";
+        }
+
+        private void cotton_lbl_Click(object sender, EventArgs e)
+        {
+            program = "Cotton";
+            temperature_lbl.Text = "40°C";
+            spins_lbl.Text = "1000";
+            duration_lbl.Text = "180";
+        }
+
+        private void intense_btn_Click(object sender, EventArgs e)
+        {
+            program = "Intensive";
+            temperature_lbl.Text = "60°C";
+            spins_lbl.Text = "1000";
+            duration_lbl.Text = "180";
+        }
+
+        private void wool_btn_Click(object sender, EventArgs e)
+        {
+            program = "Wool";
+            temperature_lbl.Text = "40°C";
+            spins_lbl.Text = "800";
+            duration_lbl.Text = "180";
+        }
+
+        private void cancel_wash_Click(object sender, EventArgs e)
+        {
+            flag = false;
+            cancel_wash.Visible = false;
+            MessageBox.Show("Canceled programmed wash succesfully!");
         }
     }
 }

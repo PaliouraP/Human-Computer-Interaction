@@ -22,7 +22,7 @@ namespace mave_assistant
         {
             InitializeComponent();
             dropDownMenu();
-            //test motification
+            //test notification
             UserControlNotifications ucnotif = new UserControlNotifications();
             ucnotif.title.Text = "Welcome Back!";
             ucnotif.details.Text = "test notification";
@@ -39,7 +39,27 @@ namespace mave_assistant
                 notification_container.Controls.Add(trash_notif);
             }
 
-            
+            //dish soap
+            if (Login.SetValueForDishSoap < 15)
+            {
+                UserControlNotifications ds_notif = new UserControlNotifications();
+                ds_notif.title.Text = "Out of Dish Soap!";
+                ds_notif.details.Text = "Please refill the dish soap on your dish washer.";
+
+                notification_container.Controls.Add(ds_notif);
+            }
+
+            //laundry detergent
+            if (Login.SetValueForLaundryDetergent < 15)
+            {
+                UserControlNotifications ld_notif = new UserControlNotifications();
+                ld_notif.title.Text = "Out of Laundry Detergent!";
+                ld_notif.details.Text = "Please refill the laundry detergent on your washing machine.";
+
+                notification_container.Controls.Add(ld_notif);
+            }
+
+
         }
 
         // Method to show today's events

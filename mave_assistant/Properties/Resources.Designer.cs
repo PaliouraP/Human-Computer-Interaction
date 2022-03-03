@@ -383,6 +383,26 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_halfload_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_halfload_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_intensive_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_intensive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dishwasher_normal_black {
             get {
                 object obj = ResourceManager.GetObject("dishwasher_normal_black", resourceCulture);
@@ -396,6 +416,26 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap dishwasher_normal_white {
             get {
                 object obj = ResourceManager.GetObject("dishwasher_normal_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_sensitive_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_sensitive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_sensitive_white {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_sensitive_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -913,6 +953,26 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rapid_black {
+            get {
+                object obj = ResourceManager.GetObject("rapid_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rapid_white {
+            get {
+                object obj = ResourceManager.GetObject("rapid_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap record_play {
             get {
                 object obj = ResourceManager.GetObject("record_play", resourceCulture);
@@ -1106,6 +1166,96 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap warning_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("warning-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_black1 {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_black1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_white1 {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_white1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_intensive_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_intensive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_intensive_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_intensive_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_sensitive_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_sensitive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_wool_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_wool_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_wool_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_wool_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
