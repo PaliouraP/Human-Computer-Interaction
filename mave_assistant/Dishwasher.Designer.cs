@@ -36,6 +36,12 @@ namespace mave_assistant
             this.label1 = new System.Windows.Forms.Label();
             this.wash_btn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +51,7 @@ namespace mave_assistant
             this.time_lbl.BackColor = System.Drawing.Color.Transparent;
             this.time_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.time_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.time_lbl.Location = new System.Drawing.Point(501, 68);
+            this.time_lbl.Location = new System.Drawing.Point(474, 27);
             this.time_lbl.Name = "time_lbl";
             this.time_lbl.Size = new System.Drawing.Size(64, 31);
             this.time_lbl.TabIndex = 0;
@@ -57,7 +63,7 @@ namespace mave_assistant
             this.pr_lbl.BackColor = System.Drawing.Color.Transparent;
             this.pr_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.pr_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.pr_lbl.Location = new System.Drawing.Point(486, 195);
+            this.pr_lbl.Location = new System.Drawing.Point(463, 207);
             this.pr_lbl.Name = "pr_lbl";
             this.pr_lbl.Size = new System.Drawing.Size(102, 31);
             this.pr_lbl.TabIndex = 1;
@@ -69,7 +75,7 @@ namespace mave_assistant
             this.soap_lbl.BackColor = System.Drawing.Color.Transparent;
             this.soap_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.soap_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.soap_lbl.Location = new System.Drawing.Point(486, 337);
+            this.soap_lbl.Location = new System.Drawing.Point(463, 375);
             this.soap_lbl.Name = "soap_lbl";
             this.soap_lbl.Size = new System.Drawing.Size(114, 31);
             this.soap_lbl.TabIndex = 2;
@@ -99,11 +105,18 @@ namespace mave_assistant
             this.wash_btn.TabIndex = 4;
             this.wash_btn.Text = "WASH";
             this.wash_btn.UseVisualStyleBackColor = false;
+            this.wash_btn.Click += new System.EventHandler(this.wash_btn_Click);
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.time_lbl);
             this.panel1.Controls.Add(this.pr_lbl);
             this.panel1.Controls.Add(this.soap_lbl);
@@ -111,6 +124,65 @@ namespace mave_assistant
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1032, 544);
             this.panel1.TabIndex = 5;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker1.Location = new System.Drawing.Point(402, 101);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.ShowUpDown = true;
+            this.dateTimePicker1.Size = new System.Drawing.Size(250, 27);
+            this.dateTimePicker1.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(263, 274);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 79);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Normal";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(363, 274);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 79);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Economy";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(463, 274);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(94, 79);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Intense";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(563, 274);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(94, 79);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Quick";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(663, 274);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(94, 79);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Half-Load";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // Dishwasher
             // 
@@ -123,7 +195,6 @@ namespace mave_assistant
             this.Controls.Add(this.panel1);
             this.Name = "Dishwasher";
             this.Text = "Dishwasher";
-            this.Load += new System.EventHandler(this.Dishwasher_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -139,5 +210,11 @@ namespace mave_assistant
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button wash_btn;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }

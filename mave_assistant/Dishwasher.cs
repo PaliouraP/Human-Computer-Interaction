@@ -15,11 +15,10 @@ namespace mave_assistant
             InitializeComponent();
             
         }
-        
 
-        private void Dishwasher_Load(object sender, EventArgs e)
+        private void wash_btn_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Programmed -insert program- wash at "+ dateTimePicker1.Text+" succesfully!");
         }
     }
 }
