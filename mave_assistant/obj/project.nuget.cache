@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6KfEOeDq77GQv4odIZ281Nix91fquRw64XoqeJZ2Rrgzf6c7NHHTnuapuBHtoWen583hv2guOjoyBAuEulH+5Q==",
+  "dgSpecHash": "+9qzyAYnbtZqHwDuci1FxePfm4/gTnIT5Z9SR1U8NVYRq5QMoafhM0R0HhzaIdXCT72jmRsNGoNmJ1w6eFNyVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+  "projectFilePath": "C:\\Users\\maria\\Source\\Repos\\Human-Computer-Interaction2\\mave_assistant\\mave_assistant.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aboub\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
-    "C:\\Users\\aboub\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\aboub\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\aboub\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
+    "C:\\Users\\maria\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
   ],
   "logs": [
     {

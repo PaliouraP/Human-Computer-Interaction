@@ -94,30 +94,8 @@ namespace mave_assistant
             panel1.Visible = false;
             if (category.Text == "Formal")
             {
-
                 changeImages(1);
-                /*for(int i = 0; i < panel1.Controls.Count; i++)
-                {
-                    if (panel1.Controls[i] is PictureBox)
-                    {
-                        picture = (PictureBox)panel1.Controls[i];
-                    }
-                    else
-                    { continue; }//exit
-                    int number;
-                    number = random.Next(0, formal.Count);
-                    category.Text = formal.Count.ToString();*/
-
-                /* foreach (Control x in panel1.Controls) 
-                 {
-                     for (int i = 0; i < panel1.Controls.Count; i++)
-                     {
-                         if (x is PictureBox)
-                         {
-                             ((PictureBox)x).ImageLocation = formal[i];
-                         }
-                     }
-                 }*/
+             
             }
             if (label2.Text == "Formal")
             {

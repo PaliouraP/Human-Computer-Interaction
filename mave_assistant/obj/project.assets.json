@@ -126,19 +126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aboub\\.nuget\\packages\\": {}
+    "C:\\Users\\maria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+      "projectUniqueName": "C:\\Users\\maria\\Source\\Repos\\Human-Computer-Interaction2\\mave_assistant\\mave_assistant.csproj",
       "projectName": "mave_assistant",
-      "projectPath": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
-      "packagesPath": "C:\\Users\\aboub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
+      "projectPath": "C:\\Users\\maria\\Source\\Repos\\Human-Computer-Interaction2\\mave_assistant\\mave_assistant.csproj",
+      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maria\\Source\\Repos\\Human-Computer-Interaction2\\mave_assistant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aboub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
