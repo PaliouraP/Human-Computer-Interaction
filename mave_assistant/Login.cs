@@ -20,6 +20,8 @@ namespace mave_assistant
         bool f = false;
         public static int SetValueForPercentage; //in form Bin
         public static string SetValueForWeather; //in form Smart Closet
+        public static int SetValueForDishSoap; //in form Dish Soap
+        public static int SetValueForLaundryDetergent; //in form Laundry Detergent
 
         public Login()
         {
@@ -49,6 +51,10 @@ namespace mave_assistant
             Random random = new Random();
             //bin percentage
             int percentage = random.Next(1, 100);
+            //dish soap percentage
+            int percentageDS = random.Next(1, 100);
+            //laundry detergent percentage
+            int percentageLD = random.Next(1, 100);
             //weather
             List<string> weather = new List<string>() {"Sunny","Rainy" };
             int index = random.Next(weather.Count);
@@ -83,6 +89,8 @@ namespace mave_assistant
                 {
                     SetValueForPercentage = percentage;
                     SetValueForWeather = randomWeather;
+                    SetValueForDishSoap = percentageDS;
+                    SetValueForLaundryDetergent = percentageLD;
                     home_screen_form f = new home_screen_form();
                     f.Show(); //shows home screen                 
                     this.Hide(); //hides Login
