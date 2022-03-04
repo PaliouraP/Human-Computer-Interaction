@@ -356,5 +356,10 @@ namespace mave_assistant
         {
             openChildForm(new Dishwasher());
         }
+
+        private void pet_feeder_btn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new camera());
+        }
     }
 }

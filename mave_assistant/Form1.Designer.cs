@@ -361,6 +361,7 @@ namespace mave_assistant
             this.pet_feeder_btn.TabIndex = 2;
             this.pet_feeder_btn.Text = "Pet Feeder";
             this.pet_feeder_btn.UseVisualStyleBackColor = false;
+            this.pet_feeder_btn.Click += new System.EventHandler(this.pet_feeder_btn_Click);
             // 
             // smart_closet_btn
             // 
