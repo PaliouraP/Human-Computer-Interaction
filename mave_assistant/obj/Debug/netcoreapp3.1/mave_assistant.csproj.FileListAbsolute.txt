@@ -216,3 +216,5 @@ C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.smart_doorbell.resources
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlNotifications.resources
 C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.Washer.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.myCloset.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.vacuumCleaner.resources

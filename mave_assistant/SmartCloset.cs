@@ -59,7 +59,7 @@ namespace mave_assistant
             {
                 //gallery of formal outfits
                 case 1:
-                    pictureBox1.Image = Properties.Resources.formal11;
+                    pictureBox1.Image = Properties.Resources.formal12;
                     pictureBox2.Image = Properties.Resources.formal21;
                     pictureBox3.Image = Properties.Resources.formal3;
                     pictureBox4.Image = Properties.Resources.formal42;
@@ -74,7 +74,7 @@ namespace mave_assistant
                     //gallery of casualoutfits
                 case 3:
                     pictureBox1.Image = Properties.Resources.casual1;
-                    pictureBox2.Image = Properties.Resources.casual2;
+                    pictureBox2.Image = Properties.Resources.mycasual1;
                     pictureBox3.Image = Properties.Resources.casual3;
                     pictureBox4.Image = Properties.Resources.casual4;
                     break;
@@ -294,43 +294,59 @@ namespace mave_assistant
                 case 1:
                     if (Login.SetValueForWeather == "Sunny")
                     {
-                        Outfit.Image = Properties.Resources.formal42;
+                        Outfit.Image = Properties.Resources.myformal1;
+                        Warning.Text = "The weather is great!";
+
                     }
                     else
                     {
-                        Outfit.Image = Properties.Resources.formal3;
+
+                        Outfit.Image = Properties.Resources.error;
+                        Font f = new Font("Nirmala UI", 13);
+                        Warning.Font =f;
+                        Warning.Text = "Oh no! You can wear \nsomething different\n from your closet\n or go Online Shopping \nbelow";
                     }
                     break;
                     //athletic
                 case 2:
                     if (Login.SetValueForWeather == "Sunny")
                     {
-                        Outfit.Image = Properties.Resources.athletic_spring1;
+                        Outfit.Image = Properties.Resources.myathletic1;
+                        Warning.Text = "What a beautiful day \nto workout outdoors!";
                     }
                     else
                     {
-                        Outfit.Image = Properties.Resources.athletic_winter;
-                        panelWarning.Visible = true;
+                        Outfit.Image = Properties.Resources.myathletic2;
+                        Warning.Text = "I suggest you don't \ntrain outdoors due to \n the weather!";
                     }
                     break;
                 case 3:
                     if (Login.SetValueForWeather == "Sunny")
                     {
-                        Outfit.Image = Properties.Resources.casual4;
+                        Font f = new Font("Nirmala UI", 13);
+                        Warning.Font = f;
+                        Outfit.Image = Properties.Resources.error;
+                        Warning.Text = "Oh no!";
+
                     }
                     else
                     {
-                        Outfit.Image = Properties.Resources.casual1;
+                        Outfit.Image = Properties.Resources.mycasual2;
+                        Warning.Text = "Don't forget your \numbrella!";
+
                     }
                     break;
                 case 4:
                     if (Login.SetValueForWeather == "Sunny")
                     {
-                        Outfit.Image = Properties.Resources.nightout4;
+                        Outfit.Image = Properties.Resources.mynightout2;
+                        Warning.Text = "Have fun!";
+
                     }
                     else
                     {
-                        Outfit.Image = Properties.Resources.nightout2;
+                        Outfit.Image = Properties.Resources.mynightout1;
+                        Warning.Text = "Have fun and don't \nforget your umbrella!";
                     }
                     break;
 
@@ -345,6 +361,12 @@ namespace mave_assistant
             proc.Start();
             
            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            myCloset closet = new myCloset();
+            closet.Show();
         }
     }
 }

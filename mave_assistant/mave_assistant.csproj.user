@@ -35,6 +35,9 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="myCloset.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="planner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +70,9 @@
     </Compile>
     <Compile Update="UserControlNotifications.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="vacuumCleaner.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Washer.cs">
       <SubType>Form</SubType>
