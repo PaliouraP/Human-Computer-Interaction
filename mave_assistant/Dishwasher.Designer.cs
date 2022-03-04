@@ -29,6 +29,7 @@ namespace mave_assistant
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dishwasher));
             this.label1 = new System.Windows.Forms.Label();
             this.wash_btn = new System.Windows.Forms.Button();
@@ -57,6 +58,7 @@ namespace mave_assistant
             this.time_lbl = new System.Windows.Forms.Label();
             this.pr_lbl = new System.Windows.Forms.Label();
             this.cancel_wash = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -385,11 +387,12 @@ namespace mave_assistant
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker1.Location = new System.Drawing.Point(148, 100);
+            this.dateTimePicker1.MinDate = new System.DateTime(2022, 3, 4, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.ShowUpDown = true;
             this.dateTimePicker1.Size = new System.Drawing.Size(250, 27);
             this.dateTimePicker1.TabIndex = 3;
-            this.dateTimePicker1.Value = new System.DateTime(2022, 3, 4, 0, 0, 0, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2022, 3, 4, 1, 37, 55, 0);
             // 
             // time_lbl
             // 
@@ -431,6 +434,10 @@ namespace mave_assistant
             this.cancel_wash.UseVisualStyleBackColor = false;
             this.cancel_wash.Visible = false;
             this.cancel_wash.Click += new System.EventHandler(this.cancel_wash_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Dishwasher
             // 
@@ -488,5 +495,6 @@ namespace mave_assistant
         private System.Windows.Forms.Label temperature_lbl;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button cancel_wash;
+        private System.Windows.Forms.Timer timer1;
     }
 }

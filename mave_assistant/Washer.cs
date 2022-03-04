@@ -12,6 +12,8 @@ namespace mave_assistant
     {
         string program = "";
         bool flag = false;
+        TimeSpan timer; 
+        double t = 0; //time until wash in minutes
         public Washer()
         {
             InitializeComponent();
@@ -61,6 +63,16 @@ namespace mave_assistant
             {
                 flag = true;
                 cancel_wash.Visible = true;
+                string dt = dateTimePicker1.Value.ToString("HH:mm");
+                string dtn = DateTime.Now.ToString("HH:mm");
+                timer = DateTime.Parse(dt).Subtract(DateTime.Parse(dtn));
+                if (timer.CompareTo(TimeSpan.Zero) < 0)
+                {
+                    timer = timer.Add(TimeSpan.Parse("24:00:00"));
+                }
+                t = timer.TotalMinutes + Int32.Parse(duration_lbl.Text);
+                timer1.Interval = Convert.ToInt32(t) * 60000;
+                timer1.Enabled = true;
                 MessageBox.Show("Programmed " + program + " wash at " + dateTimePicker1.Text + " succesfully!");
             }
         }
@@ -123,6 +135,14 @@ namespace mave_assistant
             flag = false;
             cancel_wash.Visible = false;
             MessageBox.Show("Canceled programmed wash succesfully!");
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            flag = false;
+            cancel_wash.Visible = false;
+            MessageBox.Show("Wash concluded");
+            timer1.Enabled = false; //wash ended
         }
     }
 }
