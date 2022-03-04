@@ -302,9 +302,8 @@ namespace mave_assistant
                     {
 
                         Outfit.Image = Properties.Resources.error;
-                        Font f = new Font("Nirmala UI", 13);
-                        Warning.Font =f;
-                        Warning.Text = "Oh no! You can wear \nsomething different\n from your closet\n or go Online Shopping \nbelow";
+                        
+                        Warning.Text = "Oh no! ";
                     }
                     break;
                     //athletic
@@ -323,8 +322,6 @@ namespace mave_assistant
                 case 3:
                     if (Login.SetValueForWeather == "Sunny")
                     {
-                        Font f = new Font("Nirmala UI", 13);
-                        Warning.Font = f;
                         Outfit.Image = Properties.Resources.error;
                         Warning.Text = "Oh no!";
 
@@ -367,6 +364,11 @@ namespace mave_assistant
         {
             myCloset closet = new myCloset();
             closet.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

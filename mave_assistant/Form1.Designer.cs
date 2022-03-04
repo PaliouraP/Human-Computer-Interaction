@@ -42,7 +42,6 @@ namespace mave_assistant
             this.coffee_btn = new System.Windows.Forms.Button();
             this.vacuum_btn = new System.Windows.Forms.Button();
             this.pet_feeder_btn = new System.Windows.Forms.Button();
-            this.smart_closet_btn = new System.Windows.Forms.Button();
             this.smart_living_btn = new System.Windows.Forms.Button();
             this.panelSmartHome = new System.Windows.Forms.Panel();
             this.button17 = new System.Windows.Forms.Button();
@@ -106,6 +105,7 @@ namespace mave_assistant
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.smart_closet_btn = new System.Windows.Forms.Button();
             this.menu_panel.SuspendLayout();
             this.panelMenuButtons.SuspendLayout();
             this.panelSmartLiving.SuspendLayout();
@@ -251,6 +251,7 @@ namespace mave_assistant
             this.button16.TabIndex = 8;
             this.button16.Text = "Fridge";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button15
             // 
@@ -319,7 +320,7 @@ namespace mave_assistant
             this.vacuum_btn.Name = "vacuum_btn";
             this.vacuum_btn.Size = new System.Drawing.Size(219, 45);
             this.vacuum_btn.TabIndex = 3;
-            this.vacuum_btn.Text = "Vacuum \r\nCleaner";
+            this.vacuum_btn.Text = "Vacuum Cleaner";
             this.vacuum_btn.UseVisualStyleBackColor = false;
             this.vacuum_btn.Click += new System.EventHandler(this.vacuum_btn_Click);
             // 
@@ -339,24 +340,6 @@ namespace mave_assistant
             this.pet_feeder_btn.TabIndex = 2;
             this.pet_feeder_btn.Text = "Pet Feeder";
             this.pet_feeder_btn.UseVisualStyleBackColor = false;
-            // 
-            // smart_closet_btn
-            // 
-            this.smart_closet_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.smart_closet_btn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.smart_closet_btn.FlatAppearance.BorderSize = 0;
-            this.smart_closet_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.smart_closet_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.smart_closet_btn.ForeColor = System.Drawing.Color.White;
-            this.smart_closet_btn.Image = ((System.Drawing.Image)(resources.GetObject("smart_closet_btn.Image")));
-            this.smart_closet_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.smart_closet_btn.Location = new System.Drawing.Point(0, 0);
-            this.smart_closet_btn.Name = "smart_closet_btn";
-            this.smart_closet_btn.Size = new System.Drawing.Size(219, 45);
-            this.smart_closet_btn.TabIndex = 1;
-            this.smart_closet_btn.Text = "Smart Closet";
-            this.smart_closet_btn.UseVisualStyleBackColor = false;
-            this.smart_closet_btn.Click += new System.EventHandler(this.button1_Click);
             // 
             // smart_living_btn
             // 
@@ -1225,6 +1208,24 @@ namespace mave_assistant
             this.button8.Text = "Alarm System";
             this.button8.UseVisualStyleBackColor = true;
             // 
+            // smart_closet_btn
+            // 
+            this.smart_closet_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.smart_closet_btn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.smart_closet_btn.FlatAppearance.BorderSize = 0;
+            this.smart_closet_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.smart_closet_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.smart_closet_btn.ForeColor = System.Drawing.Color.White;
+            this.smart_closet_btn.Image = ((System.Drawing.Image)(resources.GetObject("smart_closet_btn.Image")));
+            this.smart_closet_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.smart_closet_btn.Location = new System.Drawing.Point(0, 0);
+            this.smart_closet_btn.Name = "smart_closet_btn";
+            this.smart_closet_btn.Size = new System.Drawing.Size(219, 45);
+            this.smart_closet_btn.TabIndex = 1;
+            this.smart_closet_btn.Text = "Smart Closet";
+            this.smart_closet_btn.UseVisualStyleBackColor = false;
+            this.smart_closet_btn.Click += new System.EventHandler(this.button1_Click);
+            // 
             // home_screen_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -1343,7 +1344,6 @@ namespace mave_assistant
         private System.Windows.Forms.Button coffee_btn;
         private System.Windows.Forms.Button vacuum_btn;
         private System.Windows.Forms.Button pet_feeder_btn;
-        private System.Windows.Forms.Button smart_closet_btn;
         private System.Windows.Forms.Button smart_living_btn;
         private System.Windows.Forms.Panel panelSmartHome;
         private System.Windows.Forms.Button button5;
@@ -1361,6 +1361,7 @@ namespace mave_assistant
         private System.Windows.Forms.FlowLayoutPanel notification_container;
         private System.Windows.Forms.Label notifications_label;
         private System.Windows.Forms.FlowLayoutPanel current_events_container;
+        private System.Windows.Forms.Button smart_closet_btn;
     }
 }
 

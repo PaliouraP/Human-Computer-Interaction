@@ -363,10 +363,15 @@ namespace mave_assistant
         {
             openChildForm(new alarm_system());
         }
-
+        //Vacuum cleaner button
         private void vacuum_btn_Click(object sender, EventArgs e)
         {
             openChildForm(new vacuumCleaner());
+            
+         //Fridge button
+        }private void button16_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Fridge());
         }
     }
 }
