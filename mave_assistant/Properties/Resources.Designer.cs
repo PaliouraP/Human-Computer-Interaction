@@ -793,6 +793,26 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mave_account {
+            get {
+                object obj = ResourceManager.GetObject("mave_account", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mave_account1 {
+            get {
+                object obj = ResourceManager.GetObject("mave_account1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mave_hi {
             get {
                 object obj = ResourceManager.GetObject("mave_hi", resourceCulture);
@@ -946,6 +966,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap purple_rectangle {
             get {
                 object obj = ResourceManager.GetObject("purple_rectangle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap purple_rectangle1 {
+            get {
+                object obj = ResourceManager.GetObject("purple_rectangle1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

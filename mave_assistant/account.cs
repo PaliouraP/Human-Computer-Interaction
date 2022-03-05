@@ -27,9 +27,17 @@ namespace mave_assistant
 
         private void account_Load(object sender, EventArgs e)
         {
+            string[] splitted = u_name.Split(" ");
+            Console.WriteLine(splitted);
+
+            string firstname = splitted[0];
+            string lastname = splitted[1];
+
             name_tag.Text = u_name;
+            name.Text = firstname;
+            lstname.Text = lastname;
+
             user.Text = username;
-            name.Text = u_name;
             dob.Text = birth_date;
             pet.Text = pet_name;
             profile.ImageLocation = pic_path;

@@ -71,5 +71,8 @@
     <Compile Update="Washer.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="watering_system.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

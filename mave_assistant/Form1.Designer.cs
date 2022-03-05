@@ -45,7 +45,6 @@ namespace mave_assistant
             this.smart_closet_btn = new System.Windows.Forms.Button();
             this.smart_living_btn = new System.Windows.Forms.Button();
             this.panelSmartHome = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -166,6 +165,7 @@ namespace mave_assistant
             // 
             // about_btn
             // 
+            this.about_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.about_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.about_btn.FlatAppearance.BorderSize = 0;
             this.about_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -173,7 +173,7 @@ namespace mave_assistant
             this.about_btn.ForeColor = System.Drawing.Color.White;
             this.about_btn.Image = ((System.Drawing.Image)(resources.GetObject("about_btn.Image")));
             this.about_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.about_btn.Location = new System.Drawing.Point(0, 518);
+            this.about_btn.Location = new System.Drawing.Point(0, 508);
             this.about_btn.Name = "about_btn";
             this.about_btn.Size = new System.Drawing.Size(210, 43);
             this.about_btn.TabIndex = 9;
@@ -190,7 +190,7 @@ namespace mave_assistant
             this.help_btn.ForeColor = System.Drawing.Color.White;
             this.help_btn.Image = ((System.Drawing.Image)(resources.GetObject("help_btn.Image")));
             this.help_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.help_btn.Location = new System.Drawing.Point(0, 475);
+            this.help_btn.Location = new System.Drawing.Point(0, 465);
             this.help_btn.Name = "help_btn";
             this.help_btn.Size = new System.Drawing.Size(210, 43);
             this.help_btn.TabIndex = 9;
@@ -200,6 +200,7 @@ namespace mave_assistant
             // 
             // account_btn
             // 
+            this.account_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.account_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.account_btn.FlatAppearance.BorderSize = 0;
             this.account_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -207,7 +208,7 @@ namespace mave_assistant
             this.account_btn.ForeColor = System.Drawing.Color.White;
             this.account_btn.Image = ((System.Drawing.Image)(resources.GetObject("account_btn.Image")));
             this.account_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.account_btn.Location = new System.Drawing.Point(0, 435);
+            this.account_btn.Location = new System.Drawing.Point(0, 425);
             this.account_btn.Name = "account_btn";
             this.account_btn.Size = new System.Drawing.Size(210, 40);
             this.account_btn.TabIndex = 9;
@@ -227,7 +228,7 @@ namespace mave_assistant
             this.panelSmartLiving.Controls.Add(this.pet_feeder_btn);
             this.panelSmartLiving.Controls.Add(this.smart_closet_btn);
             this.panelSmartLiving.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSmartLiving.Location = new System.Drawing.Point(0, 299);
+            this.panelSmartLiving.Location = new System.Drawing.Point(0, 289);
             this.panelSmartLiving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSmartLiving.Name = "panelSmartLiving";
             this.panelSmartLiving.Size = new System.Drawing.Size(210, 136);
@@ -236,6 +237,7 @@ namespace mave_assistant
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button16.Dock = System.Windows.Forms.DockStyle.Top;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -243,7 +245,7 @@ namespace mave_assistant
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(0, 204);
+            this.button16.Location = new System.Drawing.Point(0, 218);
             this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(193, 31);
@@ -254,6 +256,7 @@ namespace mave_assistant
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button15.Dock = System.Windows.Forms.DockStyle.Top;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -261,7 +264,7 @@ namespace mave_assistant
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(0, 170);
+            this.button15.Location = new System.Drawing.Point(0, 184);
             this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(193, 34);
@@ -273,6 +276,7 @@ namespace mave_assistant
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.Dock = System.Windows.Forms.DockStyle.Top;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -280,7 +284,7 @@ namespace mave_assistant
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(0, 136);
+            this.button14.Location = new System.Drawing.Point(0, 150);
             this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(193, 34);
@@ -292,6 +296,7 @@ namespace mave_assistant
             // coffee_btn
             // 
             this.coffee_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.coffee_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.coffee_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.coffee_btn.FlatAppearance.BorderSize = 0;
             this.coffee_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -299,7 +304,7 @@ namespace mave_assistant
             this.coffee_btn.ForeColor = System.Drawing.Color.White;
             this.coffee_btn.Image = ((System.Drawing.Image)(resources.GetObject("coffee_btn.Image")));
             this.coffee_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.coffee_btn.Location = new System.Drawing.Point(0, 102);
+            this.coffee_btn.Location = new System.Drawing.Point(0, 116);
             this.coffee_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.coffee_btn.Name = "coffee_btn";
             this.coffee_btn.Size = new System.Drawing.Size(193, 34);
@@ -310,6 +315,7 @@ namespace mave_assistant
             // vacuum_btn
             // 
             this.vacuum_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.vacuum_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.vacuum_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.vacuum_btn.FlatAppearance.BorderSize = 0;
             this.vacuum_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -317,7 +323,7 @@ namespace mave_assistant
             this.vacuum_btn.ForeColor = System.Drawing.Color.White;
             this.vacuum_btn.Image = ((System.Drawing.Image)(resources.GetObject("vacuum_btn.Image")));
             this.vacuum_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.vacuum_btn.Location = new System.Drawing.Point(0, 68);
+            this.vacuum_btn.Location = new System.Drawing.Point(0, 82);
             this.vacuum_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vacuum_btn.Name = "vacuum_btn";
             this.vacuum_btn.Size = new System.Drawing.Size(193, 34);
@@ -328,6 +334,7 @@ namespace mave_assistant
             // pet_feeder_btn
             // 
             this.pet_feeder_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.pet_feeder_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pet_feeder_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.pet_feeder_btn.FlatAppearance.BorderSize = 0;
             this.pet_feeder_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -335,7 +342,7 @@ namespace mave_assistant
             this.pet_feeder_btn.ForeColor = System.Drawing.Color.White;
             this.pet_feeder_btn.Image = ((System.Drawing.Image)(resources.GetObject("pet_feeder_btn.Image")));
             this.pet_feeder_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.pet_feeder_btn.Location = new System.Drawing.Point(0, 34);
+            this.pet_feeder_btn.Location = new System.Drawing.Point(0, 48);
             this.pet_feeder_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pet_feeder_btn.Name = "pet_feeder_btn";
             this.pet_feeder_btn.Size = new System.Drawing.Size(193, 34);
@@ -346,6 +353,7 @@ namespace mave_assistant
             // smart_closet_btn
             // 
             this.smart_closet_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
+            this.smart_closet_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.smart_closet_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.smart_closet_btn.FlatAppearance.BorderSize = 0;
             this.smart_closet_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -356,7 +364,7 @@ namespace mave_assistant
             this.smart_closet_btn.Location = new System.Drawing.Point(0, 0);
             this.smart_closet_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.smart_closet_btn.Name = "smart_closet_btn";
-            this.smart_closet_btn.Size = new System.Drawing.Size(193, 34);
+            this.smart_closet_btn.Size = new System.Drawing.Size(193, 48);
             this.smart_closet_btn.TabIndex = 1;
             this.smart_closet_btn.Text = "Smart Closet";
             this.smart_closet_btn.UseVisualStyleBackColor = false;
@@ -364,6 +372,7 @@ namespace mave_assistant
             // 
             // smart_living_btn
             // 
+            this.smart_living_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.smart_living_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.smart_living_btn.FlatAppearance.BorderSize = 0;
             this.smart_living_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -371,7 +380,7 @@ namespace mave_assistant
             this.smart_living_btn.ForeColor = System.Drawing.Color.White;
             this.smart_living_btn.Image = ((System.Drawing.Image)(resources.GetObject("smart_living_btn.Image")));
             this.smart_living_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.smart_living_btn.Location = new System.Drawing.Point(0, 248);
+            this.smart_living_btn.Location = new System.Drawing.Point(0, 238);
             this.smart_living_btn.Name = "smart_living_btn";
             this.smart_living_btn.Size = new System.Drawing.Size(210, 51);
             this.smart_living_btn.TabIndex = 66;
@@ -384,7 +393,6 @@ namespace mave_assistant
             // 
             this.panelSmartHome.AutoScroll = true;
             this.panelSmartHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
-            this.panelSmartHome.Controls.Add(this.button17);
             this.panelSmartHome.Controls.Add(this.button7);
             this.panelSmartHome.Controls.Add(this.button6);
             this.panelSmartHome.Controls.Add(this.button5);
@@ -392,27 +400,12 @@ namespace mave_assistant
             this.panelSmartHome.Location = new System.Drawing.Point(0, 132);
             this.panelSmartHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSmartHome.Name = "panelSmartHome";
-            this.panelSmartHome.Size = new System.Drawing.Size(210, 116);
+            this.panelSmartHome.Size = new System.Drawing.Size(210, 106);
             this.panelSmartHome.TabIndex = 65;
-            // 
-            // button17
-            // 
-            this.button17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(0, 102);
-            this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(193, 34);
-            this.button17.TabIndex = 49;
-            this.button17.Text = "Boiler";
-            this.button17.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Dock = System.Windows.Forms.DockStyle.Top;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -422,13 +415,15 @@ namespace mave_assistant
             this.button7.Location = new System.Drawing.Point(0, 68);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(193, 34);
+            this.button7.Size = new System.Drawing.Size(210, 34);
             this.button7.TabIndex = 4;
             this.button7.Text = "Watering System";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Dock = System.Windows.Forms.DockStyle.Top;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -438,7 +433,7 @@ namespace mave_assistant
             this.button6.Location = new System.Drawing.Point(0, 34);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(193, 34);
+            this.button6.Size = new System.Drawing.Size(210, 34);
             this.button6.TabIndex = 3;
             this.button6.Text = "Smart Doorbell\r\n";
             this.button6.UseVisualStyleBackColor = true;
@@ -446,6 +441,7 @@ namespace mave_assistant
             // 
             // button5
             // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -455,7 +451,7 @@ namespace mave_assistant
             this.button5.Location = new System.Drawing.Point(0, 0);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(193, 34);
+            this.button5.Size = new System.Drawing.Size(210, 34);
             this.button5.TabIndex = 2;
             this.button5.Text = "Alarm System";
             this.button5.UseVisualStyleBackColor = true;
@@ -463,6 +459,7 @@ namespace mave_assistant
             // 
             // smart_home_btn
             // 
+            this.smart_home_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.smart_home_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.smart_home_btn.FlatAppearance.BorderSize = 0;
             this.smart_home_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -482,6 +479,7 @@ namespace mave_assistant
             // 
             // digital_planner_btn
             // 
+            this.digital_planner_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.digital_planner_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.digital_planner_btn.FlatAppearance.BorderSize = 0;
             this.digital_planner_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -499,6 +497,7 @@ namespace mave_assistant
             // 
             // home_screen_btn
             // 
+            this.home_screen_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.home_screen_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.home_screen_btn.FlatAppearance.BorderSize = 0;
             this.home_screen_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -1331,7 +1330,6 @@ namespace mave_assistant
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button17;
         private CircularProgressBar.CircularProgressBar progressBarTasks;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;

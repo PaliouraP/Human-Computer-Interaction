@@ -31,7 +31,6 @@ namespace mave_assistant
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(account));
             this.account_label = new System.Windows.Forms.Label();
-            this.completed_tasks_panel = new System.Windows.Forms.Panel();
             this.name_tag = new System.Windows.Forms.Label();
             this.pet = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,48 +41,37 @@ namespace mave_assistant
             this.user = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.completed_tasks_panel.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lstname = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.profile)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // account_label
             // 
             this.account_label.AutoSize = true;
             this.account_label.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.account_label.Location = new System.Drawing.Point(3, 12);
+            this.account_label.Location = new System.Drawing.Point(3, 9);
             this.account_label.Name = "account_label";
-            this.account_label.Size = new System.Drawing.Size(168, 54);
+            this.account_label.Size = new System.Drawing.Size(137, 45);
             this.account_label.TabIndex = 15;
             this.account_label.Text = "Account";
-            // 
-            // completed_tasks_panel
-            // 
-            this.completed_tasks_panel.BackColor = System.Drawing.Color.Transparent;
-            this.completed_tasks_panel.BackgroundImage = global::mave_assistant.Properties.Resources.purple;
-            this.completed_tasks_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.completed_tasks_panel.Controls.Add(this.name_tag);
-            this.completed_tasks_panel.Controls.Add(this.pet);
-            this.completed_tasks_panel.Controls.Add(this.label6);
-            this.completed_tasks_panel.Controls.Add(this.profile);
-            this.completed_tasks_panel.Controls.Add(this.dob);
-            this.completed_tasks_panel.Controls.Add(this.label4);
-            this.completed_tasks_panel.Controls.Add(this.name);
-            this.completed_tasks_panel.Controls.Add(this.user);
-            this.completed_tasks_panel.Controls.Add(this.label5);
-            this.completed_tasks_panel.Controls.Add(this.label2);
-            this.completed_tasks_panel.Location = new System.Drawing.Point(302, 107);
-            this.completed_tasks_panel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.completed_tasks_panel.Name = "completed_tasks_panel";
-            this.completed_tasks_panel.Size = new System.Drawing.Size(534, 628);
-            this.completed_tasks_panel.TabIndex = 17;
             // 
             // name_tag
             // 
             this.name_tag.AutoSize = true;
+            this.name_tag.BackColor = System.Drawing.Color.White;
             this.name_tag.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name_tag.Location = new System.Drawing.Point(107, 229);
+            this.name_tag.Location = new System.Drawing.Point(344, 278);
             this.name_tag.Name = "name_tag";
-            this.name_tag.Size = new System.Drawing.Size(375, 54);
+            this.name_tag.Size = new System.Drawing.Size(303, 45);
             this.name_tag.TabIndex = 36;
             this.name_tag.Text = "Firstname Lastname";
             this.name_tag.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -91,32 +79,34 @@ namespace mave_assistant
             // pet
             // 
             this.pet.AutoSize = true;
-            this.pet.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.pet.Location = new System.Drawing.Point(329, 519);
+            this.pet.BackColor = System.Drawing.Color.White;
+            this.pet.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.pet.Location = new System.Drawing.Point(558, 505);
             this.pet.Name = "pet";
-            this.pet.Size = new System.Drawing.Size(65, 28);
+            this.pet.Size = new System.Drawing.Size(55, 23);
             this.pet.TabIndex = 35;
             this.pet.Text = "label1";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(59, 519);
+            this.label6.Location = new System.Drawing.Point(344, 505);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 28);
+            this.label6.Size = new System.Drawing.Size(85, 23);
             this.label6.TabIndex = 34;
             this.label6.Text = "Pet Name";
             // 
             // profile
             // 
-            this.profile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
+            this.profile.BackColor = System.Drawing.Color.White;
             this.profile.Image = ((System.Drawing.Image)(resources.GetObject("profile.Image")));
-            this.profile.Location = new System.Drawing.Point(191, 44);
+            this.profile.Location = new System.Drawing.Point(430, 151);
+            this.profile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.profile.Name = "profile";
-            this.profile.Size = new System.Drawing.Size(153, 183);
+            this.profile.Size = new System.Drawing.Size(124, 125);
             this.profile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.profile.TabIndex = 29;
             this.profile.TabStop = false;
@@ -124,83 +114,172 @@ namespace mave_assistant
             // dob
             // 
             this.dob.AutoSize = true;
-            this.dob.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dob.Location = new System.Drawing.Point(329, 457);
+            this.dob.BackColor = System.Drawing.Color.White;
+            this.dob.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dob.Location = new System.Drawing.Point(558, 461);
             this.dob.Name = "dob";
-            this.dob.Size = new System.Drawing.Size(48, 28);
+            this.dob.Size = new System.Drawing.Size(40, 23);
             this.dob.TabIndex = 33;
             this.dob.Text = "dob";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(59, 457);
+            this.label4.Location = new System.Drawing.Point(344, 461);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 28);
+            this.label4.Size = new System.Drawing.Size(87, 23);
             this.label4.TabIndex = 28;
             this.label4.Text = "Birth Date";
             // 
             // name
             // 
             this.name.AutoSize = true;
-            this.name.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name.Location = new System.Drawing.Point(329, 397);
+            this.name.BackColor = System.Drawing.Color.White;
+            this.name.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.name.Location = new System.Drawing.Point(554, 376);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(60, 28);
+            this.name.Size = new System.Drawing.Size(81, 23);
             this.name.TabIndex = 31;
-            this.name.Text = "name";
+            this.name.Text = "firstname";
             // 
             // user
             // 
             this.user.AutoSize = true;
-            this.user.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.user.Location = new System.Drawing.Point(329, 329);
+            this.user.BackColor = System.Drawing.Color.White;
+            this.user.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.user.Location = new System.Drawing.Point(556, 334);
             this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(48, 28);
+            this.user.Size = new System.Drawing.Size(42, 23);
             this.user.TabIndex = 30;
             this.user.Text = "user";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label5.Location = new System.Drawing.Point(59, 397);
+            this.label5.Location = new System.Drawing.Point(344, 417);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 28);
+            this.label5.Size = new System.Drawing.Size(83, 23);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Name";
+            this.label5.Text = "Lastname";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(59, 329);
+            this.label2.Location = new System.Drawing.Point(344, 334);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 28);
+            this.label2.Size = new System.Drawing.Size(87, 23);
             this.label2.TabIndex = 25;
             this.label2.Text = "Username";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::mave_assistant.Properties.Resources.purple_rectangle;
+            this.pictureBox1.InitialImage = global::mave_assistant.Properties.Resources.purple_rectangle1;
+            this.pictureBox1.Location = new System.Drawing.Point(44, 48);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(924, 601);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(184, 83);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(604, 543);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 37;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(344, 376);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 23);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Firstname";
+            // 
+            // lstname
+            // 
+            this.lstname.AutoSize = true;
+            this.lstname.BackColor = System.Drawing.Color.White;
+            this.lstname.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lstname.Location = new System.Drawing.Point(556, 417);
+            this.lstname.Name = "lstname";
+            this.lstname.Size = new System.Drawing.Size(79, 23);
+            this.lstname.TabIndex = 39;
+            this.lstname.Text = "lastname";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
+            this.pictureBox3.Image = global::mave_assistant.Properties.Resources.mave_account1;
+            this.pictureBox3.Location = new System.Drawing.Point(697, 389);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(144, 236);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 40;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
+            this.pictureBox4.Location = new System.Drawing.Point(697, 83);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(144, 457);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 41;
+            this.pictureBox4.TabStop = false;
+            // 
             // account
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(1103, 849);
-            this.Controls.Add(this.completed_tasks_panel);
+            this.ClientSize = new System.Drawing.Size(965, 637);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.lstname);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.user);
+            this.Controls.Add(this.name);
+            this.Controls.Add(this.dob);
+            this.Controls.Add(this.pet);
+            this.Controls.Add(this.name_tag);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.account_label);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.profile);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "account";
             this.Text = "account";
             this.Load += new System.EventHandler(this.account_Load);
-            this.completed_tasks_panel.ResumeLayout(false);
-            this.completed_tasks_panel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profile)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,7 +288,6 @@ namespace mave_assistant
         #endregion
 
         private System.Windows.Forms.Label account_label;
-        private System.Windows.Forms.Panel completed_tasks_panel;
         private System.Windows.Forms.Label dob;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Label user;
@@ -220,5 +298,11 @@ namespace mave_assistant
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label pet;
         private System.Windows.Forms.Label name_tag;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lstname;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

@@ -342,5 +342,11 @@ namespace mave_assistant
         {
             openChildForm(new alarm_system());
         }
+
+        // Watering system button
+        private void button7_Click(object sender, EventArgs e)
+        {
+            openChildForm(new watering_system());
+        }
     }
 }
