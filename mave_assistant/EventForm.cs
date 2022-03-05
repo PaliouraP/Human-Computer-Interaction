@@ -33,22 +33,28 @@ namespace mave_assistant
 
         private void add_btn_Click(object sender, EventArgs e)
         {
-            Event evnt = new Event();
-            evnt.username = username;
-            evnt.date = event_date.Value.ToString("yyyy-MMMM-dd");
-            evnt.type = event_type.Text;
-            evnt.details = event_details.Text;
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to create this event?", "Digital Planner", MessageBoxButtons.YesNo);
 
-            conn = new SQLiteConnection(connectionString); //connecting database  
-            String insertQuery = "Insert into events(username, type, date, details) values('" + evnt.username + "', '" + evnt.type + "', '" + evnt.date + "', '" + evnt.details + "')";
-            conn.Open(); //opening database
-            using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
+            if (dialogResult == DialogResult.Yes)
             {
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("New event added succesfully!");
-                conn.Close(); //closing database
-                this.Close(); //closes sign up
-                
+
+                Event evnt = new Event();
+                evnt.username = username;
+                evnt.date = event_date.Value.ToString("yyyy-MMMM-dd");
+                evnt.type = event_type.Text;
+                evnt.details = event_details.Text;
+
+                conn = new SQLiteConnection(connectionString); //connecting database  
+                String insertQuery = "Insert into events(username, type, date, details) values('" + evnt.username + "', '" + evnt.type + "', '" + evnt.date + "', '" + evnt.details + "')";
+                conn.Open(); //opening database
+                using (SQLiteCommand cmd = new SQLiteCommand(insertQuery, conn))
+                {
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("New event added succesfully!");
+                    conn.Close(); //closing database
+                    this.Close(); //closes sign up
+
+                }
             }
         }
 

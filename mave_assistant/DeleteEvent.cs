@@ -74,25 +74,30 @@ namespace mave_assistant
 
         private void del_btn_Click(object sender, EventArgs e)
         {
-            String deleteQuery = "Delete from events where username=@user and date=@date and type=@type";
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to delete the selected events?", "Digital Planner", MessageBoxButtons.YesNo);
 
-            //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
-            using (SQLiteCommand command = new SQLiteCommand(deleteQuery, conn))
+            if (dialogResult == DialogResult.Yes)
             {
-                conn.Open(); //opening database
-                foreach (Event evnt in UserControlEvents.events_to_delete)
-                {
-                    command.Parameters.AddWithValue("@user", evnt.username);
-                    command.Parameters.AddWithValue("@date", evnt.date);
-                    command.Parameters.AddWithValue("@type", evnt.type);
-                    command.ExecuteNonQuery();
-                    
-                }
+                String deleteQuery = "Delete from events where username=@user and date=@date and type=@type";
 
-                conn.Close(); //closing database
+                //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
+                using (SQLiteCommand command = new SQLiteCommand(deleteQuery, conn))
+                {
+                    conn.Open(); //opening database
+                    foreach (Event evnt in UserControlEvents.events_to_delete)
+                    {
+                        command.Parameters.AddWithValue("@user", evnt.username);
+                        command.Parameters.AddWithValue("@date", evnt.date);
+                        command.Parameters.AddWithValue("@type", evnt.type);
+                        command.ExecuteNonQuery();
+
+                    }
+
+                    conn.Close(); //closing database
+                }
+                MessageBox.Show("Events deleted successfully!");
+                this.Close(); //closes sign up
             }
-            MessageBox.Show("Events deleted successfully!");
-            this.Close(); //closes sign up
         }
     }
 }

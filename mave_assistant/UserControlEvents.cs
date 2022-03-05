@@ -41,5 +41,10 @@ namespace mave_assistant
             }
 
         }
+
+        private void UserControlEvents_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

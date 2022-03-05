@@ -133,6 +133,9 @@
   <data name="office_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\office_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="humidity_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\humidity_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -141,6 +144,9 @@
   </data>
   <data name="mave_walk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mave_walk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +157,11 @@
   <data name="purple_rectangle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purple_rectangle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="living_room_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\living_room_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="athletic_spring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\athletic_spring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uni_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uni_home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,8 +184,8 @@
   <data name="toggle_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toggle_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nightout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nightout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="attica_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\attica_map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +220,12 @@
   <data name="doorbell_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\doorbell_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="copyright1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copyright1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="copyright" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\copyright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -226,9 +238,6 @@
   <data name="athletic_fall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\athletic_fall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="button_purple21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\button_purple2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="calendar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -238,20 +247,20 @@
   <data name="warning-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\warning-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dining_room_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dining_room_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="progress_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dot4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dot4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formal11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="disarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\disarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="watering_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\watering_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="casual1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\casual1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mave_account" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mave_account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,17 +286,11 @@
   <data name="formal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formal3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="record_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\record_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="user_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="help_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\help_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="living_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\living_room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mave_hi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mave_hi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -301,29 +304,20 @@
   <data name="route_by_car" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\route_by_car.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="progress_bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\progress_bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="about_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\about_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dining_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dining_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="living_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="casual4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\casual4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="casual1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\casual1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arm_sleep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arm_sleep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="formal21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\formal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="toggle_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toggle_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bathroom_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bathroom_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="athletic_summer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\athletic_summer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,26 +325,26 @@
   <data name="light_rain" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light_rain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="user_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dining_room_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dining_room_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arm_away" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arm_away.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="athletic_summer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\athletic_summer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kitchen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kitchen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="about_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\about_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_purple21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_purple2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bathroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bathroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="athletic_summer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\athletic_summer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="casual4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\casual4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="panel_lila" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel_lila.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -361,14 +355,17 @@
   <data name="formal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="office" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\office.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bathroom_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bathroom_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="smart_living_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\smart_living_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="formal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\formal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightout4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightout4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bedroom_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bedroom_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -385,17 +382,23 @@
   <data name="lights_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lights_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mave_account1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mave_account1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="casual2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\casual2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="gym_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gym_home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home_gym" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_gym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="temperature" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\temperature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arrow-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow-right1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dining_room" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dining_room.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="uni_gym" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\uni_gym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -424,8 +427,8 @@
   <data name="athletic_fall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\athletic_fall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="uni_home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\uni_home.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dot2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="athletic_spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\athletic_spring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -442,19 +445,19 @@
   <data name="this is mave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\this is mave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="copyright1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\copyright1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="formal21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formal2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nightout4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nightout4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="record_stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\record_stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="formal11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\formal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="nightout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home_gym" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_gym.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="living_room_dark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\living_room_dark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mave_account1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mave_account1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mave_laying_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mave_laying_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

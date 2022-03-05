@@ -629,6 +629,7 @@ namespace mave_assistant
             this.current_events_container.Name = "current_events_container";
             this.current_events_container.Size = new System.Drawing.Size(231, 200);
             this.current_events_container.TabIndex = 63;
+            this.current_events_container.Paint += new System.Windows.Forms.PaintEventHandler(this.current_events_container_Paint);
             // 
             // events_label
             // 

@@ -20,6 +20,7 @@ namespace mave_assistant
 
         public home_screen_form()
         {
+
             InitializeComponent();
             dropDownMenu();
             //test motification
@@ -58,11 +59,11 @@ namespace mave_assistant
                 {
                     while (reader.Read()) //while an event exists on a certain day
                     {
-                        UserControlEvents current_events = new UserControlEvents();
+                        home_screen_events current_events = new home_screen_events();
                         current_events.type.Text = reader.GetString(1);
                         current_events.details.Text = reader.GetString(3);
-                        current_events.date.Text = "";
-                        current_events.delete.Hide();
+                        // current_events.date.Text = "";
+                        // current_events.delete.Hide();
 
                         if (reader.GetString(1) == "Social")
                         {
@@ -347,6 +348,11 @@ namespace mave_assistant
         private void button7_Click(object sender, EventArgs e)
         {
             openChildForm(new watering_system());
+        }
+
+        private void current_events_container_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
