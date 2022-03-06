@@ -354,5 +354,11 @@ namespace mave_assistant
         {
 
         }
+        
+        // Coffee maker button
+        private void coffee_btn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new coffee_making());
+        }
     }
 }

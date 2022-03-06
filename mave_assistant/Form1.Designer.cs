@@ -311,6 +311,7 @@ namespace mave_assistant
             this.coffee_btn.TabIndex = 4;
             this.coffee_btn.Text = "Coffee Making";
             this.coffee_btn.UseVisualStyleBackColor = false;
+            this.coffee_btn.Click += new System.EventHandler(this.coffee_btn_Click);
             // 
             // vacuum_btn
             // 
