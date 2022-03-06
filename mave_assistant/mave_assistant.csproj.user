@@ -35,6 +35,12 @@
     <Compile Update="PetFeeder.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PetFeeder_Feed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PetFeeder_Water.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="planner.cs">
       <SubType>Form</SubType>
     </Compile>

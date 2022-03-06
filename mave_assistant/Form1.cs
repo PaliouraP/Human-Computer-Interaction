@@ -59,6 +59,26 @@ namespace mave_assistant
                 notification_container.Controls.Add(ld_notif);
             }
 
+            //dry food
+            if (Login.SetValueForFood < 15)
+            {
+                UserControlNotifications df_notif = new UserControlNotifications();
+                df_notif.title.Text = "Out of Dry Food!";
+                df_notif.details.Text = "Please refill the dry food container on your pet feeder.";
+
+                notification_container.Controls.Add(df_notif);
+            }
+
+            //laundry detergent
+            if (Login.SetValueForWater < 15)
+            {
+                UserControlNotifications w_notif = new UserControlNotifications();
+                w_notif.title.Text = "Out of Water!";
+                w_notif.details.Text = u.pet + "'s water bowl is empty.";
+
+                notification_container.Controls.Add(w_notif);
+            }
+
 
         }
 
@@ -359,7 +379,7 @@ namespace mave_assistant
 
         private void pet_feeder_btn_Click(object sender, EventArgs e)
         {
-            openChildForm(new camera());
+            openChildForm(new pet_feeder());
         }
     }
 }
