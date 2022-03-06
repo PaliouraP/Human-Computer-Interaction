@@ -15,6 +15,8 @@ namespace mave_assistant
         public static bool cancel_f = true;
         public static bool cancel_w = true;
         public static int p;
+        public static string next_feed = "";
+        public static string next_water = "";
         public pet_feeder()
         {
             InitializeComponent();
@@ -56,6 +58,7 @@ namespace mave_assistant
 
         private void PetFeeder_Load(object sender, EventArgs e)
         {
+            water_event.Enabled = true;
             pet_feeder_cam.ImageLocation = "Resources\\cat-curious.gif";
 
             //Water
@@ -74,6 +77,7 @@ namespace mave_assistant
             food = false;
             cancel_feed.Visible = food;
             feed_btn.Visible = !food;
+            next_feed_lbl.Visible = false;
         }
 
         private void cancel_water_Click(object sender, EventArgs e)
@@ -81,6 +85,7 @@ namespace mave_assistant
             water = false;
             cancel_water.Visible = water;
             water_btn.Visible = !water;
+            next_water_change_lbl.Visible = false;
         }
 
         private void feed_btn_Click(object sender, EventArgs e)
@@ -102,6 +107,13 @@ namespace mave_assistant
                     changePicture1(progressBar1.Value);
                     cancel_f = true;
                 }
+
+                if (next_feed != "")
+                {
+                    next_feed_lbl.Text = "Next feed at: " + next_feed;
+                    next_feed_lbl.Visible = true;
+                    next_feed = "";
+                }
             }
             
             
@@ -120,7 +132,26 @@ namespace mave_assistant
                 progressBar.ProgressColor = ColorTranslator.FromHtml("#4bb543");
                 cancel_w = true;
             }
+
+            if (next_water != "")
+            {
+                next_water_change_lbl.Text = "Next water change at: " + next_water;
+                next_water_change_lbl.Visible = true;
+                next_water = "";
+            }
             
+        }
+
+        private void water_event_Tick(object sender, EventArgs e)
+        {
+            time_lbl.Text = DateTime.Now.ToString("hh:mm");
+            time_lbl.Visible = true;
+            alert_pb.Visible = true;
+            bowl_lbl.Visible = true;
+            progressBar.Value = 0;
+            progressBar.Text = "0%";
+            progressBar.ProgressColor = ColorTranslator.FromHtml("#ff0033");
+            water_event.Enabled = false;
         }
     }
 }

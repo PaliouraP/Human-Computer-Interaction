@@ -18,37 +18,52 @@ namespace mave_assistant
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pet will be fed at " + dateTimePickerFood.Text);
-            pet_feeder.food = true;
-            this.Close();
-            
+            if (portion.Text != "")
+            {
+                MessageBox.Show("Pet will be fed at " + dateTimePickerFood.Text);
+                pet_feeder.food = true;
+                pet_feeder.next_feed = dateTimePickerFood.Text;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Pick a portion size first.");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pet has now been fed");
-            if (Int32.Parse(portion.Text) == 100)
+            if (portion.Text != "")
             {
-                pet_feeder.p = 2; //we assume the pet feeder dry food container can contain a maximum of 5L
+                MessageBox.Show("Pet has now been fed");
+                if (Int32.Parse(portion.Text) == 100)
+                {
+                    pet_feeder.p = 2; //we assume the pet feeder dry food container can contain a maximum of 5L
+                }
+                else if (Int32.Parse(portion.Text) == 200)
+                {
+                    pet_feeder.p = 4; //we assume the pet feeder dry food container can contain a maximum of 5L
+                }
+                else if (Int32.Parse(portion.Text) == 300)
+                {
+                    pet_feeder.p = 6; //we assume the pet feeder dry food container can contain a maximum of 5L
+                }
+                else if (Int32.Parse(portion.Text) == 400)
+                {
+                    pet_feeder.p = 8; //we assume the pet feeder dry food container can contain a maximum of 5L
+                }
+                else if (Int32.Parse(portion.Text) == 500)
+                {
+                    pet_feeder.p = 10; //we assume the pet feeder dry food container can contain a maximum of 5L
+                }
+                pet_feeder.cancel_f = false;
+                this.Close();
             } 
-            else if (Int32.Parse(portion.Text) == 200)
+            else
             {
-                pet_feeder.p = 4; //we assume the pet feeder dry food container can contain a maximum of 5L
-            } 
-            else if (Int32.Parse(portion.Text) == 300)
-            {
-                pet_feeder.p = 6; //we assume the pet feeder dry food container can contain a maximum of 5L
-            } 
-            else if (Int32.Parse(portion.Text) == 400)
-            {
-                pet_feeder.p = 8; //we assume the pet feeder dry food container can contain a maximum of 5L
-            } 
-            else if (Int32.Parse(portion.Text) == 500)
-            {
-                pet_feeder.p = 10; //we assume the pet feeder dry food container can contain a maximum of 5L
+                MessageBox.Show("Pick a portion size first.");
             }
-            pet_feeder.cancel_f = false;
-            this.Close();
+            
         }
     }
 }

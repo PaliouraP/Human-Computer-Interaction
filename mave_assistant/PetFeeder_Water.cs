@@ -26,6 +26,7 @@ namespace mave_assistant
         {
             MessageBox.Show("Pet feeder water will be changed at "+ dateTimePickerWater.Text);
             pet_feeder.water = true;
+            pet_feeder.next_water = dateTimePickerWater.Text;
             this.Close();
         }
     }

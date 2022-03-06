@@ -29,6 +29,7 @@ namespace mave_assistant
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pet_feeder));
             this.cancel_feed = new System.Windows.Forms.Button();
             this.feed_btn = new System.Windows.Forms.Button();
@@ -41,9 +42,9 @@ namespace mave_assistant
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.bowl_lbl = new System.Windows.Forms.Label();
+            this.alert_pb = new System.Windows.Forms.PictureBox();
+            this.time_lbl = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -60,11 +61,15 @@ namespace mave_assistant
             this.panel1 = new System.Windows.Forms.Panel();
             this.progressBar1 = new CircularProgressBar.CircularProgressBar();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.water_event = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.next_feed_lbl = new System.Windows.Forms.Label();
+            this.next_water_change_lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pet_feeder_cam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alert_pb)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel6.SuspendLayout();
@@ -211,40 +216,43 @@ namespace mave_assistant
             this.label10.TabIndex = 66;
             this.label10.Text = "11:00";
             // 
-            // label11
+            // bowl_lbl
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Nirmala UI", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.DimGray;
-            this.label11.Location = new System.Drawing.Point(134, 177);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(134, 30);
-            this.label11.TabIndex = 71;
-            this.label11.Text = "Bowl flipped";
+            this.bowl_lbl.AutoSize = true;
+            this.bowl_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.bowl_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bowl_lbl.ForeColor = System.Drawing.Color.DimGray;
+            this.bowl_lbl.Location = new System.Drawing.Point(134, 177);
+            this.bowl_lbl.Name = "bowl_lbl";
+            this.bowl_lbl.Size = new System.Drawing.Size(198, 30);
+            this.bowl_lbl.TabIndex = 71;
+            this.bowl_lbl.Text = "Water bowl flipped";
+            this.bowl_lbl.Visible = false;
             // 
-            // pictureBox4
+            // alert_pb
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(89, 177);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox4.TabIndex = 70;
-            this.pictureBox4.TabStop = false;
+            this.alert_pb.BackColor = System.Drawing.Color.Transparent;
+            this.alert_pb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("alert_pb.BackgroundImage")));
+            this.alert_pb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.alert_pb.Location = new System.Drawing.Point(89, 177);
+            this.alert_pb.Name = "alert_pb";
+            this.alert_pb.Size = new System.Drawing.Size(30, 30);
+            this.alert_pb.TabIndex = 70;
+            this.alert_pb.TabStop = false;
+            this.alert_pb.Visible = false;
             // 
-            // label12
+            // time_lbl
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Nirmala UI", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.DimGray;
-            this.label12.Location = new System.Drawing.Point(17, 177);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(66, 30);
-            this.label12.TabIndex = 69;
-            this.label12.Text = "14:00";
+            this.time_lbl.AutoSize = true;
+            this.time_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.time_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.time_lbl.ForeColor = System.Drawing.Color.DimGray;
+            this.time_lbl.Location = new System.Drawing.Point(17, 177);
+            this.time_lbl.Name = "time_lbl";
+            this.time_lbl.Size = new System.Drawing.Size(66, 30);
+            this.time_lbl.TabIndex = 69;
+            this.time_lbl.Text = "14:00";
+            this.time_lbl.Visible = false;
             // 
             // panel5
             // 
@@ -253,11 +261,11 @@ namespace mave_assistant
             this.panel5.Controls.Add(this.label13);
             this.panel5.Controls.Add(this.pictureBox7);
             this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.label11);
+            this.panel5.Controls.Add(this.bowl_lbl);
             this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.alert_pb);
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label12);
+            this.panel5.Controls.Add(this.time_lbl);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.pictureBox3);
@@ -393,7 +401,7 @@ namespace mave_assistant
             this.pictureBox5.Location = new System.Drawing.Point(26, 31);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(330, 24);
+            this.pictureBox5.Size = new System.Drawing.Size(304, 24);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 38;
             this.pictureBox5.TabStop = false;
@@ -495,10 +503,39 @@ namespace mave_assistant
             this.pictureBox1.Location = new System.Drawing.Point(26, 31);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(330, 24);
+            this.pictureBox1.Size = new System.Drawing.Size(306, 24);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            // 
+            // water_event
+            // 
+            this.water_event.Interval = 60000;
+            this.water_event.Tick += new System.EventHandler(this.water_event_Tick);
+            // 
+            // next_feed_lbl
+            // 
+            this.next_feed_lbl.AutoSize = true;
+            this.next_feed_lbl.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.next_feed_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
+            this.next_feed_lbl.Location = new System.Drawing.Point(29, 141);
+            this.next_feed_lbl.Name = "next_feed_lbl";
+            this.next_feed_lbl.Size = new System.Drawing.Size(59, 25);
+            this.next_feed_lbl.TabIndex = 98;
+            this.next_feed_lbl.Text = "label4";
+            this.next_feed_lbl.Visible = false;
+            // 
+            // next_water_change_lbl
+            // 
+            this.next_water_change_lbl.AutoSize = true;
+            this.next_water_change_lbl.Font = new System.Drawing.Font("Nirmala UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.next_water_change_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
+            this.next_water_change_lbl.Location = new System.Drawing.Point(419, 141);
+            this.next_water_change_lbl.Name = "next_water_change_lbl";
+            this.next_water_change_lbl.Size = new System.Drawing.Size(59, 25);
+            this.next_water_change_lbl.TabIndex = 99;
+            this.next_water_change_lbl.Text = "label4";
+            this.next_water_change_lbl.Visible = false;
             // 
             // pet_feeder
             // 
@@ -506,6 +543,8 @@ namespace mave_assistant
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(1121, 901);
+            this.Controls.Add(this.next_water_change_lbl);
+            this.Controls.Add(this.next_feed_lbl);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.water_btn);
@@ -522,7 +561,7 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alert_pb)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -550,9 +589,9 @@ namespace mave_assistant
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label bowl_lbl;
+        private System.Windows.Forms.PictureBox alert_pb;
+        private System.Windows.Forms.Label time_lbl;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel6;
@@ -571,5 +610,9 @@ namespace mave_assistant
         public System.Windows.Forms.Button feed_btn;
         public System.Windows.Forms.Button water_btn;
         public System.Windows.Forms.Button cancel_water;
+        private System.Windows.Forms.Timer water_event;
+        private System.Windows.Forms.Timer timer2;
+        public System.Windows.Forms.Label next_feed_lbl;
+        public System.Windows.Forms.Label next_water_change_lbl;
     }
 }

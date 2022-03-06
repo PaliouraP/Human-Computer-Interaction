@@ -75,18 +75,8 @@ namespace mave_assistant
             // 
             // portion
             // 
-            this.portion.AutoCompleteCustomSource.AddRange(new string[] {
-            "25",
-            "50",
-            "75",
-            "100",
-            "125",
-            "150",
-            "175",
-            "200",
-            "225",
-            "250"});
             this.portion.DisplayMember = "Home";
+            this.portion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.portion.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.portion.ForeColor = System.Drawing.Color.DimGray;
             this.portion.FormattingEnabled = true;
@@ -101,7 +91,6 @@ namespace mave_assistant
             this.portion.Name = "portion";
             this.portion.Size = new System.Drawing.Size(130, 28);
             this.portion.TabIndex = 92;
-            this.portion.Text = "0";
             this.portion.ValueMember = "Home";
             // 
             // label5
