@@ -235,7 +235,7 @@ namespace mave_assistant
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox2.ErrorImage = null;
             this.pictureBox2.Image = global::mave_assistant.Properties.Resources.arm_sleep;
             this.pictureBox2.Location = new System.Drawing.Point(43, 51);
@@ -248,7 +248,7 @@ namespace mave_assistant
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::mave_assistant.Properties.Resources.disarm;
             this.pictureBox1.Location = new System.Drawing.Point(356, 51);
@@ -261,7 +261,7 @@ namespace mave_assistant
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox9.ErrorImage = null;
             this.pictureBox9.Image = global::mave_assistant.Properties.Resources.arm_away;
             this.pictureBox9.Location = new System.Drawing.Point(204, 51);

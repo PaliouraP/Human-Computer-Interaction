@@ -29,28 +29,55 @@ namespace mave_assistant
         // Humidity Control
         private void hum_plus_Click(object sender, EventArgs e)
         {
-            humidity_bar.Value += 10;
-            hydrometers.Text = humidity_bar.Value + " %";
-            
+            if (humidity_bar.Value + 10 > 100)
+            {
+                MessageBox.Show("Humidity value is out of range.");
+            } 
+            else
+            {
+                humidity_bar.Value += 10;
+                hydrometers.Text = humidity_bar.Value + " %";
+            }            
         }
 
         private void hum_minus_Click(object sender, EventArgs e)
         {
-            humidity_bar.Value -= 10;
-            hydrometers.Text = humidity_bar.Value + " %";
+            if (humidity_bar.Value - 10 < 0)
+            {
+                MessageBox.Show("Humidity value is out of range.");
+            }
+            else
+            {
+                humidity_bar.Value -= 10;
+                hydrometers.Text = humidity_bar.Value + " %";
+            }
         }
 
         // Temperature Control
         private void temp_plus_Click(object sender, EventArgs e)
         {
-            temperature_bar.Value += 1;
-            celcius.Text = temperature_bar.Value + " °C";
+            if (temperature_bar.Value + 1 > 30)
+            {
+                MessageBox.Show("Temperature value is out of range.");
+            }
+            else
+            {
+                temperature_bar.Value += 1;
+                celcius.Text = temperature_bar.Value + " °C";
+            }
         }
 
         private void temp_minus_Click(object sender, EventArgs e)
         {
-            temperature_bar.Value -= 1;
-            celcius.Text = temperature_bar.Value + " °C";
+            if (temperature_bar.Value - 1 < 0)
+            {
+                MessageBox.Show("Temperature value is out of range.");
+            }
+            else
+            {
+                temperature_bar.Value -= 1;
+                celcius.Text = temperature_bar.Value + " °C";
+            }   
         }
 
         private void toggle_Click(object sender, EventArgs e)

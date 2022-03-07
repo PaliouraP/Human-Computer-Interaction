@@ -31,35 +31,31 @@ namespace mave_assistant
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(quick_access_coffee));
             this.panel4 = new System.Windows.Forms.Panel();
-            this.celcius = new System.Windows.Forms.Label();
-            this.hum_minus = new System.Windows.Forms.PictureBox();
-            this.hum_plus = new System.Windows.Forms.PictureBox();
-            this.temp_minus = new System.Windows.Forms.PictureBox();
-            this.temp_plus = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.schedule = new System.Windows.Forms.Button();
+            this.make_coffee = new System.Windows.Forms.Button();
+            this.l3 = new System.Windows.Forms.Label();
+            this.l2 = new System.Windows.Forms.Label();
+            this.l1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Humidity = new System.Windows.Forms.Label();
-            this.humidity_bar = new CircularProgressBar.CircularProgressBar();
-            this.temperature_bar = new CircularProgressBar.CircularProgressBar();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.ing4 = new System.Windows.Forms.PictureBox();
+            this.ing3 = new System.Windows.Forms.PictureBox();
+            this.ing2 = new System.Windows.Forms.PictureBox();
+            this.ing1 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.toggle = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.label22 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.name_label = new System.Windows.Forms.Label();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.hydrometers = new System.Windows.Forms.Label();
             this.coffee_image = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.hum_minus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hum_plus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.temp_minus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.temp_plus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.coffee_image)).BeginInit();
@@ -69,102 +65,133 @@ namespace mave_assistant
             // 
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Controls.Add(this.celcius);
-            this.panel4.Controls.Add(this.hum_minus);
-            this.panel4.Controls.Add(this.hum_plus);
-            this.panel4.Controls.Add(this.temp_minus);
-            this.panel4.Controls.Add(this.temp_plus);
-            this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Controls.Add(this.schedule);
+            this.panel4.Controls.Add(this.make_coffee);
+            this.panel4.Controls.Add(this.l3);
+            this.panel4.Controls.Add(this.l2);
+            this.panel4.Controls.Add(this.l1);
+            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.Humidity);
-            this.panel4.Controls.Add(this.humidity_bar);
-            this.panel4.Controls.Add(this.temperature_bar);
-            this.panel4.Controls.Add(this.pictureBox24);
+            this.panel4.Controls.Add(this.ing4);
+            this.panel4.Controls.Add(this.ing3);
+            this.panel4.Controls.Add(this.ing2);
+            this.panel4.Controls.Add(this.ing1);
             this.panel4.Controls.Add(this.pictureBox22);
-            this.panel4.Controls.Add(this.toggle);
             this.panel4.Controls.Add(this.pictureBox20);
-            this.panel4.Controls.Add(this.label22);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.name_label);
             this.panel4.Controls.Add(this.pictureBox28);
-            this.panel4.Controls.Add(this.hydrometers);
-            this.panel4.Location = new System.Drawing.Point(12, 287);
+            this.panel4.Location = new System.Drawing.Point(12, 263);
             this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(397, 362);
+            this.panel4.Size = new System.Drawing.Size(397, 338);
             this.panel4.TabIndex = 61;
             // 
-            // celcius
+            // schedule
             // 
-            this.celcius.AutoSize = true;
-            this.celcius.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.celcius.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.celcius.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.celcius.Location = new System.Drawing.Point(56, 124);
-            this.celcius.Name = "celcius";
-            this.celcius.Size = new System.Drawing.Size(73, 32);
-            this.celcius.TabIndex = 91;
-            this.celcius.Text = "18 °C";
+            this.schedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
+            this.schedule.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.schedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.schedule.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.schedule.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.schedule.Location = new System.Drawing.Point(218, 275);
+            this.schedule.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.schedule.Name = "schedule";
+            this.schedule.Size = new System.Drawing.Size(118, 40);
+            this.schedule.TabIndex = 105;
+            this.schedule.Text = "Schedule";
+            this.schedule.UseVisualStyleBackColor = false;
+            this.schedule.Click += new System.EventHandler(this.schedule_Click);
             // 
-            // hum_minus
+            // make_coffee
             // 
-            this.hum_minus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.hum_minus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hum_minus.Image = global::mave_assistant.Properties.Resources.minus;
-            this.hum_minus.Location = new System.Drawing.Point(234, 133);
-            this.hum_minus.Name = "hum_minus";
-            this.hum_minus.Size = new System.Drawing.Size(20, 20);
-            this.hum_minus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.hum_minus.TabIndex = 90;
-            this.hum_minus.TabStop = false;
+            this.make_coffee.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
+            this.make_coffee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.make_coffee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.make_coffee.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.make_coffee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.make_coffee.Location = new System.Drawing.Point(41, 275);
+            this.make_coffee.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.make_coffee.Name = "make_coffee";
+            this.make_coffee.Size = new System.Drawing.Size(118, 40);
+            this.make_coffee.TabIndex = 104;
+            this.make_coffee.Text = "Make Coffee";
+            this.make_coffee.UseVisualStyleBackColor = false;
+            this.make_coffee.Click += new System.EventHandler(this.make_coffee_Click);
             // 
-            // hum_plus
+            // l3
             // 
-            this.hum_plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.hum_plus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hum_plus.Image = global::mave_assistant.Properties.Resources.plus;
-            this.hum_plus.Location = new System.Drawing.Point(339, 133);
-            this.hum_plus.Name = "hum_plus";
-            this.hum_plus.Size = new System.Drawing.Size(20, 20);
-            this.hum_plus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.hum_plus.TabIndex = 89;
-            this.hum_plus.TabStop = false;
+            this.l3.AutoSize = true;
+            this.l3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.l3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.l3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.l3.Location = new System.Drawing.Point(141, 225);
+            this.l3.Name = "l3";
+            this.l3.Size = new System.Drawing.Size(91, 20);
+            this.l3.TabIndex = 91;
+            this.l3.Text = "Coffee Type:";
             // 
-            // temp_minus
+            // l2
             // 
-            this.temp_minus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.temp_minus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.temp_minus.Image = global::mave_assistant.Properties.Resources.minus;
-            this.temp_minus.Location = new System.Drawing.Point(30, 133);
-            this.temp_minus.Name = "temp_minus";
-            this.temp_minus.Size = new System.Drawing.Size(20, 20);
-            this.temp_minus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.temp_minus.TabIndex = 88;
-            this.temp_minus.TabStop = false;
+            this.l2.AutoSize = true;
+            this.l2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.l2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.l2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.l2.Location = new System.Drawing.Point(141, 205);
+            this.l2.Name = "l2";
+            this.l2.Size = new System.Drawing.Size(91, 20);
+            this.l2.TabIndex = 90;
+            this.l2.Text = "Coffee Type:";
             // 
-            // temp_plus
+            // l1
             // 
-            this.temp_plus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.temp_plus.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.temp_plus.Image = global::mave_assistant.Properties.Resources.plus;
-            this.temp_plus.Location = new System.Drawing.Point(135, 133);
-            this.temp_plus.Name = "temp_plus";
-            this.temp_plus.Size = new System.Drawing.Size(20, 20);
-            this.temp_plus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.temp_plus.TabIndex = 87;
-            this.temp_plus.TabStop = false;
+            this.l1.AutoSize = true;
+            this.l1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.l1.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.l1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.l1.Location = new System.Drawing.Point(141, 185);
+            this.l1.Name = "l1";
+            this.l1.Size = new System.Drawing.Size(91, 20);
+            this.l1.TabIndex = 89;
+            this.l1.Text = "Coffee Type:";
             // 
-            // pictureBox1
+            // label5
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::mave_assistant.Properties.Resources.live_circle;
-            this.pictureBox1.Location = new System.Drawing.Point(249, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 86;
-            this.pictureBox1.TabStop = false;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label5.Location = new System.Drawing.Point(17, 226);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(93, 20);
+            this.label5.TabIndex = 88;
+            this.label5.Text = "Sugar / Milk:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label3.Location = new System.Drawing.Point(17, 206);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 20);
+            this.label3.TabIndex = 87;
+            this.label3.Text = "Coffee Blend:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(17, 185);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.TabIndex = 86;
+            this.label2.Text = "Coffee Type:";
             // 
             // label1
             // 
@@ -172,146 +199,81 @@ namespace mave_assistant
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(15, 308);
+            this.label1.Location = new System.Drawing.Point(17, 164);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 21);
+            this.label1.Size = new System.Drawing.Size(95, 21);
             this.label1.TabIndex = 85;
-            this.label1.Text = "Live Audio";
+            this.label1.Text = "Information:";
             // 
-            // Humidity
+            // ing4
             // 
-            this.Humidity.AutoSize = true;
-            this.Humidity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.Humidity.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Humidity.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Humidity.Location = new System.Drawing.Point(259, 104);
-            this.Humidity.Name = "Humidity";
-            this.Humidity.Size = new System.Drawing.Size(74, 21);
-            this.Humidity.TabIndex = 84;
-            this.Humidity.Text = "Humidity";
+            this.ing4.BackColor = System.Drawing.Color.Transparent;
+            this.ing4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ing4.Image = global::mave_assistant.Properties.Resources.milk;
+            this.ing4.Location = new System.Drawing.Point(318, 78);
+            this.ing4.Name = "ing4";
+            this.ing4.Size = new System.Drawing.Size(63, 62);
+            this.ing4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ing4.TabIndex = 84;
+            this.ing4.TabStop = false;
             // 
-            // humidity_bar
+            // ing3
             // 
-            this.humidity_bar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.humidity_bar.AnimationSpeed = 500;
-            this.humidity_bar.BackColor = System.Drawing.Color.Transparent;
-            this.humidity_bar.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.humidity_bar.ForeColor = System.Drawing.Color.Silver;
-            this.humidity_bar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.humidity_bar.InnerMargin = 1;
-            this.humidity_bar.InnerWidth = 10;
-            this.humidity_bar.Location = new System.Drawing.Point(234, 158);
-            this.humidity_bar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.humidity_bar.MarqueeAnimationSpeed = 2000;
-            this.humidity_bar.Name = "humidity_bar";
-            this.humidity_bar.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.humidity_bar.OuterMargin = -40;
-            this.humidity_bar.OuterWidth = 40;
-            this.humidity_bar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.humidity_bar.ProgressWidth = 40;
-            this.humidity_bar.SecondaryFont = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.humidity_bar.Size = new System.Drawing.Size(125, 125);
-            this.humidity_bar.StartAngle = 270;
-            this.humidity_bar.SubscriptColor = System.Drawing.Color.DimGray;
-            this.humidity_bar.SubscriptMargin = new System.Windows.Forms.Padding(-80, -5, 0, 1);
-            this.humidity_bar.SubscriptText = "tasks completed";
-            this.humidity_bar.SuperscriptColor = System.Drawing.Color.Goldenrod;
-            this.humidity_bar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.humidity_bar.SuperscriptText = "";
-            this.humidity_bar.TabIndex = 83;
-            this.humidity_bar.TextMargin = new System.Windows.Forms.Padding(80, -20, 20, 0);
-            this.humidity_bar.Value = 30;
+            this.ing3.BackColor = System.Drawing.Color.Transparent;
+            this.ing3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ing3.Image = global::mave_assistant.Properties.Resources.no_sugar;
+            this.ing3.Location = new System.Drawing.Point(218, 78);
+            this.ing3.Name = "ing3";
+            this.ing3.Size = new System.Drawing.Size(63, 62);
+            this.ing3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ing3.TabIndex = 83;
+            this.ing3.TabStop = false;
             // 
-            // temperature_bar
+            // ing2
             // 
-            this.temperature_bar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            this.temperature_bar.AnimationSpeed = 500;
-            this.temperature_bar.BackColor = System.Drawing.Color.Transparent;
-            this.temperature_bar.Font = new System.Drawing.Font("Nirmala UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.temperature_bar.ForeColor = System.Drawing.Color.Silver;
-            this.temperature_bar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.temperature_bar.InnerMargin = 1;
-            this.temperature_bar.InnerWidth = 10;
-            this.temperature_bar.Location = new System.Drawing.Point(30, 158);
-            this.temperature_bar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.temperature_bar.MarqueeAnimationSpeed = 2000;
-            this.temperature_bar.Maximum = 30;
-            this.temperature_bar.Name = "temperature_bar";
-            this.temperature_bar.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.temperature_bar.OuterMargin = -40;
-            this.temperature_bar.OuterWidth = 40;
-            this.temperature_bar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.temperature_bar.ProgressWidth = 40;
-            this.temperature_bar.SecondaryFont = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.temperature_bar.Size = new System.Drawing.Size(125, 125);
-            this.temperature_bar.StartAngle = 270;
-            this.temperature_bar.SubscriptColor = System.Drawing.Color.DimGray;
-            this.temperature_bar.SubscriptMargin = new System.Windows.Forms.Padding(-80, -5, 0, 1);
-            this.temperature_bar.SubscriptText = "tasks completed";
-            this.temperature_bar.SuperscriptColor = System.Drawing.Color.Goldenrod;
-            this.temperature_bar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.temperature_bar.SuperscriptText = "";
-            this.temperature_bar.TabIndex = 82;
-            this.temperature_bar.TextMargin = new System.Windows.Forms.Padding(80, -20, 20, 0);
-            this.temperature_bar.Value = 18;
+            this.ing2.BackColor = System.Drawing.Color.Transparent;
+            this.ing2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ing2.Image = global::mave_assistant.Properties.Resources.watemala;
+            this.ing2.Location = new System.Drawing.Point(119, 78);
+            this.ing2.Name = "ing2";
+            this.ing2.Size = new System.Drawing.Size(63, 62);
+            this.ing2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ing2.TabIndex = 82;
+            this.ing2.TabStop = false;
             // 
-            // pictureBox24
+            // ing1
             // 
-            this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox24.Image = global::mave_assistant.Properties.Resources.voice;
-            this.pictureBox24.Location = new System.Drawing.Point(229, 305);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(156, 24);
-            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox24.TabIndex = 81;
-            this.pictureBox24.TabStop = false;
+            this.ing1.BackColor = System.Drawing.Color.Transparent;
+            this.ing1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ing1.Image = global::mave_assistant.Properties.Resources.espresso1;
+            this.ing1.Location = new System.Drawing.Point(17, 78);
+            this.ing1.Name = "ing1";
+            this.ing1.Size = new System.Drawing.Size(63, 62);
+            this.ing1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ing1.TabIndex = 81;
+            this.ing1.TabStop = false;
             // 
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox22.Location = new System.Drawing.Point(17, 90);
+            this.pictureBox22.Location = new System.Drawing.Point(17, 146);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(366, 11);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 80;
             this.pictureBox22.TabStop = false;
             // 
-            // toggle
-            // 
-            this.toggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.toggle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggle.Image = global::mave_assistant.Properties.Resources.toggle_off;
-            this.toggle.Location = new System.Drawing.Point(340, 54);
-            this.toggle.Name = "toggle";
-            this.toggle.Size = new System.Drawing.Size(30, 30);
-            this.toggle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.toggle.TabIndex = 74;
-            this.toggle.TabStop = false;
-            // 
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox20.Location = new System.Drawing.Point(15, 288);
+            this.pictureBox20.Location = new System.Drawing.Point(13, 250);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(368, 11);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 79;
             this.pictureBox20.TabStop = false;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.label22.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label22.Location = new System.Drawing.Point(41, 104);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(97, 21);
-            this.label22.TabIndex = 68;
-            this.label22.Text = "Temperature";
             // 
             // label4
             // 
@@ -319,22 +281,22 @@ namespace mave_assistant
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(17, 63);
+            this.label4.Location = new System.Drawing.Point(15, 54);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 21);
+            this.label4.Size = new System.Drawing.Size(91, 21);
             this.label4.TabIndex = 56;
-            this.label4.Text = "Air Condition";
+            this.label4.Text = "Ingredients:";
             // 
             // name_label
             // 
             this.name_label.AutoSize = true;
             this.name_label.BackColor = System.Drawing.Color.Transparent;
             this.name_label.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.name_label.Location = new System.Drawing.Point(146, 11);
+            this.name_label.Location = new System.Drawing.Point(152, 11);
             this.name_label.Name = "name_label";
-            this.name_label.Size = new System.Drawing.Size(106, 23);
+            this.name_label.Size = new System.Drawing.Size(92, 23);
             this.name_label.TabIndex = 48;
-            this.name_label.Text = "Room Name";
+            this.name_label.Text = "Cappucino";
             // 
             // pictureBox28
             // 
@@ -347,26 +309,14 @@ namespace mave_assistant
             this.pictureBox28.TabIndex = 49;
             this.pictureBox28.TabStop = false;
             // 
-            // hydrometers
-            // 
-            this.hydrometers.AutoSize = true;
-            this.hydrometers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.hydrometers.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.hydrometers.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.hydrometers.Location = new System.Drawing.Point(263, 124);
-            this.hydrometers.Name = "hydrometers";
-            this.hydrometers.Size = new System.Drawing.Size(70, 32);
-            this.hydrometers.TabIndex = 92;
-            this.hydrometers.Text = "30 %";
-            // 
             // coffee_image
             // 
             this.coffee_image.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.coffee_image.Image = global::mave_assistant.Properties.Resources.kitchen;
+            this.coffee_image.Image = global::mave_assistant.Properties.Resources.cappucino;
             this.coffee_image.Location = new System.Drawing.Point(8, 11);
             this.coffee_image.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.coffee_image.Name = "coffee_image";
-            this.coffee_image.Size = new System.Drawing.Size(397, 272);
+            this.coffee_image.Size = new System.Drawing.Size(397, 248);
             this.coffee_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.coffee_image.TabIndex = 62;
             this.coffee_image.TabStop = false;
@@ -376,21 +326,20 @@ namespace mave_assistant
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(417, 660);
+            this.ClientSize = new System.Drawing.Size(417, 604);
             this.Controls.Add(this.coffee_image);
             this.Controls.Add(this.panel4);
             this.Name = "quick_access_coffee";
-            this.Text = "quick_access_coffee";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quick Access";
+            this.Load += new System.EventHandler(this.quick_access_coffee_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.hum_minus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.hum_plus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.temp_minus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.temp_plus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ing1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.toggle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.coffee_image)).EndInit();
@@ -401,25 +350,24 @@ namespace mave_assistant
         #endregion
 
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label celcius;
-        private System.Windows.Forms.PictureBox hum_minus;
-        private System.Windows.Forms.PictureBox hum_plus;
-        private System.Windows.Forms.PictureBox temp_minus;
-        private System.Windows.Forms.PictureBox temp_plus;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label Humidity;
-        private CircularProgressBar.CircularProgressBar humidity_bar;
-        private CircularProgressBar.CircularProgressBar temperature_bar;
-        private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox toggle;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label name_label;
         private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.Label hydrometers;
         private System.Windows.Forms.PictureBox coffee_image;
+        private System.Windows.Forms.Label l3;
+        private System.Windows.Forms.Label l2;
+        private System.Windows.Forms.Label l1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox ing4;
+        private System.Windows.Forms.PictureBox ing3;
+        private System.Windows.Forms.PictureBox ing2;
+        private System.Windows.Forms.PictureBox ing1;
+        private System.Windows.Forms.Button schedule;
+        private System.Windows.Forms.Button make_coffee;
     }
 }

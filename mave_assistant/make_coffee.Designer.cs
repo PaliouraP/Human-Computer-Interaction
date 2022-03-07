@@ -259,10 +259,10 @@ namespace mave_assistant
             // 
             this.type_lbl.AutoSize = true;
             this.type_lbl.BackColor = System.Drawing.Color.White;
-            this.type_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.type_lbl.Location = new System.Drawing.Point(202, 146);
+            this.type_lbl.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.type_lbl.Location = new System.Drawing.Point(209, 146);
             this.type_lbl.Name = "type_lbl";
-            this.type_lbl.Size = new System.Drawing.Size(61, 17);
+            this.type_lbl.Size = new System.Drawing.Size(66, 20);
             this.type_lbl.TabIndex = 109;
             this.type_lbl.Text = "Espresso";
             // 
@@ -292,10 +292,10 @@ namespace mave_assistant
             // 
             this.blend_lbl.AutoSize = true;
             this.blend_lbl.BackColor = System.Drawing.Color.White;
-            this.blend_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.blend_lbl.Location = new System.Drawing.Point(202, 166);
+            this.blend_lbl.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.blend_lbl.Location = new System.Drawing.Point(209, 166);
             this.blend_lbl.Name = "blend_lbl";
-            this.blend_lbl.Size = new System.Drawing.Size(66, 17);
+            this.blend_lbl.Size = new System.Drawing.Size(76, 20);
             this.blend_lbl.TabIndex = 112;
             this.blend_lbl.Text = "Watemala";
             // 
@@ -303,10 +303,10 @@ namespace mave_assistant
             // 
             this.m_s_lbl.AutoSize = true;
             this.m_s_lbl.BackColor = System.Drawing.Color.White;
-            this.m_s_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.m_s_lbl.Location = new System.Drawing.Point(202, 186);
+            this.m_s_lbl.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.m_s_lbl.Location = new System.Drawing.Point(209, 184);
             this.m_s_lbl.Name = "m_s_lbl";
-            this.m_s_lbl.Size = new System.Drawing.Size(60, 17);
+            this.m_s_lbl.Size = new System.Drawing.Size(67, 20);
             this.m_s_lbl.TabIndex = 113;
             this.m_s_lbl.Text = "mlk / sgr";
             // 

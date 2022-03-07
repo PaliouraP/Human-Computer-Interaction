@@ -21,6 +21,14 @@ namespace mave_assistant
         public coffee_making()
         {
             InitializeComponent();
+
+            // Setting images when form loads
+            pictureBox21.Image = cappucino;
+            pictureBox23.Image = espresso_milk;
+            pictureBox24.Image = espr;
+            pictureBox25.Image = nes;
+            pictureBox26.Image = fltr;
+            pictureBox27.Image = fltr_milk;
         }
 
         
@@ -373,10 +381,47 @@ namespace mave_assistant
             box.BorderStyle = BorderStyle.FixedSingle;
         }
 
+        // When clicking on an image from quick access panel a new form appears
         private void no_milk_am_MouseLeave(object sender, EventArgs e)
         {
             PictureBox box = new PictureBox();
             box.BorderStyle = BorderStyle.None;
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox21.Image, "Cappucino");
+            f.ShowDialog();
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox23.Image, "Machiato");
+            f.ShowDialog();
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox24.Image, "Espresso");
+            f.ShowDialog();
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox25.Image, "Nescafe");
+            f.ShowDialog();
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox26.Image, "Filter");
+            f.ShowDialog();
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            quick_access_coffee f = new quick_access_coffee(pictureBox27.Image, "Filter Latte");
+            f.ShowDialog();
         }
     }
 }
