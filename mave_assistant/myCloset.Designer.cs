@@ -41,6 +41,7 @@ namespace mave_assistant
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
+            this.outfit_container = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -66,7 +67,6 @@ namespace mave_assistant
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::mave_assistant.Properties.Resources.myathletic1;
             this.pictureBox1.Location = new System.Drawing.Point(64, 26);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(170, 359);
@@ -78,7 +78,6 @@ namespace mave_assistant
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Image = global::mave_assistant.Properties.Resources.mycasual21;
             this.pictureBox2.Location = new System.Drawing.Point(268, 26);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(170, 359);
@@ -90,7 +89,6 @@ namespace mave_assistant
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Image = global::mave_assistant.Properties.Resources.myformal21;
             this.pictureBox3.Location = new System.Drawing.Point(459, 26);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(170, 359);
@@ -102,7 +100,6 @@ namespace mave_assistant
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Image = global::mave_assistant.Properties.Resources.mynightout2;
             this.pictureBox4.Location = new System.Drawing.Point(652, 26);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(170, 359);
@@ -114,7 +111,6 @@ namespace mave_assistant
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Image = global::mave_assistant.Properties.Resources.mynightout1;
             this.pictureBox5.Location = new System.Drawing.Point(268, 391);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(170, 359);
@@ -126,7 +122,6 @@ namespace mave_assistant
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Image = global::mave_assistant.Properties.Resources.mycasual1;
             this.pictureBox6.Location = new System.Drawing.Point(64, 391);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(170, 359);
@@ -138,7 +133,6 @@ namespace mave_assistant
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Image = global::mave_assistant.Properties.Resources.myathletic2;
             this.pictureBox7.Location = new System.Drawing.Point(459, 391);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(170, 359);
@@ -150,7 +144,6 @@ namespace mave_assistant
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Image = global::mave_assistant.Properties.Resources.myformal1;
             this.pictureBox8.Location = new System.Drawing.Point(652, 391);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(170, 359);
@@ -173,7 +166,7 @@ namespace mave_assistant
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Location = new System.Drawing.Point(11, 72);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(920, 815);
+            this.panel1.Size = new System.Drawing.Size(0, 0);
             this.panel1.TabIndex = 11;
             // 
             // button3
@@ -194,17 +187,28 @@ namespace mave_assistant
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // outfit_container
+            // 
+            this.outfit_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("outfit_container.BackgroundImage")));
+            this.outfit_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.outfit_container.Location = new System.Drawing.Point(12, 59);
+            this.outfit_container.Name = "outfit_container";
+            this.outfit_container.Size = new System.Drawing.Size(920, 815);
+            this.outfit_container.TabIndex = 12;
+            // 
             // myCloset
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
             this.ClientSize = new System.Drawing.Size(943, 899);
+            this.Controls.Add(this.outfit_container);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "myCloset";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "myCloset";
+            this.Load += new System.EventHandler(this.myCloset_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -232,5 +236,6 @@ namespace mave_assistant
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.FlowLayoutPanel outfit_container;
     }
 }

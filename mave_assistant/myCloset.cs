@@ -19,5 +19,19 @@ namespace mave_assistant
         {
             this.Close();
         }
+
+        private void myCloset_Load(object sender, EventArgs e)
+        {
+            foreach (Outfit obj in SmartCloset.outfits)
+            {
+                if (obj.available)
+                {
+                    UserControlMyOutfit ucout = new UserControlMyOutfit();
+
+                    ucout.pictureBox1.BackgroundImage = Image.FromFile(obj.pic);
+                    outfit_container.Controls.Add(ucout);
+                }
+            }
+        }
     }
 }

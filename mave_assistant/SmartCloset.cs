@@ -13,6 +13,7 @@ namespace mave_assistant
     {
         Random random = new Random();
         //List<string> list = new List<string>(); 
+        public static List<Outfit> outfits = new List<Outfit>();
         public List<string> formal = new List<string>() 
         {"Resources\formal1.png","Resources\formal4.png","Resources\formal3.png","Resources\formal2.png"};
         bool ImageChosen = false;
@@ -115,6 +116,61 @@ namespace mave_assistant
 
             }
 
+            Outfit casual1 = new Outfit(false, "Resources/casual1.png", "casual");
+            Outfit casual2 = new Outfit(false, "Resources/casual2.png", "casual");
+            Outfit casual3 = new Outfit(false, "Resources/casual3.png", "casual");
+            Outfit casual4 = new Outfit(false, "Resources/casual4.png", "casual");
+            Outfit mycasual1 = new Outfit(true, "Resources/mycasual1.png", "casual");
+            Outfit mycasual2 = new Outfit(true, "Resources/mycasual2.png", "casual");
+
+            Outfit formal1 = new Outfit(false, "Resources/formal11.png", "formal");
+            Outfit formal2 = new Outfit(false, "Resources/formal2.png", "formal");
+            Outfit formal3 = new Outfit(false, "Resources/formal3.png", "formal");
+            Outfit formal4 = new Outfit(false, "Resources/formal4.png", "formal");
+            Outfit myformal1 = new Outfit(true, "Resources/myformal1.png", "formal");
+            Outfit myformal2 = new Outfit(true, "Resources/myformal21.png", "formal");
+
+            Outfit nightout1 = new Outfit(false, "Resources/nightout1.png", "nightout");
+            Outfit nightout2 = new Outfit(false, "Resources/nightout2.png", "nightout");
+            Outfit nightout3 = new Outfit(false, "Resources/nightout3.png", "nightout");
+            Outfit nightout4 = new Outfit(false, "Resources/nightout4.png", "nightout");
+            Outfit mynightout1 = new Outfit(true, "Resources/mynightout1.png", "nightout");
+            Outfit mynightout2 = new Outfit(true, "Resources/mynightout2.png", "nightout");
+
+            Outfit athletic_fall = new Outfit(false, "Resources/athletic_fall.png", "athletic");
+            Outfit athletic_spring = new Outfit(false, "Resources/athletic_spring.png", "athletic");
+            Outfit athletic_summer = new Outfit(false, "Resource/athletic_summer.png", "athletic");
+            Outfit athletic_winter = new Outfit(false, "Resources/athletic_winter.png", "athletic");
+            Outfit myathletic1 = new Outfit(true, "Resources/myathletic1.png", "athletic");
+            Outfit myathletic2 = new Outfit(true, "Resources/myathletic2.png", "athletic");
+
+            outfits.Add(casual1);
+            outfits.Add(casual2);
+            outfits.Add(casual3);
+            outfits.Add(casual4);
+            outfits.Add(mycasual1);
+            outfits.Add(mycasual2);
+
+            outfits.Add(formal1);
+            outfits.Add(formal2);
+            outfits.Add(formal3);
+            outfits.Add(formal4);
+            outfits.Add(myformal1);
+            outfits.Add(myformal2);
+
+            outfits.Add(nightout1);
+            outfits.Add(nightout2);
+            outfits.Add(nightout3);
+            outfits.Add(nightout4);
+            outfits.Add(mynightout1);
+            outfits.Add(mynightout2);
+
+            outfits.Add(athletic_fall);
+            outfits.Add(athletic_spring);
+            outfits.Add(athletic_summer);
+            outfits.Add(athletic_winter);
+            outfits.Add(myathletic1);
+            outfits.Add(myathletic2);
         }
        
         private void upload_btn_Click(object sender, EventArgs e)
