@@ -43,12 +43,20 @@ namespace mave_assistant
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.type_lbl = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.blend_lbl = new System.Windows.Forms.Label();
+            this.m_s_lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // weather_title_label
@@ -76,7 +84,7 @@ namespace mave_assistant
             // pictureBox2
             // 
             this.pictureBox2.Image = global::mave_assistant.Properties.Resources.mave_laying_down;
-            this.pictureBox2.Location = new System.Drawing.Point(317, 346);
+            this.pictureBox2.Location = new System.Drawing.Point(246, 30);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 68);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -109,7 +117,7 @@ namespace mave_assistant
             this.pictureBox1.Location = new System.Drawing.Point(-1, 74);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(430, 297);
+            this.pictureBox1.Size = new System.Drawing.Size(430, 373);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 68;
             this.pictureBox1.TabStop = false;
@@ -122,19 +130,20 @@ namespace mave_assistant
             this.signup_btn.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.signup_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.signup_btn.Image = ((System.Drawing.Image)(resources.GetObject("signup_btn.Image")));
-            this.signup_btn.Location = new System.Drawing.Point(140, 283);
+            this.signup_btn.Location = new System.Drawing.Point(140, 360);
             this.signup_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.signup_btn.Name = "signup_btn";
             this.signup_btn.Size = new System.Drawing.Size(147, 34);
             this.signup_btn.TabIndex = 106;
             this.signup_btn.Text = "Schedule";
             this.signup_btn.UseVisualStyleBackColor = true;
+            this.signup_btn.Click += new System.EventHandler(this.signup_btn_Click);
             // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.White;
             this.pictureBox6.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox6.Location = new System.Drawing.Point(72, 259);
+            this.pictureBox6.Location = new System.Drawing.Point(71, 335);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(286, 10);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,7 +181,7 @@ namespace mave_assistant
             "21:00",
             "22:00",
             "23:00"});
-            this.time.Location = new System.Drawing.Point(106, 230);
+            this.time.Location = new System.Drawing.Point(103, 306);
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(221, 23);
             this.time.TabIndex = 101;
@@ -184,7 +193,7 @@ namespace mave_assistant
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(106, 207);
+            this.label6.Location = new System.Drawing.Point(103, 283);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 20);
             this.label6.TabIndex = 100;
@@ -195,7 +204,7 @@ namespace mave_assistant
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(106, 144);
+            this.label5.Location = new System.Drawing.Point(105, 220);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 20);
             this.label5.TabIndex = 99;
@@ -206,7 +215,7 @@ namespace mave_assistant
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.White;
             this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dateTimePicker1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(106, 166);
+            this.dateTimePicker1.Location = new System.Drawing.Point(105, 242);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(221, 23);
@@ -217,19 +226,103 @@ namespace mave_assistant
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.White;
             this.pictureBox11.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox11.Location = new System.Drawing.Point(71, 194);
+            this.pictureBox11.Location = new System.Drawing.Point(71, 270);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(287, 10);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 97;
             this.pictureBox11.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(105, 144);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.TabIndex = 108;
+            this.label2.Text = "Coffee Type:";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.Image = global::mave_assistant.Properties.Resources.line;
+            this.pictureBox3.Location = new System.Drawing.Point(71, 207);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(287, 10);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 107;
+            this.pictureBox3.TabStop = false;
+            // 
+            // type_lbl
+            // 
+            this.type_lbl.AutoSize = true;
+            this.type_lbl.BackColor = System.Drawing.Color.White;
+            this.type_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.type_lbl.Location = new System.Drawing.Point(202, 146);
+            this.type_lbl.Name = "type_lbl";
+            this.type_lbl.Size = new System.Drawing.Size(61, 17);
+            this.type_lbl.TabIndex = 109;
+            this.type_lbl.Text = "Espresso";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(105, 164);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 20);
+            this.label3.TabIndex = 110;
+            this.label3.Text = "Coffee Blend:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(105, 184);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 20);
+            this.label4.TabIndex = 111;
+            this.label4.Text = "Milk / Sugar:";
+            // 
+            // blend_lbl
+            // 
+            this.blend_lbl.AutoSize = true;
+            this.blend_lbl.BackColor = System.Drawing.Color.White;
+            this.blend_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.blend_lbl.Location = new System.Drawing.Point(202, 166);
+            this.blend_lbl.Name = "blend_lbl";
+            this.blend_lbl.Size = new System.Drawing.Size(66, 17);
+            this.blend_lbl.TabIndex = 112;
+            this.blend_lbl.Text = "Watemala";
+            // 
+            // m_s_lbl
+            // 
+            this.m_s_lbl.AutoSize = true;
+            this.m_s_lbl.BackColor = System.Drawing.Color.White;
+            this.m_s_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.m_s_lbl.Location = new System.Drawing.Point(202, 186);
+            this.m_s_lbl.Name = "m_s_lbl";
+            this.m_s_lbl.Size = new System.Drawing.Size(60, 17);
+            this.m_s_lbl.TabIndex = 113;
+            this.m_s_lbl.Text = "mlk / sgr";
+            // 
             // make_coffee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.ClientSize = new System.Drawing.Size(429, 413);
+            this.ClientSize = new System.Drawing.Size(429, 443);
+            this.Controls.Add(this.m_s_lbl);
+            this.Controls.Add(this.blend_lbl);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.type_lbl);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.signup_btn);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.time);
@@ -251,6 +344,7 @@ namespace mave_assistant
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,5 +365,12 @@ namespace mave_assistant
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label type_lbl;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label blend_lbl;
+        private System.Windows.Forms.Label m_s_lbl;
     }
 }

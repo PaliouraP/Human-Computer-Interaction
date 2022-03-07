@@ -47,6 +47,9 @@
     <Compile Update="planner.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="quick_access_coffee.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="room_control.cs">
       <SubType>Form</SubType>
     </Compile>

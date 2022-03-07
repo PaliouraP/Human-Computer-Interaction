@@ -743,12 +743,13 @@ namespace mave_assistant
             this.no_milk_am.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.no_milk_am.TabIndex = 99;
             this.no_milk_am.TabStop = false;
-            this.no_milk_am.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.no_milk_am.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.no_milk_am.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.no_milk_am.Click += new System.EventHandler(this.no_milk_am_Click);
+            this.no_milk_am.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.no_milk_am.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // alm_milk
             // 
+            this.alm_milk.BackColor = System.Drawing.Color.Transparent;
             this.alm_milk.Cursor = System.Windows.Forms.Cursors.Hand;
             this.alm_milk.Image = global::mave_assistant.Properties.Resources.almond_milk;
             this.alm_milk.Location = new System.Drawing.Point(158, 444);
@@ -757,12 +758,13 @@ namespace mave_assistant
             this.alm_milk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.alm_milk.TabIndex = 98;
             this.alm_milk.TabStop = false;
-            this.alm_milk.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.alm_milk.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.alm_milk.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.alm_milk.Click += new System.EventHandler(this.alm_milk_Click);
+            this.alm_milk.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.alm_milk.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // cow_milk
             // 
+            this.cow_milk.BackColor = System.Drawing.Color.Transparent;
             this.cow_milk.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cow_milk.Image = global::mave_assistant.Properties.Resources.milk;
             this.cow_milk.Location = new System.Drawing.Point(34, 444);
@@ -771,9 +773,9 @@ namespace mave_assistant
             this.cow_milk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.cow_milk.TabIndex = 97;
             this.cow_milk.TabStop = false;
-            this.cow_milk.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.cow_milk.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.cow_milk.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.cow_milk.Click += new System.EventHandler(this.cow_milk_Click);
+            this.cow_milk.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.cow_milk.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // pictureBox6
             // 
@@ -832,6 +834,7 @@ namespace mave_assistant
             // 
             // sugar_free_amount
             // 
+            this.sugar_free_amount.BackColor = System.Drawing.Color.Transparent;
             this.sugar_free_amount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sugar_free_amount.Image = global::mave_assistant.Properties.Resources.no_sugar;
             this.sugar_free_amount.Location = new System.Drawing.Point(274, 319);
@@ -840,12 +843,13 @@ namespace mave_assistant
             this.sugar_free_amount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.sugar_free_amount.TabIndex = 91;
             this.sugar_free_amount.TabStop = false;
-            this.sugar_free_amount.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.sugar_free_amount.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.sugar_free_amount.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.sugar_free_amount.Click += new System.EventHandler(this.sugar_free_amount_Click);
+            this.sugar_free_amount.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.sugar_free_amount.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // med_sugar_amount
             // 
+            this.med_sugar_amount.BackColor = System.Drawing.Color.Transparent;
             this.med_sugar_amount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.med_sugar_amount.Image = global::mave_assistant.Properties.Resources.medium_sugar;
             this.med_sugar_amount.Location = new System.Drawing.Point(158, 319);
@@ -854,12 +858,13 @@ namespace mave_assistant
             this.med_sugar_amount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.med_sugar_amount.TabIndex = 90;
             this.med_sugar_amount.TabStop = false;
-            this.med_sugar_amount.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.med_sugar_amount.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.med_sugar_amount.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.med_sugar_amount.Click += new System.EventHandler(this.med_sugar_amount_Click);
+            this.med_sugar_amount.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.med_sugar_amount.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // full_sugar_amount
             // 
+            this.full_sugar_amount.BackColor = System.Drawing.Color.Transparent;
             this.full_sugar_amount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.full_sugar_amount.Image = global::mave_assistant.Properties.Resources.sweet;
             this.full_sugar_amount.Location = new System.Drawing.Point(34, 319);
@@ -868,9 +873,9 @@ namespace mave_assistant
             this.full_sugar_amount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.full_sugar_amount.TabIndex = 89;
             this.full_sugar_amount.TabStop = false;
-            this.full_sugar_amount.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.full_sugar_amount.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.full_sugar_amount.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.full_sugar_amount.Click += new System.EventHandler(this.full_sugar_amount_Click);
+            this.full_sugar_amount.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.full_sugar_amount.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // pictureBox11
             // 
@@ -929,6 +934,7 @@ namespace mave_assistant
             // 
             // brazil_blend
             // 
+            this.brazil_blend.BackColor = System.Drawing.Color.Transparent;
             this.brazil_blend.Cursor = System.Windows.Forms.Cursors.Hand;
             this.brazil_blend.Image = global::mave_assistant.Properties.Resources.watemala;
             this.brazil_blend.Location = new System.Drawing.Point(274, 200);
@@ -937,12 +943,13 @@ namespace mave_assistant
             this.brazil_blend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.brazil_blend.TabIndex = 83;
             this.brazil_blend.TabStop = false;
-            this.brazil_blend.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.brazil_blend.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.brazil_blend.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.brazil_blend.Click += new System.EventHandler(this.brazil_blend_Click);
+            this.brazil_blend.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.brazil_blend.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // kenya_blend
             // 
+            this.kenya_blend.BackColor = System.Drawing.Color.Transparent;
             this.kenya_blend.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kenya_blend.Image = global::mave_assistant.Properties.Resources.watemala;
             this.kenya_blend.Location = new System.Drawing.Point(158, 200);
@@ -951,12 +958,13 @@ namespace mave_assistant
             this.kenya_blend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kenya_blend.TabIndex = 82;
             this.kenya_blend.TabStop = false;
-            this.kenya_blend.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.kenya_blend.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.kenya_blend.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.kenya_blend.Click += new System.EventHandler(this.kenya_blend_Click);
+            this.kenya_blend.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.kenya_blend.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // watemala_blend
             // 
+            this.watemala_blend.BackColor = System.Drawing.Color.Transparent;
             this.watemala_blend.Cursor = System.Windows.Forms.Cursors.Hand;
             this.watemala_blend.Image = global::mave_assistant.Properties.Resources.watemala;
             this.watemala_blend.Location = new System.Drawing.Point(34, 200);
@@ -965,9 +973,9 @@ namespace mave_assistant
             this.watemala_blend.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.watemala_blend.TabIndex = 81;
             this.watemala_blend.TabStop = false;
-            this.watemala_blend.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.watemala_blend.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.watemala_blend.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.watemala_blend.Click += new System.EventHandler(this.watemala_blend_Click);
+            this.watemala_blend.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.watemala_blend.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // pictureBox16
             // 
@@ -1015,6 +1023,7 @@ namespace mave_assistant
             // 
             // nescafe_type
             // 
+            this.nescafe_type.BackColor = System.Drawing.Color.Transparent;
             this.nescafe_type.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nescafe_type.Image = global::mave_assistant.Properties.Resources.nes;
             this.nescafe_type.Location = new System.Drawing.Point(274, 81);
@@ -1023,12 +1032,13 @@ namespace mave_assistant
             this.nescafe_type.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.nescafe_type.TabIndex = 76;
             this.nescafe_type.TabStop = false;
-            this.nescafe_type.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.nescafe_type.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.nescafe_type.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.nescafe_type.Click += new System.EventHandler(this.nescafe_type_Click);
+            this.nescafe_type.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.nescafe_type.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // filter_type
             // 
+            this.filter_type.BackColor = System.Drawing.Color.Transparent;
             this.filter_type.Cursor = System.Windows.Forms.Cursors.Hand;
             this.filter_type.Image = global::mave_assistant.Properties.Resources.filter1;
             this.filter_type.Location = new System.Drawing.Point(158, 81);
@@ -1037,12 +1047,13 @@ namespace mave_assistant
             this.filter_type.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.filter_type.TabIndex = 75;
             this.filter_type.TabStop = false;
-            this.filter_type.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.filter_type.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.filter_type.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.filter_type.Click += new System.EventHandler(this.filter_type_Click);
+            this.filter_type.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.filter_type.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // espresso_type
             // 
+            this.espresso_type.BackColor = System.Drawing.Color.Transparent;
             this.espresso_type.Cursor = System.Windows.Forms.Cursors.Hand;
             this.espresso_type.Image = global::mave_assistant.Properties.Resources.espresso1;
             this.espresso_type.Location = new System.Drawing.Point(34, 81);
@@ -1051,9 +1062,9 @@ namespace mave_assistant
             this.espresso_type.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.espresso_type.TabIndex = 59;
             this.espresso_type.TabStop = false;
-            this.espresso_type.Click += new System.EventHandler(this.pictureBox19_Click);
-            this.espresso_type.MouseEnter += new System.EventHandler(this.panel3_MouseEnter);
-            this.espresso_type.MouseLeave += new System.EventHandler(this.pictureBox17_MouseLeave);
+            this.espresso_type.Click += new System.EventHandler(this.espresso_type_Click);
+            this.espresso_type.MouseEnter += new System.EventHandler(this.espresso_type_MouseEnter);
+            this.espresso_type.MouseLeave += new System.EventHandler(this.no_milk_am_MouseLeave);
             // 
             // label31
             // 
