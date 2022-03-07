@@ -60,31 +60,31 @@ namespace mave_assistant
             {
                 //gallery of formal outfits
                 case 1:
-                    pictureBox1.Image = Properties.Resources.formal12;
-                    pictureBox2.Image = Properties.Resources.formal21;
-                    pictureBox3.Image = Properties.Resources.formal3;
-                    pictureBox4.Image = Properties.Resources.formal42;
+                    pictureBox1.ImageLocation = "Resources/formal11.png";
+                    pictureBox2.ImageLocation = "Resources/formal2.png";
+                    pictureBox3.ImageLocation = "Resources/formal3.png";
+                    pictureBox4.ImageLocation = "Resources/formal4.png";
                     break;
                     //gallery of athletic outfits
                 case 2:
-                    pictureBox1.Image = Properties.Resources.athletic_summer;
-                    pictureBox2.Image = Properties.Resources.athletic_spring1;
-                    pictureBox3.Image = Properties.Resources.athletic_winter;
-                    pictureBox4.Image = Properties.Resources.athletic_fall1;
+                    pictureBox1.ImageLocation = "Resources/athletic_summer.png";
+                    pictureBox2.ImageLocation = "Resources/athletic_spring.png";
+                    pictureBox3.ImageLocation = "Resources/athletic_winter.png";
+                    pictureBox4.ImageLocation = "Resources/athletic_fall.png";
                     break;
                     //gallery of casualoutfits
                 case 3:
-                    pictureBox1.Image = Properties.Resources.casual1;
-                    pictureBox2.Image = Properties.Resources.mycasual1;
-                    pictureBox3.Image = Properties.Resources.casual3;
-                    pictureBox4.Image = Properties.Resources.casual4;
+                    pictureBox1.ImageLocation = "Resources/casual1.png";
+                    pictureBox2.ImageLocation = "Resources/casual2.png";
+                    pictureBox3.ImageLocation = "Resources/casual3.png";
+                    pictureBox4.ImageLocation = "Resources/casual4.png";
                     break;
                     //gallery of nightout outfits
                 case 4:
-                    pictureBox1.Image = Properties.Resources.nightout1;
-                    pictureBox2.Image = Properties.Resources.nightout2;
-                    pictureBox3.Image = Properties.Resources.nightout3;
-                    pictureBox4.Image = Properties.Resources.nightout4;
+                    pictureBox1.ImageLocation = "Resources/nightout1.png";
+                    pictureBox2.ImageLocation = "Resources/nightout2.png";
+                    pictureBox3.ImageLocation = "Resources/nightout3.png";
+                    pictureBox4.ImageLocation = "Resources/nightout4.png";
                     break;
             }
         }
@@ -199,10 +199,24 @@ namespace mave_assistant
             {
                 pictureBox3.BackColor = ColorTranslator.FromHtml("#ecebf0");
                 ImageChosen = true;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox3.Image.ToString())
+                    {
+                        obj.available = true;
+                    }
+                }
             }
             else
             {
                 pictureBox3.BackColor = Color.Transparent;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox3.Image.ToString())
+                    {
+                        obj.available = false;
+                    }
+                }
             }
         }
 
@@ -212,10 +226,24 @@ namespace mave_assistant
             {
                 pictureBox2.BackColor = ColorTranslator.FromHtml("#ecebf0");
                 ImageChosen = true;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox2.Image.ToString())
+                    {
+                        obj.available = true;
+                    }
+                }
             }            
             else 
             {
-                pictureBox2.BackColor = Color.Transparent; 
+                pictureBox2.BackColor = Color.Transparent;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox2.Image.ToString())
+                    {
+                        obj.available = false;
+                    }
+                }
             } 
 
         }
@@ -226,10 +254,24 @@ namespace mave_assistant
             {
                 pictureBox4.BackColor = ColorTranslator.FromHtml("#ecebf0");
                 ImageChosen = true;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox4.Image.ToString())
+                    {
+                        obj.available = true;
+                    }
+                }
             }
             else
             {
                 pictureBox4.BackColor = Color.Transparent;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox4.Image.ToString())
+                    {
+                        obj.available = false;
+                    }
+                }
             }
         }
 
@@ -239,10 +281,25 @@ namespace mave_assistant
             {
                 pictureBox1.BackColor = ColorTranslator.FromHtml("#ecebf0");
                 ImageChosen = true;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox1.ImageLocation)
+                    {
+                        obj.available = true;
+                        
+                    }
+                }
             }
             else
             {
                 pictureBox1.BackColor = Color.Transparent;
+                foreach (Outfit obj in outfits)
+                {
+                    if (obj.pic == pictureBox1.Image.ToString())
+                    {
+                        obj.available = false;
+                    }
+                }
             }
         }
 
