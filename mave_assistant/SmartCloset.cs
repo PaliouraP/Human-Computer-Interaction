@@ -198,25 +198,10 @@ namespace mave_assistant
             if (pictureBox3.BackColor == Color.Transparent)
             {
                 pictureBox3.BackColor = ColorTranslator.FromHtml("#ecebf0");
-                ImageChosen = true;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox3.Image.ToString())
-                    {
-                        obj.available = true;
-                    }
-                }
             }
             else
             {
                 pictureBox3.BackColor = Color.Transparent;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox3.Image.ToString())
-                    {
-                        obj.available = false;
-                    }
-                }
             }
         }
 
@@ -225,25 +210,10 @@ namespace mave_assistant
             if (pictureBox2.BackColor == Color.Transparent)
             {
                 pictureBox2.BackColor = ColorTranslator.FromHtml("#ecebf0");
-                ImageChosen = true;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox2.Image.ToString())
-                    {
-                        obj.available = true;
-                    }
-                }
             }            
             else 
             {
                 pictureBox2.BackColor = Color.Transparent;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox2.Image.ToString())
-                    {
-                        obj.available = false;
-                    }
-                }
             } 
 
         }
@@ -253,25 +223,10 @@ namespace mave_assistant
             if (pictureBox4.BackColor == Color.Transparent)
             {
                 pictureBox4.BackColor = ColorTranslator.FromHtml("#ecebf0");
-                ImageChosen = true;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox4.Image.ToString())
-                    {
-                        obj.available = true;
-                    }
-                }
             }
             else
             {
                 pictureBox4.BackColor = Color.Transparent;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox4.Image.ToString())
-                    {
-                        obj.available = false;
-                    }
-                }
             }
         }
 
@@ -280,26 +235,10 @@ namespace mave_assistant
             if (pictureBox1.BackColor == Color.Transparent)
             {
                 pictureBox1.BackColor = ColorTranslator.FromHtml("#ecebf0");
-                ImageChosen = true;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox1.ImageLocation)
-                    {
-                        obj.available = true;
-                        
-                    }
-                }
             }
             else
             {
                 pictureBox1.BackColor = Color.Transparent;
-                foreach (Outfit obj in outfits)
-                {
-                    if (obj.pic == pictureBox1.Image.ToString())
-                    {
-                        obj.available = false;
-                    }
-                }
             }
         }
 
@@ -339,8 +278,52 @@ namespace mave_assistant
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (ImageChosen == true)
+            if (pictureBox1.BackColor != Color.Transparent || pictureBox2.BackColor != Color.Transparent || pictureBox3.BackColor != Color.Transparent || pictureBox4.BackColor != Color.Transparent)
             {
+                if (pictureBox1.BackColor != Color.Transparent)
+                {
+                    foreach (Outfit obj in outfits)
+                    {
+                        if (obj.pic == pictureBox1.ImageLocation)
+                        {
+                            obj.available = true;
+                        }
+                    }
+                }
+
+                if (pictureBox2.BackColor != Color.Transparent)
+                {
+                    foreach (Outfit obj in outfits)
+                    {
+                        if (obj.pic == pictureBox2.ImageLocation)
+                        {
+                            obj.available = true;
+                        }
+                    }
+                }
+                
+                if (pictureBox3.BackColor != Color.Transparent)
+                {
+                    foreach (Outfit obj in outfits)
+                    {
+                        if (obj.pic == pictureBox3.ImageLocation)
+                        {
+                            obj.available = true;
+                        }
+                    }
+                }
+                
+                if (pictureBox4.BackColor != Color.Transparent)
+                {
+                    foreach (Outfit obj in outfits)
+                    {
+                        if (obj.pic == pictureBox4.ImageLocation)
+                        {
+                            obj.available = true;
+                        }
+                    }
+                }
+
                 MessageBox.Show("Successfully added to your Smart Closet!");
             }
             else
