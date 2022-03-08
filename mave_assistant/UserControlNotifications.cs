@@ -14,5 +14,10 @@ namespace mave_assistant
         {
             InitializeComponent();
         }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
     }
 }

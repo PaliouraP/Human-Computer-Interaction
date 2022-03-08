@@ -23,7 +23,7 @@ namespace mave_assistant
 
             InitializeComponent();
             dropDownMenu();
-            //test motification
+            //test notification
             UserControlNotifications ucnotif = new UserControlNotifications();
             ucnotif.title.Text = "Welcome Back!";
             ucnotif.details.Text = "test notification";
@@ -40,7 +40,47 @@ namespace mave_assistant
                 notification_container.Controls.Add(trash_notif);
             }
 
-            
+            //dish soap
+            if (Login.SetValueForDishSoap < 15)
+            {
+                UserControlNotifications ds_notif = new UserControlNotifications();
+                ds_notif.title.Text = "Out of Dish Soap!";
+                ds_notif.details.Text = "Please refill the dish soap on your dish washer.";
+
+                notification_container.Controls.Add(ds_notif);
+            }
+
+            //laundry detergent
+            if (Login.SetValueForLaundryDetergent < 15)
+            {
+                UserControlNotifications ld_notif = new UserControlNotifications();
+                ld_notif.title.Text = "Out of Laundry Detergent!";
+                ld_notif.details.Text = "Please refill the laundry detergent on your washing machine.";
+
+                notification_container.Controls.Add(ld_notif);
+            }
+
+            //dry food
+            if (Login.SetValueForFood < 15)
+            {
+                UserControlNotifications df_notif = new UserControlNotifications();
+                df_notif.title.Text = "Out of Dry Food!";
+                df_notif.details.Text = "Please refill the dry food container on your pet feeder.";
+
+                notification_container.Controls.Add(df_notif);
+            }
+
+            //laundry detergent
+            if (Login.SetValueForWater < 15)
+            {
+                UserControlNotifications w_notif = new UserControlNotifications();
+                w_notif.title.Text = "Out of Water!";
+                w_notif.details.Text = u.pet + "'s water bowl is empty.";
+
+                notification_container.Controls.Add(w_notif);
+            }
+
+
         }
 
         // Method to show today's events
@@ -359,6 +399,12 @@ namespace mave_assistant
         private void coffee_btn_Click(object sender, EventArgs e)
         {
             openChildForm(new coffee_making());
+        }
+
+        // Pet Feeder button
+        private void pet_feeder_btn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new pet_feeder());
         }
     }
 }

@@ -373,6 +373,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cat_curious {
+            get {
+                object obj = ResourceManager.GetObject("cat-curious", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cloudy_sunny {
             get {
                 object obj = ResourceManager.GetObject("cloudy_sunny", resourceCulture);
@@ -426,6 +436,66 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap disarm {
             get {
                 object obj = ResourceManager.GetObject("disarm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_halfload_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_halfload_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_intensive_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_intensive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_normal_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_normal_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_normal_white {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_normal_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_sensitive_black {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_sensitive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dishwasher_sensitive_white {
+            get {
+                object obj = ResourceManager.GetObject("dishwasher_sensitive_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -499,6 +569,12 @@ namespace mave_assistant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        internal static System.Drawing.Bitmap error_gray {
+            get {
+                object obj = ResourceManager.GetObject("error_gray", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -506,6 +582,12 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap espresso_coffee {
             get {
                 object obj = ResourceManager.GetObject("espresso_coffee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap formal1 {
+            get {
+                object obj = ResourceManager.GetObject("formal1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -676,6 +758,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap gym_uni {
             get {
                 object obj = ResourceManager.GetObject("gym_uni", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap happy {
+            get {
+                object obj = ResourceManager.GetObject("happy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -939,10 +1031,6 @@ namespace mave_assistant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap mic {
             get {
                 object obj = ResourceManager.GetObject("mic", resourceCulture);
@@ -953,9 +1041,31 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mic {
+             get {
+                object obj = ResourceManager.GetObject("minus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap minus {
+            get {
+                object obj = ResourceManager.GetObject("minus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap milk {
             get {
                 object obj = ResourceManager.GetObject("milk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap nightout1 {
+            get {
+                object obj = ResourceManager.GetObject("nightout1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -975,7 +1085,13 @@ namespace mave_assistant.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap minus {
             get {
-                object obj = ResourceManager.GetObject("minus", resourceCulture);
+                object obj = ResourceManager.GetObject("milk_espresso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap nightout2 {
+            get {
+                object obj = ResourceManager.GetObject("nightout2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1113,6 +1229,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pet_feeder_video {
+            get {
+                object obj = ResourceManager.GetObject("pet_feeder_video", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap plus {
             get {
                 object obj = ResourceManager.GetObject("plus", resourceCulture);
@@ -1159,6 +1285,12 @@ namespace mave_assistant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        internal static System.Drawing.Bitmap rapid_black {
+            get {
+                object obj = ResourceManager.GetObject("rapid_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -1166,6 +1298,12 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap purple1 {
             get {
                 object obj = ResourceManager.GetObject("purple1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap rapid_white {
+            get {
+                object obj = ResourceManager.GetObject("rapid_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1196,6 +1334,16 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap route_by_car {
             get {
                 object obj = ResourceManager.GetObject("route_by_car", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sad {
+            get {
+                object obj = ResourceManager.GetObject("sad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1389,6 +1537,12 @@ namespace mave_assistant.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        internal static System.Drawing.Bitmap washer_cotton_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -1396,6 +1550,82 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap water_drop {
             get {
                 object obj = ResourceManager.GetObject("water-drop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap washer_cotton_black1 {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_black1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_cotton_white1 {
+            get {
+                object obj = ResourceManager.GetObject("washer_cotton_white1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_intensive_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_intensive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_intensive_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_intensive_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_sensitive_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_sensitive_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_wool_black {
+            get {
+                object obj = ResourceManager.GetObject("washer_wool_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap washer_wool_white {
+            get {
+                object obj = ResourceManager.GetObject("washer_wool_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
