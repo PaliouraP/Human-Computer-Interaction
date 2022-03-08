@@ -233,7 +233,28 @@ namespace mave_assistant
             progressBarTasks.Text = "0%";
             conn = new SQLiteConnection(connectionString); //connecting database            
             username_label.Text = Login.SetValueUsername;
-
+            //weather pictures 
+            if (Login.SetValueForWeather == "Sunny")
+            {
+                foreach (Control x in (panel4.Controls))
+                {
+                    if (x is PictureBox && x.Tag!="Line")
+                    {
+                        ((PictureBox)x).Image = Properties.Resources.sunny_weather;
+                    }
+                }
+            }
+            else
+            {
+                foreach (Control x in panel4.Controls )
+                {
+                    if (x is PictureBox && x.Tag != "Line")
+                    {
+                        ((PictureBox)x).Image = Properties.Resources.heavy_rain;
+                    }
+                }
+            }                  
+                        
             String selectQuery = "Select * from users where username=@user";
 
             //SQL commands are called in a using(){} environment in order to avoid unintended locking of the database
@@ -405,6 +426,19 @@ namespace mave_assistant
         private void pet_feeder_btn_Click(object sender, EventArgs e)
         {
             openChildForm(new pet_feeder());
+        }
+        //Vacuum cleaner button
+        private void vacuum_btn_Click(object sender, EventArgs e)
+        {
+            openChildForm(new vacuumCleaner());
+            
+         
+        }
+
+        //Fridge button
+        private void button16_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Fridge());
         }
     }
 }

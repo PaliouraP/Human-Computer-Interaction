@@ -126,19 +126,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aboub\\.nuget\\packages\\": {}
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+      "projectUniqueName": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
       "projectName": "mave_assistant",
-      "projectPath": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
-      "packagesPath": "C:\\Users\\aboub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aboub\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
+      "projectPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
+      "packagesPath": "C:\\Users\\Evi Palioura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aboub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Evi Palioura\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -195,7 +195,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   },

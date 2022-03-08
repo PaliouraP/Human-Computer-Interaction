@@ -38,6 +38,12 @@
     <Compile Update="home_screen_events.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Fridge.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -51,6 +57,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PetFeeder_Water.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="myCloset.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="planner.cs">
@@ -86,8 +98,14 @@
     <Compile Update="UserControlEvents.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UserControlMyOutfit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UserControlNotifications.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="vacuumCleaner.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Update="Washer.cs">
       <SubType>Form</SubType>
