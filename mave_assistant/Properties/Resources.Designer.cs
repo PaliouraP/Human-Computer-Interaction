@@ -651,16 +651,6 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap formal1 {
-            get {
-                object obj = ResourceManager.GetObject("formal1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap formal11 {
             get {
                 object obj = ResourceManager.GetObject("formal11", resourceCulture);
@@ -1307,12 +1297,6 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mic {
-             get {
-                object obj = ResourceManager.GetObject("minus", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
         internal static System.Drawing.Bitmap minus {
             get {
                 object obj = ResourceManager.GetObject("minus", resourceCulture);
@@ -1381,12 +1365,6 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap minus {
-            get {
-                object obj = ResourceManager.GetObject("milk_espresso", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
         internal static System.Drawing.Bitmap nightout2 {
             get {
                 object obj = ResourceManager.GetObject("nightout2", resourceCulture);
@@ -1464,26 +1442,6 @@ namespace mave_assistant.Properties {
         internal static System.Drawing.Bitmap mynightout2 {
             get {
                 object obj = ResourceManager.GetObject("mynightout2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap nightout1 {
-            get {
-                object obj = ResourceManager.GetObject("nightout1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap nightout2 {
-            get {
-                object obj = ResourceManager.GetObject("nightout2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

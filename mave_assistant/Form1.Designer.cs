@@ -406,21 +406,6 @@ namespace mave_assistant
             this.panelSmartHome.Size = new System.Drawing.Size(240, 155);
             this.panelSmartHome.TabIndex = 65;
             // 
-            // button17
-            // 
-            this.button17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(0, 135);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(219, 45);
-            this.button17.TabIndex = 49;
-            this.button17.Text = "Boiler";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
             // button7
             // 
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
