@@ -549,9 +549,10 @@ namespace mave_assistant
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Washer";
-            this.Text = "Washer";
+            this.Text = "Washing Machine";
             this.Load += new System.EventHandler(this.Washer_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

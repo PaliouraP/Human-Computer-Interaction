@@ -631,7 +631,7 @@ namespace mave_assistant
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(268, 32);
             this.button1.TabIndex = 29;
-            this.button1.Text = "Scedule";
+            this.button1.Text = "Schedule";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -769,9 +769,9 @@ namespace mave_assistant
             this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(108, 17);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 21);
+            this.label5.Size = new System.Drawing.Size(147, 21);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Sceduled Cleaning";
+            this.label5.Text = "Scheduled Cleaning";
             // 
             // label6
             // 
@@ -995,9 +995,10 @@ namespace mave_assistant
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "vacuumCleaner";
-            this.Text = "vacuumCleaner";
+            this.Text = "Vacuum Cleaner";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

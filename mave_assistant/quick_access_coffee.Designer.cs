@@ -329,6 +329,7 @@ namespace mave_assistant
             this.ClientSize = new System.Drawing.Size(417, 604);
             this.Controls.Add(this.coffee_image);
             this.Controls.Add(this.panel4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "quick_access_coffee";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quick Access";

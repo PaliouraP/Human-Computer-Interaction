@@ -520,7 +520,7 @@ namespace mave_assistant
             // 
             // water_event
             // 
-            this.water_event.Interval = 60000;
+            this.water_event.Interval = 15000;
             this.water_event.Tick += new System.EventHandler(this.water_event_Tick);
             // 
             // next_feed_lbl
@@ -564,6 +564,7 @@ namespace mave_assistant
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.cancel_feed);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "pet_feeder";
             this.Text = "PetFeeder";

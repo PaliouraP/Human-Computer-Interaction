@@ -458,6 +458,7 @@ namespace mave_assistant
             this.Controls.Add(this.logo);
             this.Controls.Add(this.map);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "map_details";
             this.Text = "Route Details";
             this.Load += new System.EventHandler(this.map_details_Load);

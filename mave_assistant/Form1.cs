@@ -323,7 +323,7 @@ namespace mave_assistant
         // Help Scribble
         private void help_btn_Click(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this, "mave_help.chm");
         }
 
         private void about_btn_Click_1(object sender, EventArgs e)

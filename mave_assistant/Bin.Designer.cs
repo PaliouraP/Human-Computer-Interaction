@@ -29,6 +29,7 @@ namespace mave_assistant
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bin));
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -38,19 +39,21 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(398, 555);
+            this.label2.Location = new System.Drawing.Point(348, 416);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(327, 31);
+            this.label2.Size = new System.Drawing.Size(269, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "You need to take the trash out!";
             // 
             // Bin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(1121, 901);
+            this.ClientSize = new System.Drawing.Size(981, 676);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Bin";
             this.Text = "Bin";
             this.Load += new System.EventHandler(this.Bin_Load);

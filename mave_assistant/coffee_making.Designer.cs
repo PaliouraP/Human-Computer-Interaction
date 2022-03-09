@@ -1421,6 +1421,7 @@ namespace mave_assistant
             this.Controls.Add(this.smart_home_label);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "coffee_making";
             this.Text = "coffee_making";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

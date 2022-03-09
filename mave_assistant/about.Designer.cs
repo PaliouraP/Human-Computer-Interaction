@@ -155,9 +155,9 @@ namespace mave_assistant
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(12, 301);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 21);
+            this.label6.Size = new System.Drawing.Size(101, 21);
             this.label6.TabIndex = 25;
-            this.label6.Text = "4 - 3 - 2022";
+            this.label6.Text = "10 - 3 - 2022";
             // 
             // label7
             // 
@@ -233,6 +233,7 @@ namespace mave_assistant
             this.Controls.Add(this.logo);
             this.Controls.Add(this.about_mave_label);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "about";
             this.Text = "About Mave";
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();

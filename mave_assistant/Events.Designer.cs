@@ -160,6 +160,7 @@ namespace mave_assistant
             this.Controls.Add(this.date_lbl);
             this.Controls.Add(this.current_events_container);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Events";
             this.Text = "Events";

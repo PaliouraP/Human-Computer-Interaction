@@ -527,6 +527,7 @@ namespace mave_assistant
             // 
             // logout_btn
             // 
+            this.logout_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.logout_btn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logout_btn.FlatAppearance.BorderSize = 0;
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -609,7 +610,7 @@ namespace mave_assistant
             this.username_label.AutoSize = true;
             this.username_label.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.username_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.username_label.Location = new System.Drawing.Point(1059, 12);
+            this.username_label.Location = new System.Drawing.Point(1068, 12);
             this.username_label.Name = "username_label";
             this.username_label.Size = new System.Drawing.Size(73, 20);
             this.username_label.TabIndex = 6;
@@ -1231,6 +1232,7 @@ namespace mave_assistant
             this.Controls.Add(this.menu_panel);
             this.Controls.Add(this.panel_childform);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "home_screen_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mave";

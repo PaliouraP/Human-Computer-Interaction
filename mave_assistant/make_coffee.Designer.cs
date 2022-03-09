@@ -336,6 +336,7 @@ namespace mave_assistant
             this.Controls.Add(this.logo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "make_coffee";
             this.Text = "Schedule Coffee Making";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();

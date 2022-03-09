@@ -124,9 +124,9 @@ namespace mave_assistant
             this.username_label.AutoSize = true;
             this.username_label.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.username_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.username_label.Location = new System.Drawing.Point(1233, 16);
+            this.username_label.Location = new System.Drawing.Point(1079, 12);
             this.username_label.Name = "username_label";
-            this.username_label.Size = new System.Drawing.Size(92, 25);
+            this.username_label.Size = new System.Drawing.Size(72, 20);
             this.username_label.TabIndex = 12;
             this.username_label.Text = "aboublini";
             // 
@@ -134,9 +134,9 @@ namespace mave_assistant
             // 
             this.smart_home_label.AutoSize = true;
             this.smart_home_label.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.smart_home_label.Location = new System.Drawing.Point(3, 12);
+            this.smart_home_label.Location = new System.Drawing.Point(3, 9);
             this.smart_home_label.Name = "smart_home_label";
-            this.smart_home_label.Size = new System.Drawing.Size(244, 54);
+            this.smart_home_label.Size = new System.Drawing.Size(200, 45);
             this.smart_home_label.TabIndex = 14;
             this.smart_home_label.Text = "Smart Home";
             // 
@@ -158,9 +158,10 @@ namespace mave_assistant
             this.panel3.Controls.Add(this.alarm_label);
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Controls.Add(this.pictureBox11);
-            this.panel3.Location = new System.Drawing.Point(14, 75);
+            this.panel3.Location = new System.Drawing.Point(12, 56);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(335, 267);
+            this.panel3.Size = new System.Drawing.Size(293, 200);
             this.panel3.TabIndex = 49;
             // 
             // weather_title_label
@@ -168,9 +169,9 @@ namespace mave_assistant
             this.weather_title_label.AutoSize = true;
             this.weather_title_label.BackColor = System.Drawing.Color.Transparent;
             this.weather_title_label.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.weather_title_label.Location = new System.Drawing.Point(96, 8);
+            this.weather_title_label.Location = new System.Drawing.Point(84, 6);
             this.weather_title_label.Name = "weather_title_label";
-            this.weather_title_label.Size = new System.Drawing.Size(165, 30);
+            this.weather_title_label.Size = new System.Drawing.Size(129, 23);
             this.weather_title_label.TabIndex = 58;
             this.weather_title_label.Text = "Security System";
             // 
@@ -180,9 +181,9 @@ namespace mave_assistant
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label9.Location = new System.Drawing.Point(255, 235);
+            this.label9.Location = new System.Drawing.Point(223, 176);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 23);
+            this.label9.Size = new System.Drawing.Size(40, 17);
             this.label9.TabIndex = 57;
             this.label9.Text = "Open";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -193,9 +194,9 @@ namespace mave_assistant
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label10.Location = new System.Drawing.Point(255, 212);
+            this.label10.Location = new System.Drawing.Point(223, 159);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 23);
+            this.label10.Size = new System.Drawing.Size(40, 17);
             this.label10.TabIndex = 56;
             this.label10.Text = "Open";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -206,9 +207,9 @@ namespace mave_assistant
             this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label11.Location = new System.Drawing.Point(255, 189);
+            this.label11.Location = new System.Drawing.Point(223, 142);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 23);
+            this.label11.Size = new System.Drawing.Size(40, 17);
             this.label11.TabIndex = 55;
             this.label11.Text = "Open";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -217,10 +218,9 @@ namespace mave_assistant
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox10.Location = new System.Drawing.Point(3, 43);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox10.Location = new System.Drawing.Point(3, 32);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(328, 19);
+            this.pictureBox10.Size = new System.Drawing.Size(287, 14);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 46;
             this.pictureBox10.TabStop = false;
@@ -231,9 +231,9 @@ namespace mave_assistant
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label12.Location = new System.Drawing.Point(27, 235);
+            this.label12.Location = new System.Drawing.Point(24, 176);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(81, 23);
+            this.label12.Size = new System.Drawing.Size(63, 17);
             this.label12.TabIndex = 54;
             this.label12.Text = "Backdoor";
             // 
@@ -243,9 +243,9 @@ namespace mave_assistant
             this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label15.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label15.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label15.Location = new System.Drawing.Point(27, 212);
+            this.label15.Location = new System.Drawing.Point(24, 159);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(134, 23);
+            this.label15.Size = new System.Drawing.Size(101, 17);
             this.label15.TabIndex = 53;
             this.label15.Text = "Kitchen Window";
             // 
@@ -255,9 +255,9 @@ namespace mave_assistant
             this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label16.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label16.Location = new System.Drawing.Point(27, 189);
+            this.label16.Location = new System.Drawing.Point(24, 142);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(141, 23);
+            this.label16.Size = new System.Drawing.Size(107, 17);
             this.label16.TabIndex = 52;
             this.label16.Text = "Bedroom Shutter";
             // 
@@ -266,10 +266,9 @@ namespace mave_assistant
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::mave_assistant.Properties.Resources.disarm;
-            this.pictureBox6.Location = new System.Drawing.Point(255, 81);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox6.Location = new System.Drawing.Point(223, 61);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(46, 51);
+            this.pictureBox6.Size = new System.Drawing.Size(40, 38);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 50;
             this.pictureBox6.TabStop = false;
@@ -280,10 +279,9 @@ namespace mave_assistant
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::mave_assistant.Properties.Resources.arm_sleep;
-            this.pictureBox8.Location = new System.Drawing.Point(27, 81);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox8.Location = new System.Drawing.Point(24, 61);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(46, 51);
+            this.pictureBox8.Size = new System.Drawing.Size(40, 38);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 49;
             this.pictureBox8.TabStop = false;
@@ -295,9 +293,9 @@ namespace mave_assistant
             this.alarm_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.alarm_label.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.alarm_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(224)))), ((int)(((byte)(127)))));
-            this.alarm_label.Location = new System.Drawing.Point(117, 149);
+            this.alarm_label.Location = new System.Drawing.Point(102, 112);
             this.alarm_label.Name = "alarm_label";
-            this.alarm_label.Size = new System.Drawing.Size(102, 20);
+            this.alarm_label.Size = new System.Drawing.Size(81, 15);
             this.alarm_label.TabIndex = 48;
             this.alarm_label.Text = "Armed   Away";
             // 
@@ -307,10 +305,9 @@ namespace mave_assistant
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.ErrorImage = null;
             this.pictureBox9.Image = global::mave_assistant.Properties.Resources.arm_away;
-            this.pictureBox9.Location = new System.Drawing.Point(126, 57);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox9.Location = new System.Drawing.Point(110, 43);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(77, 88);
+            this.pictureBox9.Size = new System.Drawing.Size(67, 66);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 47;
             this.pictureBox9.TabStop = false;
@@ -320,10 +317,9 @@ namespace mave_assistant
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox11.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox11.Location = new System.Drawing.Point(3, 172);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox11.Location = new System.Drawing.Point(3, 129);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(321, 13);
+            this.pictureBox11.Size = new System.Drawing.Size(281, 10);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 51;
             this.pictureBox11.TabStop = false;
@@ -338,9 +334,10 @@ namespace mave_assistant
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(355, 75);
+            this.panel2.Location = new System.Drawing.Point(311, 56);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(752, 267);
+            this.panel2.Size = new System.Drawing.Size(658, 200);
             this.panel2.TabIndex = 51;
             // 
             // label7
@@ -349,9 +346,9 @@ namespace mave_assistant
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(481, 69);
+            this.label7.Location = new System.Drawing.Point(421, 52);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(179, 23);
+            this.label7.Size = new System.Drawing.Size(136, 17);
             this.label7.TabIndex = 53;
             this.label7.Text = "Humidity over the day";
             // 
@@ -361,9 +358,9 @@ namespace mave_assistant
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(96, 61);
+            this.label6.Location = new System.Drawing.Point(84, 46);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 23);
+            this.label6.Size = new System.Drawing.Size(155, 17);
             this.label6.TabIndex = 50;
             this.label6.Text = "Temperaure over the day";
             // 
@@ -371,10 +368,9 @@ namespace mave_assistant
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox7.Location = new System.Drawing.Point(22, 43);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox7.Location = new System.Drawing.Point(19, 32);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(706, 19);
+            this.pictureBox7.Size = new System.Drawing.Size(618, 14);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 49;
             this.pictureBox7.TabStop = false;
@@ -385,9 +381,9 @@ namespace mave_assistant
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(259, 8);
+            this.label13.Location = new System.Drawing.Point(227, 6);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(273, 30);
+            this.label13.Size = new System.Drawing.Size(214, 23);
             this.label13.TabIndex = 48;
             this.label13.Text = "Temperature and Humidity";
             // 
@@ -395,10 +391,9 @@ namespace mave_assistant
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::mave_assistant.Properties.Resources.temperature;
-            this.pictureBox4.Location = new System.Drawing.Point(34, 61);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(30, 46);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(310, 196);
+            this.pictureBox4.Size = new System.Drawing.Size(271, 147);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 51;
             this.pictureBox4.TabStop = false;
@@ -407,10 +402,9 @@ namespace mave_assistant
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::mave_assistant.Properties.Resources.humidity;
-            this.pictureBox5.Location = new System.Drawing.Point(398, 69);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(348, 52);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(311, 184);
+            this.pictureBox5.Size = new System.Drawing.Size(272, 138);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 52;
             this.pictureBox5.TabStop = false;
@@ -428,9 +422,10 @@ namespace mave_assistant
             this.panel1.Controls.Add(this.kitchen);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(355, 365);
+            this.panel1.Location = new System.Drawing.Point(311, 274);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(752, 525);
+            this.panel1.Size = new System.Drawing.Size(658, 394);
             this.panel1.TabIndex = 54;
             // 
             // pictureBox1
@@ -438,10 +433,9 @@ namespace mave_assistant
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::mave_assistant.Properties.Resources.live_circle;
-            this.pictureBox1.Location = new System.Drawing.Point(413, 25);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(361, 19);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 37);
+            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 64;
             this.pictureBox1.TabStop = false;
@@ -450,9 +444,10 @@ namespace mave_assistant
             // 
             this.bathroom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bathroom.Image = global::mave_assistant.Properties.Resources.bathroom;
-            this.bathroom.Location = new System.Drawing.Point(501, 307);
+            this.bathroom.Location = new System.Drawing.Point(438, 230);
+            this.bathroom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bathroom.Name = "bathroom";
-            this.bathroom.Size = new System.Drawing.Size(227, 180);
+            this.bathroom.Size = new System.Drawing.Size(199, 135);
             this.bathroom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bathroom.TabIndex = 63;
             this.bathroom.TabStop = false;
@@ -462,9 +457,10 @@ namespace mave_assistant
             // 
             this.office.Cursor = System.Windows.Forms.Cursors.Hand;
             this.office.Image = global::mave_assistant.Properties.Resources.office;
-            this.office.Location = new System.Drawing.Point(259, 307);
+            this.office.Location = new System.Drawing.Point(227, 230);
+            this.office.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.office.Name = "office";
-            this.office.Size = new System.Drawing.Size(227, 180);
+            this.office.Size = new System.Drawing.Size(199, 135);
             this.office.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.office.TabIndex = 62;
             this.office.TabStop = false;
@@ -474,9 +470,10 @@ namespace mave_assistant
             // 
             this.bedroom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bedroom.Image = global::mave_assistant.Properties.Resources.bedroom;
-            this.bedroom.Location = new System.Drawing.Point(22, 307);
+            this.bedroom.Location = new System.Drawing.Point(19, 230);
+            this.bedroom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bedroom.Name = "bedroom";
-            this.bedroom.Size = new System.Drawing.Size(227, 180);
+            this.bedroom.Size = new System.Drawing.Size(199, 135);
             this.bedroom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bedroom.TabIndex = 61;
             this.bedroom.TabStop = false;
@@ -486,9 +483,10 @@ namespace mave_assistant
             // 
             this.living_room.Cursor = System.Windows.Forms.Cursors.Hand;
             this.living_room.Image = global::mave_assistant.Properties.Resources.living_room;
-            this.living_room.Location = new System.Drawing.Point(501, 105);
+            this.living_room.Location = new System.Drawing.Point(438, 79);
+            this.living_room.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.living_room.Name = "living_room";
-            this.living_room.Size = new System.Drawing.Size(227, 180);
+            this.living_room.Size = new System.Drawing.Size(199, 135);
             this.living_room.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.living_room.TabIndex = 60;
             this.living_room.TabStop = false;
@@ -498,9 +496,10 @@ namespace mave_assistant
             // 
             this.dining_room.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dining_room.Image = global::mave_assistant.Properties.Resources.dining_room;
-            this.dining_room.Location = new System.Drawing.Point(259, 105);
+            this.dining_room.Location = new System.Drawing.Point(227, 79);
+            this.dining_room.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dining_room.Name = "dining_room";
-            this.dining_room.Size = new System.Drawing.Size(227, 180);
+            this.dining_room.Size = new System.Drawing.Size(199, 135);
             this.dining_room.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.dining_room.TabIndex = 59;
             this.dining_room.TabStop = false;
@@ -510,9 +509,10 @@ namespace mave_assistant
             // 
             this.kitchen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kitchen.Image = global::mave_assistant.Properties.Resources.kitchen;
-            this.kitchen.Location = new System.Drawing.Point(22, 105);
+            this.kitchen.Location = new System.Drawing.Point(19, 79);
+            this.kitchen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kitchen.Name = "kitchen";
-            this.kitchen.Size = new System.Drawing.Size(227, 180);
+            this.kitchen.Size = new System.Drawing.Size(199, 135);
             this.kitchen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.kitchen.TabIndex = 58;
             this.kitchen.TabStop = false;
@@ -523,9 +523,9 @@ namespace mave_assistant
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(341, 25);
+            this.label3.Location = new System.Drawing.Point(298, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 30);
+            this.label3.Size = new System.Drawing.Size(62, 23);
             this.label3.TabIndex = 48;
             this.label3.Text = "Rooms";
             // 
@@ -533,10 +533,9 @@ namespace mave_assistant
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox2.Location = new System.Drawing.Point(22, 60);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(19, 45);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(706, 23);
+            this.pictureBox2.Size = new System.Drawing.Size(618, 17);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 49;
             this.pictureBox2.TabStop = false;
@@ -565,19 +564,19 @@ namespace mave_assistant
             this.panel4.Controls.Add(this.pictureBox28);
             this.panel4.Controls.Add(this.pictureBox24);
             this.panel4.Controls.Add(this.pictureBox19);
-            this.panel4.Location = new System.Drawing.Point(14, 365);
+            this.panel4.Location = new System.Drawing.Point(12, 274);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(325, 521);
+            this.panel4.Size = new System.Drawing.Size(284, 391);
             this.panel4.TabIndex = 59;
             // 
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox22.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox22.Location = new System.Drawing.Point(15, 472);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox22.Location = new System.Drawing.Point(13, 354);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(299, 15);
+            this.pictureBox22.Size = new System.Drawing.Size(262, 11);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 80;
             this.pictureBox22.TabStop = false;
@@ -587,10 +586,9 @@ namespace mave_assistant
             this.pictureBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox29.Image = global::mave_assistant.Properties.Resources.toggle_on;
-            this.pictureBox29.Location = new System.Drawing.Point(267, 429);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox29.Location = new System.Drawing.Point(234, 322);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox29.Size = new System.Drawing.Size(30, 30);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 74;
             this.pictureBox29.TabStop = false;
@@ -600,10 +598,9 @@ namespace mave_assistant
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox20.Location = new System.Drawing.Point(15, 407);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox20.Location = new System.Drawing.Point(13, 305);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(299, 15);
+            this.pictureBox20.Size = new System.Drawing.Size(262, 11);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 79;
             this.pictureBox20.TabStop = false;
@@ -613,10 +610,9 @@ namespace mave_assistant
             this.pictureBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Image = global::mave_assistant.Properties.Resources.toggle_on;
-            this.pictureBox21.Location = new System.Drawing.Point(266, 359);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox21.Location = new System.Drawing.Point(233, 269);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox21.Size = new System.Drawing.Size(30, 30);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 78;
             this.pictureBox21.TabStop = false;
@@ -628,9 +624,9 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(17, 371);
+            this.label2.Location = new System.Drawing.Point(15, 278);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(161, 28);
+            this.label2.Size = new System.Drawing.Size(129, 21);
             this.label2.TabIndex = 77;
             this.label2.Text = "Humidity System";
             // 
@@ -638,10 +634,9 @@ namespace mave_assistant
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox18.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox18.Location = new System.Drawing.Point(15, 337);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox18.Location = new System.Drawing.Point(13, 253);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(299, 15);
+            this.pictureBox18.Size = new System.Drawing.Size(262, 11);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 76;
             this.pictureBox18.TabStop = false;
@@ -650,10 +645,9 @@ namespace mave_assistant
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox17.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox17.Location = new System.Drawing.Point(15, 271);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox17.Location = new System.Drawing.Point(13, 203);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(299, 15);
+            this.pictureBox17.Size = new System.Drawing.Size(262, 11);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 75;
             this.pictureBox17.TabStop = false;
@@ -662,10 +656,9 @@ namespace mave_assistant
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox15.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox15.Location = new System.Drawing.Point(15, 136);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox15.Location = new System.Drawing.Point(13, 102);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(299, 13);
+            this.pictureBox15.Size = new System.Drawing.Size(262, 10);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 75;
             this.pictureBox15.TabStop = false;
@@ -675,10 +668,9 @@ namespace mave_assistant
             this.pictureBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox27.Image = global::mave_assistant.Properties.Resources.toggle_on;
-            this.pictureBox27.Location = new System.Drawing.Point(266, 293);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox27.Location = new System.Drawing.Point(233, 220);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox27.Size = new System.Drawing.Size(30, 30);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 73;
             this.pictureBox27.TabStop = false;
@@ -690,9 +682,9 @@ namespace mave_assistant
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label22.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label22.Location = new System.Drawing.Point(19, 440);
+            this.label22.Location = new System.Drawing.Point(17, 330);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(62, 28);
+            this.label22.Size = new System.Drawing.Size(50, 21);
             this.label22.TabIndex = 68;
             this.label22.Text = "Boiler";
             // 
@@ -702,9 +694,9 @@ namespace mave_assistant
             this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label20.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label20.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label20.Location = new System.Drawing.Point(15, 305);
+            this.label20.Location = new System.Drawing.Point(13, 229);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(189, 28);
+            this.label20.Size = new System.Drawing.Size(152, 21);
             this.label20.TabIndex = 65;
             this.label20.Text = "Temperature System";
             // 
@@ -714,9 +706,9 @@ namespace mave_assistant
             this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label18.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label18.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label18.Location = new System.Drawing.Point(17, 235);
+            this.label18.Location = new System.Drawing.Point(15, 176);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(160, 28);
+            this.label18.Size = new System.Drawing.Size(128, 21);
             this.label18.TabIndex = 62;
             this.label18.Text = "Watering System";
             // 
@@ -725,10 +717,9 @@ namespace mave_assistant
             this.pictureBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox26.Image = global::mave_assistant.Properties.Resources.toggle_off;
-            this.pictureBox26.Location = new System.Drawing.Point(266, 223);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox26.Location = new System.Drawing.Point(233, 167);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox26.Size = new System.Drawing.Size(30, 30);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 72;
             this.pictureBox26.TabStop = false;
@@ -740,9 +731,9 @@ namespace mave_assistant
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label8.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label8.Location = new System.Drawing.Point(17, 165);
+            this.label8.Location = new System.Drawing.Point(15, 124);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(147, 28);
+            this.label8.Size = new System.Drawing.Size(116, 21);
             this.label8.TabIndex = 59;
             this.label8.Text = "Smart Doorbell";
             // 
@@ -752,9 +743,9 @@ namespace mave_assistant
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(17, 99);
+            this.label4.Location = new System.Drawing.Point(15, 74);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 28);
+            this.label4.Size = new System.Drawing.Size(52, 21);
             this.label4.TabIndex = 56;
             this.label4.Text = "Lights";
             // 
@@ -763,10 +754,9 @@ namespace mave_assistant
             this.pictureBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox25.Image = global::mave_assistant.Properties.Resources.toggle_off;
-            this.pictureBox25.Location = new System.Drawing.Point(267, 153);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox25.Location = new System.Drawing.Point(234, 115);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox25.Size = new System.Drawing.Size(30, 30);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 71;
             this.pictureBox25.TabStop = false;
@@ -777,9 +767,9 @@ namespace mave_assistant
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(126, 29);
+            this.label1.Location = new System.Drawing.Point(110, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 30);
+            this.label1.Size = new System.Drawing.Size(67, 23);
             this.label1.TabIndex = 48;
             this.label1.Text = "Devices";
             // 
@@ -787,10 +777,9 @@ namespace mave_assistant
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox28.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox28.Location = new System.Drawing.Point(15, 64);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox28.Location = new System.Drawing.Point(13, 48);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(286, 19);
+            this.pictureBox28.Size = new System.Drawing.Size(250, 14);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 49;
             this.pictureBox28.TabStop = false;
@@ -800,10 +789,9 @@ namespace mave_assistant
             this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox24.Image = global::mave_assistant.Properties.Resources.toggle_on;
-            this.pictureBox24.Location = new System.Drawing.Point(267, 87);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox24.Location = new System.Drawing.Point(234, 65);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(34, 40);
+            this.pictureBox24.Size = new System.Drawing.Size(30, 30);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 60;
             this.pictureBox24.TabStop = false;
@@ -813,27 +801,26 @@ namespace mave_assistant
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox19.Image = global::mave_assistant.Properties.Resources.line;
-            this.pictureBox19.Location = new System.Drawing.Point(15, 201);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox19.Location = new System.Drawing.Point(13, 151);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(299, 13);
+            this.pictureBox19.Size = new System.Drawing.Size(262, 10);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 58;
             this.pictureBox19.TabStop = false;
             // 
             // smart_home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(1121, 901);
+            this.ClientSize = new System.Drawing.Size(981, 676);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.smart_home_label);
             this.Controls.Add(this.username_label);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "smart_home";
             this.Text = "Smart Home";
             this.Load += new System.EventHandler(this.smart_home_Load);

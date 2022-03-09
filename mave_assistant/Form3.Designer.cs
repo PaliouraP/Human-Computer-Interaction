@@ -69,9 +69,9 @@ namespace mave_assistant
             // 
             this.map.BackColor = System.Drawing.Color.Transparent;
             this.map.Image = ((System.Drawing.Image)(resources.GetObject("map.Image")));
-            this.map.Location = new System.Drawing.Point(103, 280);
+            this.map.Location = new System.Drawing.Point(103, 274);
             this.map.Name = "map";
-            this.map.Size = new System.Drawing.Size(156, 115);
+            this.map.Size = new System.Drawing.Size(156, 121);
             this.map.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.map.TabIndex = 54;
             this.map.TabStop = false;
@@ -193,10 +193,11 @@ namespace mave_assistant
             this.ClientSize = new System.Drawing.Size(382, 408);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Scedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Schedule Info";
+            this.Text = "Schedule Information";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

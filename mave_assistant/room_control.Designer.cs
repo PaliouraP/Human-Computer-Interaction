@@ -384,6 +384,7 @@ namespace mave_assistant
             this.ClientSize = new System.Drawing.Size(417, 660);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.room_pic);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "room_control";
             this.Text = "Room Control";
             this.Load += new System.EventHandler(this.room_control_Load);

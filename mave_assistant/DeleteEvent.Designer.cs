@@ -165,9 +165,10 @@ namespace mave_assistant
             this.Controls.Add(this.del_btn);
             this.Controls.Add(this.current_events_container);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "DeleteEvent";
-            this.Text = "DeleteEvent";
+            this.Text = "Delete Event";
             this.Load += new System.EventHandler(this.DeleteEvent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -225,9 +225,10 @@ namespace mave_assistant
             this.Controls.Add(this.label1);
             this.Controls.Add(this.digital_planner_label);
             this.Controls.Add(this.day_container);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "planner";
-            this.Text = "planner";
+            this.Text = "Digital Planner";
             this.Load += new System.EventHandler(this.planner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.prev_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.next_btn)).EndInit();

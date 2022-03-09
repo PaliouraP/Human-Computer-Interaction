@@ -227,9 +227,10 @@ namespace mave_assistant
             this.Controls.Add(this.label1);
             this.Controls.Add(this.event_date);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "EventForm";
-            this.Text = "EventForm";
+            this.Text = "Add Event";
             this.Load += new System.EventHandler(this.EventForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

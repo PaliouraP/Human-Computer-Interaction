@@ -144,6 +144,8 @@ namespace mave_assistant
             Outfit myathletic1 = new Outfit(true, "Resources/myathletic1.png", "athletic");
             Outfit myathletic2 = new Outfit(true, "Resources/myathletic2.png", "athletic");
 
+            outfits.Clear();
+
             outfits.Add(casual1);
             outfits.Add(casual2);
             outfits.Add(casual3);

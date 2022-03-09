@@ -841,6 +841,7 @@ namespace mave_assistant
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.smart_home_label);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "alarm_system";
             this.Text = "alarm_system";
             this.Load += new System.EventHandler(this.alarm_system_Load);
