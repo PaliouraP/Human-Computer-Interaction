@@ -607,13 +607,15 @@ namespace mave_assistant
             // 
             // comboBox3
             // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "All rooms",
             "Kitchen ",
+            "Dining Room",
             "Living Room",
-            "Bedroom 1",
-            "Bedroom 2",
+            "Bedroom ",
+            "Office",
             "Bathroom"});
             this.comboBox3.Location = new System.Drawing.Point(188, 241);
             this.comboBox3.Name = "comboBox3";
@@ -647,6 +649,7 @@ namespace mave_assistant
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "00:00",
@@ -706,6 +709,7 @@ namespace mave_assistant
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Everyday",

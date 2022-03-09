@@ -241,3 +241,12 @@ C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_ass
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.make_coffee.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.quick_access_coffee.resources
 C:\Users\Evi Palioura\Source\Repos\PaliouraP\Human-Computer-Interaction\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.watering_system.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.coffee_making.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.home_screen_events.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.make_coffee.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.pet_feeder.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.PetFeeder_Feed.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.PetFeeder_Water.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.quick_access_coffee.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.UserControlMyOutfit.resources
+C:\Users\maria\Source\Repos\Human-Computer-Interaction2\mave_assistant\obj\Debug\netcoreapp3.1\mave_assistant.watering_system.resources

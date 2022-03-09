@@ -44,10 +44,10 @@ namespace mave_assistant
             label10.Text = "1 pc";
             pictureBox11.Image = Properties.Resources.icons8_no_meat_48;
             label19.Text = "Unavailable";
-            checkBox1.Text = "Stake";
+            grocery_list1.Text = "Stake";
             pictureBox14.Image = Properties.Resources.icons8_no_celery_48;
             label27.Text = "Unavailable";
-            checkBox2.Text = "Celery";
+            grocery_list2.Text = "Celery";
             label23.Text = "100 gr";
 
         }
@@ -76,7 +76,7 @@ namespace mave_assistant
 
         private void label35_Click(object sender, EventArgs e)
         {
-            checkBox3.Text = "Pasta";
+            grocery_list3.Text = "Pasta";
         }
 
         private void Fridge_Load(object sender, EventArgs e)

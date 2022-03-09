@@ -138,6 +138,7 @@ namespace mave_assistant
             // 
             this.open_door.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.open_door.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.open_door.Image = global::mave_assistant.Properties.Resources.door;
             this.open_door.Location = new System.Drawing.Point(718, 655);
             this.open_door.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.open_door.Name = "open_door";
@@ -151,6 +152,7 @@ namespace mave_assistant
             // 
             this.record.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.record.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.record.Image = global::mave_assistant.Properties.Resources.record_stop;
             this.record.Location = new System.Drawing.Point(718, 767);
             this.record.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.record.Name = "record";
@@ -164,6 +166,7 @@ namespace mave_assistant
             // 
             this.open_mic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.open_mic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.open_mic.Image = global::mave_assistant.Properties.Resources.mic;
             this.open_mic.Location = new System.Drawing.Point(718, 707);
             this.open_mic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.open_mic.Name = "open_mic";
@@ -324,6 +327,7 @@ namespace mave_assistant
             // comboBox1
             // 
             this.comboBox1.DisplayMember = "Home";
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox1.ForeColor = System.Drawing.Color.DimGray;
             this.comboBox1.FormattingEnabled = true;
@@ -357,7 +361,6 @@ namespace mave_assistant
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(252, 28);
             this.comboBox1.TabIndex = 94;
-            this.comboBox1.Text = "06:00";
             this.comboBox1.ValueMember = "Home";
             // 
             // label7
@@ -385,6 +388,7 @@ namespace mave_assistant
             // time
             // 
             this.time.DisplayMember = "Home";
+            this.time.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.time.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.time.ForeColor = System.Drawing.Color.DimGray;
             this.time.FormattingEnabled = true;
@@ -418,7 +422,6 @@ namespace mave_assistant
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(252, 28);
             this.time.TabIndex = 91;
-            this.time.Text = "00:00";
             this.time.ValueMember = "Home";
             // 
             // label6
@@ -518,6 +521,7 @@ namespace mave_assistant
             // comboBox2
             // 
             this.comboBox2.DisplayMember = "Home";
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox2.ForeColor = System.Drawing.Color.DimGray;
             this.comboBox2.FormattingEnabled = true;
@@ -533,7 +537,6 @@ namespace mave_assistant
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(70, 28);
             this.comboBox2.TabIndex = 97;
-            this.comboBox2.Text = "720p60";
             this.comboBox2.ValueMember = "Home";
             // 
             // pictureBox14
@@ -688,6 +691,7 @@ namespace mave_assistant
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox16.Image = global::mave_assistant.Properties.Resources.toggle_off;
             this.pictureBox16.Location = new System.Drawing.Point(234, 256);
             this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox16.Name = "pictureBox16";
@@ -701,6 +705,7 @@ namespace mave_assistant
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox15.Image = global::mave_assistant.Properties.Resources.toggle_on;
             this.pictureBox15.Location = new System.Drawing.Point(234, 160);
             this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox15.Name = "pictureBox15";
@@ -714,6 +719,7 @@ namespace mave_assistant
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox24.Image = global::mave_assistant.Properties.Resources.toggle_on;
             this.pictureBox24.Location = new System.Drawing.Point(234, 64);
             this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox24.Name = "pictureBox24";
@@ -727,6 +733,7 @@ namespace mave_assistant
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox17.Image = global::mave_assistant.Properties.Resources.toggle_off;
             this.pictureBox17.Location = new System.Drawing.Point(234, 208);
             this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox17.Name = "pictureBox17";

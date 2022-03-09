@@ -106,6 +106,10 @@ namespace mave_assistant
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.grocery_list2 = new System.Windows.Forms.TextBox();
+            this.grocery_list1 = new System.Windows.Forms.TextBox();
+            this.grocery_list3 = new System.Windows.Forms.TextBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label35 = new System.Windows.Forms.Label();
@@ -209,6 +213,7 @@ namespace mave_assistant
             // 
             // comboBox2
             // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "00:00",
@@ -268,6 +273,7 @@ namespace mave_assistant
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Everyday",
@@ -1120,6 +1126,10 @@ namespace mave_assistant
             // 
             this.panel17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel17.BackgroundImage")));
             this.panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel17.Controls.Add(this.textBox2);
+            this.panel17.Controls.Add(this.grocery_list2);
+            this.panel17.Controls.Add(this.grocery_list1);
+            this.panel17.Controls.Add(this.grocery_list3);
             this.panel17.Controls.Add(this.pictureBox19);
             this.panel17.Controls.Add(this.checkBox4);
             this.panel17.Controls.Add(this.label35);
@@ -1134,6 +1144,58 @@ namespace mave_assistant
             this.panel17.Size = new System.Drawing.Size(445, 438);
             this.panel17.TabIndex = 44;
             this.panel17.Paint += new System.Windows.Forms.PaintEventHandler(this.panel17_Paint);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Freestyle Script", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBox2.Location = new System.Drawing.Point(57, 219);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.PlaceholderText = "Write here";
+            this.textBox2.Size = new System.Drawing.Size(199, 32);
+            this.textBox2.TabIndex = 66;
+            // 
+            // grocery_list2
+            // 
+            this.grocery_list2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.grocery_list2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grocery_list2.Font = new System.Drawing.Font("Freestyle Script", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.grocery_list2.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.grocery_list2.Location = new System.Drawing.Point(64, 153);
+            this.grocery_list2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grocery_list2.Name = "grocery_list2";
+            this.grocery_list2.PlaceholderText = "Eggs";
+            this.grocery_list2.Size = new System.Drawing.Size(199, 32);
+            this.grocery_list2.TabIndex = 65;
+            // 
+            // grocery_list1
+            // 
+            this.grocery_list1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.grocery_list1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grocery_list1.Font = new System.Drawing.Font("Freestyle Script", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.grocery_list1.ForeColor = System.Drawing.Color.Black;
+            this.grocery_list1.Location = new System.Drawing.Point(64, 117);
+            this.grocery_list1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grocery_list1.Name = "grocery_list1";
+            this.grocery_list1.PlaceholderText = "Mustard";
+            this.grocery_list1.Size = new System.Drawing.Size(199, 32);
+            this.grocery_list1.TabIndex = 64;
+            // 
+            // grocery_list3
+            // 
+            this.grocery_list3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.grocery_list3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.grocery_list3.Font = new System.Drawing.Font("Freestyle Script", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.grocery_list3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.grocery_list3.Location = new System.Drawing.Point(58, 185);
+            this.grocery_list3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.grocery_list3.Name = "grocery_list3";
+            this.grocery_list3.PlaceholderText = "Write here";
+            this.grocery_list3.Size = new System.Drawing.Size(199, 32);
+            this.grocery_list3.TabIndex = 62;
             // 
             // pictureBox19
             // 
@@ -1202,11 +1264,10 @@ namespace mave_assistant
             this.checkBox2.AutoSize = true;
             this.checkBox2.BackColor = System.Drawing.Color.Transparent;
             this.checkBox2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox2.Location = new System.Drawing.Point(34, 155);
+            this.checkBox2.Location = new System.Drawing.Point(34, 160);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(76, 32);
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 28;
-            this.checkBox2.Text = "Eggs";
             this.checkBox2.UseVisualStyleBackColor = false;
             // 
             // checkBox1
@@ -1216,9 +1277,8 @@ namespace mave_assistant
             this.checkBox1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkBox1.Location = new System.Drawing.Point(34, 117);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(107, 32);
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 27;
-            this.checkBox1.Text = "Mustard";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // pictureBox18
@@ -1405,5 +1465,9 @@ namespace mave_assistant
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox grocery_list2;
+        private System.Windows.Forms.TextBox grocery_list1;
+        private System.Windows.Forms.TextBox grocery_list3;
     }
 }

@@ -73,7 +73,7 @@ namespace mave_assistant
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(821, 477);
+            this.label3.Location = new System.Drawing.Point(809, 467);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 23);
             this.label3.TabIndex = 15;
@@ -85,7 +85,7 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(821, 411);
+            this.label2.Location = new System.Drawing.Point(809, 399);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 23);
             this.label2.TabIndex = 9;
@@ -117,11 +117,11 @@ namespace mave_assistant
             // 
             this.passwordTextBox.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.passwordTextBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.passwordTextBox.Location = new System.Drawing.Point(809, 489);
+            this.passwordTextBox.Location = new System.Drawing.Point(809, 493);
             this.passwordTextBox.Multiline = true;
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '•';
-            this.passwordTextBox.Size = new System.Drawing.Size(420, 41);
+            this.passwordTextBox.Size = new System.Drawing.Size(421, 41);
             this.passwordTextBox.TabIndex = 3;
             // 
             // pictureBox1
@@ -141,7 +141,7 @@ namespace mave_assistant
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(809, 547);
+            this.label4.Location = new System.Drawing.Point(809, 537);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(87, 23);
             this.label4.TabIndex = 19;
@@ -153,7 +153,7 @@ namespace mave_assistant
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(821, 343);
+            this.label5.Location = new System.Drawing.Point(809, 329);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 23);
             this.label5.TabIndex = 16;
@@ -178,7 +178,7 @@ namespace mave_assistant
             this.signup_btn.Image = ((System.Drawing.Image)(resources.GetObject("signup_btn.Image")));
             this.signup_btn.Location = new System.Drawing.Point(809, 700);
             this.signup_btn.Name = "signup_btn";
-            this.signup_btn.Size = new System.Drawing.Size(421, 45);
+            this.signup_btn.Size = new System.Drawing.Size(420, 45);
             this.signup_btn.TabIndex = 6;
             this.signup_btn.Text = "Sign Up";
             this.signup_btn.UseVisualStyleBackColor = true;
@@ -189,7 +189,7 @@ namespace mave_assistant
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.White;
             this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dateTimePicker1.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Location = new System.Drawing.Point(809, 573);
+            this.dateTimePicker1.Location = new System.Drawing.Point(809, 563);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(420, 27);
             this.dateTimePicker1.TabIndex = 4;
@@ -277,7 +277,7 @@ namespace mave_assistant
             this.label7.BackColor = System.Drawing.Color.White;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.DarkGray;
-            this.label7.Location = new System.Drawing.Point(821, 621);
+            this.label7.Location = new System.Drawing.Point(809, 593);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(95, 23);
             this.label7.TabIndex = 31;
@@ -287,7 +287,7 @@ namespace mave_assistant
             // 
             this.petTextBox.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.petTextBox.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.petTextBox.Location = new System.Drawing.Point(809, 636);
+            this.petTextBox.Location = new System.Drawing.Point(809, 619);
             this.petTextBox.Multiline = true;
             this.petTextBox.Name = "petTextBox";
             this.petTextBox.Size = new System.Drawing.Size(420, 41);
