@@ -26,9 +26,19 @@ namespace mave_assistant
             //test notification
             UserControlNotifications ucnotif = new UserControlNotifications();
             ucnotif.title.Text = "Welcome Back!";
-            ucnotif.details.Text = "test notification";
+            ucnotif.details.Text = "Mave is happy to see you.";
 
             notification_container.Controls.Add(ucnotif);
+
+            //alarm system notification 
+            if (Login.SetValueForPercentage < 50)
+            {
+                UserControlNotifications alarm_notif = new UserControlNotifications();
+                alarm_notif.title.Text = "Low Battery!";
+                alarm_notif.details.Text = "Alarm system battery is low.";
+
+                notification_container.Controls.Add(alarm_notif);
+            }
 
             //trash notification 
             if (Login.SetValueForPercentage > 75)
