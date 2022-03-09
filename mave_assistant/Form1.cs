@@ -80,7 +80,7 @@ namespace mave_assistant
                 notification_container.Controls.Add(df_notif);
             }
 
-            //laundry detergent
+            //pet feeder water
             if (Login.SetValueForWater < 15)
             {
                 UserControlNotifications w_notif = new UserControlNotifications();
