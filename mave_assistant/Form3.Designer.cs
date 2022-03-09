@@ -59,19 +59,19 @@ namespace mave_assistant
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.state);
             this.panel1.Controls.Add(this.label18);
-            this.panel1.Location = new System.Drawing.Point(1, 4);
+            this.panel1.Location = new System.Drawing.Point(1, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(431, 539);
+            this.panel1.Size = new System.Drawing.Size(377, 404);
             this.panel1.TabIndex = 0;
             // 
             // map
             // 
             this.map.BackColor = System.Drawing.Color.Transparent;
             this.map.Image = ((System.Drawing.Image)(resources.GetObject("map.Image")));
-            this.map.Location = new System.Drawing.Point(118, 374);
-            this.map.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.map.Location = new System.Drawing.Point(103, 280);
             this.map.Name = "map";
-            this.map.Size = new System.Drawing.Size(178, 153);
+            this.map.Size = new System.Drawing.Size(156, 115);
             this.map.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.map.TabIndex = 54;
             this.map.TabStop = false;
@@ -82,9 +82,9 @@ namespace mave_assistant
             this.mode.BackColor = System.Drawing.Color.Transparent;
             this.mode.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.mode.ForeColor = System.Drawing.Color.White;
-            this.mode.Location = new System.Drawing.Point(242, 314);
+            this.mode.Location = new System.Drawing.Point(212, 236);
             this.mode.Name = "mode";
-            this.mode.Size = new System.Drawing.Size(54, 28);
+            this.mode.Size = new System.Drawing.Size(44, 21);
             this.mode.TabIndex = 53;
             this.mode.Text = "Time";
             // 
@@ -94,9 +94,9 @@ namespace mave_assistant
             this.rooms.BackColor = System.Drawing.Color.Transparent;
             this.rooms.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rooms.ForeColor = System.Drawing.Color.White;
-            this.rooms.Location = new System.Drawing.Point(242, 257);
+            this.rooms.Location = new System.Drawing.Point(212, 193);
             this.rooms.Name = "rooms";
-            this.rooms.Size = new System.Drawing.Size(54, 28);
+            this.rooms.Size = new System.Drawing.Size(44, 21);
             this.rooms.TabIndex = 52;
             this.rooms.Text = "Time";
             // 
@@ -106,9 +106,9 @@ namespace mave_assistant
             this.days.BackColor = System.Drawing.Color.Transparent;
             this.days.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.days.ForeColor = System.Drawing.Color.White;
-            this.days.Location = new System.Drawing.Point(242, 185);
+            this.days.Location = new System.Drawing.Point(212, 139);
             this.days.Name = "days";
-            this.days.Size = new System.Drawing.Size(54, 28);
+            this.days.Size = new System.Drawing.Size(44, 21);
             this.days.TabIndex = 51;
             this.days.Text = "Time";
             // 
@@ -118,9 +118,9 @@ namespace mave_assistant
             this.time.BackColor = System.Drawing.Color.Transparent;
             this.time.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.time.ForeColor = System.Drawing.Color.White;
-            this.time.Location = new System.Drawing.Point(242, 121);
+            this.time.Location = new System.Drawing.Point(212, 91);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(54, 28);
+            this.time.Size = new System.Drawing.Size(44, 21);
             this.time.TabIndex = 50;
             this.time.Text = "Time";
             // 
@@ -130,9 +130,9 @@ namespace mave_assistant
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(21, 314);
+            this.label3.Location = new System.Drawing.Point(18, 236);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 28);
+            this.label3.Size = new System.Drawing.Size(50, 21);
             this.label3.TabIndex = 49;
             this.label3.Text = "Mode";
             // 
@@ -142,9 +142,9 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(21, 257);
+            this.label2.Location = new System.Drawing.Point(18, 193);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 28);
+            this.label2.Size = new System.Drawing.Size(69, 21);
             this.label2.TabIndex = 48;
             this.label2.Text = "Room(s)";
             // 
@@ -154,9 +154,9 @@ namespace mave_assistant
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(21, 185);
+            this.label1.Location = new System.Drawing.Point(18, 139);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 28);
+            this.label1.Size = new System.Drawing.Size(54, 21);
             this.label1.TabIndex = 47;
             this.label1.Text = "Day(s)";
             // 
@@ -166,9 +166,9 @@ namespace mave_assistant
             this.state.BackColor = System.Drawing.Color.Transparent;
             this.state.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.state.ForeColor = System.Drawing.Color.White;
-            this.state.Location = new System.Drawing.Point(21, 121);
+            this.state.Location = new System.Drawing.Point(18, 91);
             this.state.Name = "state";
-            this.state.Size = new System.Drawing.Size(54, 28);
+            this.state.Size = new System.Drawing.Size(44, 21);
             this.state.TabIndex = 46;
             this.state.Text = "Time";
             // 
@@ -178,24 +178,25 @@ namespace mave_assistant
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(101, 25);
+            this.label18.Location = new System.Drawing.Point(88, 19);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(233, 31);
+            this.label18.Size = new System.Drawing.Size(205, 25);
             this.label18.TabIndex = 45;
-            this.label18.Text = "Scedule Information";
+            this.label18.Text = "Schedule Information";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Scedule
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(436, 544);
+            this.ClientSize = new System.Drawing.Size(382, 408);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Scedule";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Scedule Info";
+            this.Text = "Schedule Info";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

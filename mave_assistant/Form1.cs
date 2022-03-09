@@ -310,6 +310,7 @@ namespace mave_assistant
             openChildForm(new account(u.username, u.password, u.name, u.dob, u.picture, u.pet));
         }
 
+        // Help Scribble
         private void help_btn_Click(object sender, EventArgs e)
         {
 

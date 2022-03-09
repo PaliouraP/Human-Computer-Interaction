@@ -33,6 +33,7 @@ namespace mave_assistant
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Washer));
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -41,6 +42,10 @@ namespace mave_assistant
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.wool_btn = new System.Windows.Forms.Button();
             this.duration_lbl = new System.Windows.Forms.Label();
@@ -61,19 +66,24 @@ namespace mave_assistant
             this.cancel_wash = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(3, 12);
+            this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(338, 54);
+            this.label1.Size = new System.Drawing.Size(272, 45);
             this.label1.TabIndex = 2;
             this.label1.Text = "Washing Machine";
             // 
@@ -81,21 +91,33 @@ namespace mave_assistant
             // 
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.pictureBox7);
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Location = new System.Drawing.Point(652, 527);
+            this.panel3.Location = new System.Drawing.Point(570, 395);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(413, 349);
+            this.panel3.Size = new System.Drawing.Size(361, 262);
             this.panel3.TabIndex = 55;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
+            this.pictureBox7.Location = new System.Drawing.Point(23, 33);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(329, 18);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 39;
+            this.pictureBox7.TabStop = false;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Nirmala UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(99, 9);
+            this.label13.Location = new System.Drawing.Point(91, 6);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(215, 30);
+            this.label13.Size = new System.Drawing.Size(170, 23);
             this.label13.TabIndex = 48;
             this.label13.Text = "Energy Consumption";
             // 
@@ -104,10 +126,9 @@ namespace mave_assistant
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(34, 61);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox4.Location = new System.Drawing.Point(30, 46);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(348, 256);
+            this.pictureBox4.Size = new System.Drawing.Size(304, 192);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 51;
             this.pictureBox4.TabStop = false;
@@ -120,9 +141,10 @@ namespace mave_assistant
             this.panel2.Controls.Add(this.progressBar);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(652, 130);
+            this.panel2.Location = new System.Drawing.Point(570, 98);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(413, 381);
+            this.panel2.Size = new System.Drawing.Size(361, 286);
             this.panel2.TabIndex = 54;
             // 
             // BinMessage
@@ -131,9 +153,9 @@ namespace mave_assistant
             this.BinMessage.BackColor = System.Drawing.Color.Transparent;
             this.BinMessage.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.BinMessage.ForeColor = System.Drawing.Color.DarkGray;
-            this.BinMessage.Location = new System.Drawing.Point(34, 327);
+            this.BinMessage.Location = new System.Drawing.Point(42, 245);
             this.BinMessage.Name = "BinMessage";
-            this.BinMessage.Size = new System.Drawing.Size(348, 28);
+            this.BinMessage.Size = new System.Drawing.Size(277, 21);
             this.BinMessage.TabIndex = 38;
             this.BinMessage.Text = "You should consider adding dish soap!";
             this.BinMessage.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -148,7 +170,8 @@ namespace mave_assistant
             this.progressBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.progressBar.InnerMargin = 2;
             this.progressBar.InnerWidth = -1;
-            this.progressBar.Location = new System.Drawing.Point(91, 61);
+            this.progressBar.Location = new System.Drawing.Point(80, 46);
+            this.progressBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.progressBar.MarqueeAnimationSpeed = 2000;
             this.progressBar.Name = "progressBar";
             this.progressBar.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -157,7 +180,7 @@ namespace mave_assistant
             this.progressBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.progressBar.ProgressWidth = 20;
             this.progressBar.SecondaryFont = new System.Drawing.Font("Nirmala UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.progressBar.Size = new System.Drawing.Size(230, 261);
+            this.progressBar.Size = new System.Drawing.Size(201, 196);
             this.progressBar.StartAngle = 270;
             this.progressBar.SubscriptColor = System.Drawing.Color.DimGray;
             this.progressBar.SubscriptMargin = new System.Windows.Forms.Padding(-80, -5, 0, 1);
@@ -176,9 +199,9 @@ namespace mave_assistant
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(118, 14);
+            this.label2.Location = new System.Drawing.Point(103, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 28);
+            this.label2.Size = new System.Drawing.Size(141, 21);
             this.label2.TabIndex = 20;
             this.label2.Text = "Laundry Detergent";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -186,10 +209,9 @@ namespace mave_assistant
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
-            this.pictureBox5.Location = new System.Drawing.Point(26, 31);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox5.Location = new System.Drawing.Point(23, 23);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(376, 24);
+            this.pictureBox5.Size = new System.Drawing.Size(329, 18);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
@@ -198,6 +220,10 @@ namespace mave_assistant
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.wool_btn);
             this.panel1.Controls.Add(this.duration_lbl);
@@ -215,30 +241,74 @@ namespace mave_assistant
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.time_lbl);
             this.panel1.Controls.Add(this.pr_lbl);
-            this.panel1.Location = new System.Drawing.Point(56, 130);
+            this.panel1.Location = new System.Drawing.Point(49, 98);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(547, 746);
+            this.panel1.Size = new System.Drawing.Size(479, 560);
             this.panel1.TabIndex = 53;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Location = new System.Drawing.Point(18, 442);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(445, 11);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 42;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Location = new System.Drawing.Point(18, 408);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(445, 11);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 41;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Location = new System.Drawing.Point(18, 374);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(445, 11);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 40;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 333);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(445, 18);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 39;
+            this.pictureBox1.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(222, 554);
+            this.label5.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(204, 422);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 20);
+            this.label5.Size = new System.Drawing.Size(29, 17);
             this.label5.TabIndex = 18;
             this.label5.Text = "min";
             // 
             // wool_btn
             // 
             this.wool_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.wool_btn.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.wool_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.wool_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.wool_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.wool_btn.Image = ((System.Drawing.Image)(resources.GetObject("wool_btn.Image")));
-            this.wool_btn.Location = new System.Drawing.Point(380, 363);
+            this.wool_btn.Location = new System.Drawing.Point(313, 245);
+            this.wool_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.wool_btn.Name = "wool_btn";
-            this.wool_btn.Size = new System.Drawing.Size(97, 87);
+            this.wool_btn.Size = new System.Drawing.Size(85, 82);
             this.wool_btn.TabIndex = 17;
             this.wool_btn.Text = "Wools";
             this.wool_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -249,10 +319,10 @@ namespace mave_assistant
             // 
             this.duration_lbl.AutoSize = true;
             this.duration_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.duration_lbl.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.duration_lbl.Location = new System.Drawing.Point(186, 554);
+            this.duration_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.duration_lbl.Location = new System.Drawing.Point(183, 422);
             this.duration_lbl.Name = "duration_lbl";
-            this.duration_lbl.Size = new System.Drawing.Size(17, 20);
+            this.duration_lbl.Size = new System.Drawing.Size(15, 17);
             this.duration_lbl.TabIndex = 16;
             this.duration_lbl.Text = "0";
             // 
@@ -260,10 +330,10 @@ namespace mave_assistant
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(73, 554);
+            this.label6.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(74, 422);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 20);
+            this.label6.Size = new System.Drawing.Size(67, 17);
             this.label6.TabIndex = 15;
             this.label6.Text = "Duration:";
             // 
@@ -271,10 +341,10 @@ namespace mave_assistant
             // 
             this.spins_lbl.AutoSize = true;
             this.spins_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.spins_lbl.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.spins_lbl.Location = new System.Drawing.Point(186, 521);
+            this.spins_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.spins_lbl.Location = new System.Drawing.Point(181, 388);
             this.spins_lbl.Name = "spins_lbl";
-            this.spins_lbl.Size = new System.Drawing.Size(17, 20);
+            this.spins_lbl.Size = new System.Drawing.Size(15, 17);
             this.spins_lbl.TabIndex = 14;
             this.spins_lbl.Text = "0";
             // 
@@ -282,10 +352,10 @@ namespace mave_assistant
             // 
             this.temperature_lbl.AutoSize = true;
             this.temperature_lbl.BackColor = System.Drawing.Color.Transparent;
-            this.temperature_lbl.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.temperature_lbl.Location = new System.Drawing.Point(186, 489);
+            this.temperature_lbl.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.temperature_lbl.Location = new System.Drawing.Point(181, 354);
             this.temperature_lbl.Name = "temperature_lbl";
-            this.temperature_lbl.Size = new System.Drawing.Size(17, 20);
+            this.temperature_lbl.Size = new System.Drawing.Size(15, 17);
             this.temperature_lbl.TabIndex = 13;
             this.temperature_lbl.Text = "0";
             // 
@@ -293,10 +363,10 @@ namespace mave_assistant
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(73, 521);
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(74, 388);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.Size = new System.Drawing.Size(45, 17);
             this.label4.TabIndex = 12;
             this.label4.Text = "Spins:";
             // 
@@ -304,10 +374,10 @@ namespace mave_assistant
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(73, 489);
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(74, 354);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 20);
+            this.label3.Size = new System.Drawing.Size(94, 17);
             this.label3.TabIndex = 11;
             this.label3.Text = "Temperature: ";
             // 
@@ -317,22 +387,25 @@ namespace mave_assistant
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(186, 624);
+            this.button1.Location = new System.Drawing.Point(181, 482);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(175, 53);
+            this.button1.Size = new System.Drawing.Size(116, 40);
             this.button1.TabIndex = 4;
-            this.button1.Text = "WASH";
+            this.button1.Text = "Wash";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // eco_btn
             // 
+            this.eco_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.eco_btn.Font = new System.Drawing.Font("Nirmala UI", 12.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.eco_btn.Location = new System.Drawing.Point(73, 234);
+            this.eco_btn.Location = new System.Drawing.Point(74, 142);
+            this.eco_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.eco_btn.Name = "eco_btn";
-            this.eco_btn.Size = new System.Drawing.Size(97, 87);
+            this.eco_btn.Size = new System.Drawing.Size(85, 82);
             this.eco_btn.TabIndex = 10;
             this.eco_btn.Text = "ECO";
             this.eco_btn.UseVisualStyleBackColor = true;
@@ -340,12 +413,15 @@ namespace mave_assistant
             // 
             // delicate_btn
             // 
-            this.delicate_btn.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.delicate_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.delicate_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.delicate_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.delicate_btn.Image = ((System.Drawing.Image)(resources.GetObject("delicate_btn.Image")));
             this.delicate_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.delicate_btn.Location = new System.Drawing.Point(225, 234);
+            this.delicate_btn.Location = new System.Drawing.Point(194, 142);
+            this.delicate_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.delicate_btn.Name = "delicate_btn";
-            this.delicate_btn.Size = new System.Drawing.Size(97, 87);
+            this.delicate_btn.Size = new System.Drawing.Size(85, 82);
             this.delicate_btn.TabIndex = 9;
             this.delicate_btn.Text = "Delicate";
             this.delicate_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -354,11 +430,14 @@ namespace mave_assistant
             // 
             // cotton_lbl
             // 
-            this.cotton_lbl.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cotton_lbl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cotton_lbl.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.cotton_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.cotton_lbl.Image = ((System.Drawing.Image)(resources.GetObject("cotton_lbl.Image")));
-            this.cotton_lbl.Location = new System.Drawing.Point(227, 363);
+            this.cotton_lbl.Location = new System.Drawing.Point(194, 245);
+            this.cotton_lbl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cotton_lbl.Name = "cotton_lbl";
-            this.cotton_lbl.Size = new System.Drawing.Size(97, 87);
+            this.cotton_lbl.Size = new System.Drawing.Size(85, 82);
             this.cotton_lbl.TabIndex = 8;
             this.cotton_lbl.Text = "Cottons";
             this.cotton_lbl.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -367,12 +446,15 @@ namespace mave_assistant
             // 
             // rapid_btn
             // 
-            this.rapid_btn.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rapid_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rapid_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.rapid_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.rapid_btn.Image = ((System.Drawing.Image)(resources.GetObject("rapid_btn.Image")));
             this.rapid_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rapid_btn.Location = new System.Drawing.Point(380, 234);
+            this.rapid_btn.Location = new System.Drawing.Point(313, 142);
+            this.rapid_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rapid_btn.Name = "rapid_btn";
-            this.rapid_btn.Size = new System.Drawing.Size(97, 87);
+            this.rapid_btn.Size = new System.Drawing.Size(85, 82);
             this.rapid_btn.TabIndex = 7;
             this.rapid_btn.Text = "Rapid 30\'";
             this.rapid_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -382,11 +464,14 @@ namespace mave_assistant
             // intense_btn
             // 
             this.intense_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.intense_btn.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.intense_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.intense_btn.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.intense_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
             this.intense_btn.Image = ((System.Drawing.Image)(resources.GetObject("intense_btn.Image")));
-            this.intense_btn.Location = new System.Drawing.Point(73, 363);
+            this.intense_btn.Location = new System.Drawing.Point(74, 246);
+            this.intense_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.intense_btn.Name = "intense_btn";
-            this.intense_btn.Size = new System.Drawing.Size(97, 87);
+            this.intense_btn.Size = new System.Drawing.Size(85, 82);
             this.intense_btn.TabIndex = 6;
             this.intense_btn.Text = "Intensive";
             this.intense_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -395,12 +480,14 @@ namespace mave_assistant
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker1.Location = new System.Drawing.Point(148, 100);
+            this.dateTimePicker1.Location = new System.Drawing.Point(128, 59);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.MinDate = new System.DateTime(2022, 3, 4, 0, 0, 0, 0);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.ShowUpDown = true;
-            this.dateTimePicker1.Size = new System.Drawing.Size(250, 27);
+            this.dateTimePicker1.Size = new System.Drawing.Size(219, 23);
             this.dateTimePicker1.TabIndex = 3;
             this.dateTimePicker1.Value = new System.DateTime(2022, 3, 4, 1, 37, 41, 0);
             // 
@@ -410,9 +497,9 @@ namespace mave_assistant
             this.time_lbl.BackColor = System.Drawing.Color.Transparent;
             this.time_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.time_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.time_lbl.Location = new System.Drawing.Point(241, 51);
+            this.time_lbl.Location = new System.Drawing.Point(204, 32);
             this.time_lbl.Name = "time_lbl";
-            this.time_lbl.Size = new System.Drawing.Size(64, 31);
+            this.time_lbl.Size = new System.Drawing.Size(53, 25);
             this.time_lbl.TabIndex = 0;
             this.time_lbl.Text = "Time";
             this.time_lbl.Click += new System.EventHandler(this.time_lbl_Click);
@@ -423,9 +510,9 @@ namespace mave_assistant
             this.pr_lbl.BackColor = System.Drawing.Color.Transparent;
             this.pr_lbl.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.pr_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(67)))), ((int)(((byte)(159)))));
-            this.pr_lbl.Location = new System.Drawing.Point(222, 168);
+            this.pr_lbl.Location = new System.Drawing.Point(192, 105);
             this.pr_lbl.Name = "pr_lbl";
-            this.pr_lbl.Size = new System.Drawing.Size(102, 31);
+            this.pr_lbl.Size = new System.Drawing.Size(85, 25);
             this.pr_lbl.TabIndex = 1;
             this.pr_lbl.Text = "Program";
             // 
@@ -437,11 +524,12 @@ namespace mave_assistant
             this.cancel_wash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancel_wash.Font = new System.Drawing.Font("Nirmala UI", 9.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cancel_wash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.cancel_wash.Location = new System.Drawing.Point(801, 77);
+            this.cancel_wash.Location = new System.Drawing.Point(701, 58);
+            this.cancel_wash.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cancel_wash.Name = "cancel_wash";
-            this.cancel_wash.Size = new System.Drawing.Size(264, 36);
+            this.cancel_wash.Size = new System.Drawing.Size(231, 27);
             this.cancel_wash.TabIndex = 56;
-            this.cancel_wash.Text = "CANCEL PROGRAMMED WASH";
+            this.cancel_wash.Text = "Cancel Scheduled Wash";
             this.cancel_wash.UseVisualStyleBackColor = false;
             this.cancel_wash.Visible = false;
             this.cancel_wash.Click += new System.EventHandler(this.cancel_wash_Click);
@@ -452,26 +540,32 @@ namespace mave_assistant
             // 
             // Washer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(1121, 901);
+            this.ClientSize = new System.Drawing.Size(981, 676);
             this.Controls.Add(this.cancel_wash);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Washer";
             this.Text = "Washer";
             this.Load += new System.EventHandler(this.Washer_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -508,5 +602,10 @@ namespace mave_assistant
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button cancel_wash;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

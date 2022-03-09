@@ -96,6 +96,7 @@ namespace mave_assistant
             this.Controls.Add(this.dot2);
             this.Controls.Add(this.dot1);
             this.Controls.Add(this.days_label);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UserControlDays";
             this.Size = new System.Drawing.Size(131, 75);

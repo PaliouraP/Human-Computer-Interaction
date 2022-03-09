@@ -1283,6 +1283,16 @@ namespace mave_assistant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mave_laying_down1 {
+            get {
+                object obj = ResourceManager.GetObject("mave_laying_down1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mave_walk {
             get {
                 object obj = ResourceManager.GetObject("mave_walk", resourceCulture);

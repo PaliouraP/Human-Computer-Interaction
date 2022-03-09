@@ -298,7 +298,7 @@ namespace mave_assistant
             // 
             this.toggle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(235)))), ((int)(((byte)(240)))));
             this.toggle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggle.Image = global::mave_assistant.Properties.Resources.toggle_off;
+            this.toggle.Image = global::mave_assistant.Properties.Resources.toggle_on;
             this.toggle.Location = new System.Drawing.Point(340, 54);
             this.toggle.Name = "toggle";
             this.toggle.Size = new System.Drawing.Size(30, 30);
@@ -338,9 +338,9 @@ namespace mave_assistant
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label4.Location = new System.Drawing.Point(17, 63);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 21);
+            this.label4.Size = new System.Drawing.Size(52, 21);
             this.label4.TabIndex = 56;
-            this.label4.Text = "Air Condition";
+            this.label4.Text = "Lights";
             // 
             // name_label
             // 
