@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vBKlU9dQ+O+qKJr51DnoQ1eGrnBYGVsd/BTVH1b7rHjEUcVA8Ex/Ii43L0nlYOF6QCvDfhbOzm8DFeQ7Z6p/+Q==",
+  "dgSpecHash": "L5n/za/JAyCmMpeiwZsxBDtdafxGkZdoe0ryL+VLErO7YdMEsxGDGlqrhuG/GfyHk/eGb6dlS5U6qj0dsdS4VA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\source\\repos\\Human-Computer-Interaction2\\mave_assistant\\mave_assistant.csproj",
+  "projectFilePath": "C:\\Users\\Evi Palioura\\Source\\Repos\\PaliouraP\\Human-Computer-Interaction\\mave_assistant\\mave_assistant.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\maria\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
-    "C:\\Users\\maria\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\maria\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
-    "C:\\Users\\maria\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115.5\\stub.system.data.sqlite.core.netstandard.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\system.data.sqlite.core\\1.0.115.5\\system.data.sqlite.core.1.0.115.5.nupkg.sha512",
+    "C:\\Users\\Evi Palioura\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
   ],
   "logs": [
     {

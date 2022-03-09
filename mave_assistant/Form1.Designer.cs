@@ -245,7 +245,7 @@ namespace mave_assistant
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Image = ((System.Drawing.Image)(resources.GetObject("button16.Image")));
             this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(0, 225);
+            this.button16.Location = new System.Drawing.Point(0, 267);
             this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(219, 41);
@@ -265,7 +265,7 @@ namespace mave_assistant
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Image = ((System.Drawing.Image)(resources.GetObject("button15.Image")));
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(0, 180);
+            this.button15.Location = new System.Drawing.Point(0, 222);
             this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(219, 45);
@@ -285,10 +285,10 @@ namespace mave_assistant
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Image = ((System.Drawing.Image)(resources.GetObject("button14.Image")));
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(0, 135);
+            this.button14.Location = new System.Drawing.Point(0, 176);
             this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(219, 45);
+            this.button14.Size = new System.Drawing.Size(219, 46);
             this.button14.TabIndex = 6;
             this.button14.Text = "Washing Machine";
             this.button14.UseVisualStyleBackColor = false;
@@ -305,7 +305,7 @@ namespace mave_assistant
             this.coffee_btn.ForeColor = System.Drawing.Color.White;
             this.coffee_btn.Image = ((System.Drawing.Image)(resources.GetObject("coffee_btn.Image")));
             this.coffee_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.coffee_btn.Location = new System.Drawing.Point(0, 90);
+            this.coffee_btn.Location = new System.Drawing.Point(0, 131);
             this.coffee_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.coffee_btn.Name = "coffee_btn";
             this.coffee_btn.Size = new System.Drawing.Size(219, 45);
@@ -325,7 +325,7 @@ namespace mave_assistant
             this.vacuum_btn.ForeColor = System.Drawing.Color.White;
             this.vacuum_btn.Image = ((System.Drawing.Image)(resources.GetObject("vacuum_btn.Image")));
             this.vacuum_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.vacuum_btn.Location = new System.Drawing.Point(0, 45);
+            this.vacuum_btn.Location = new System.Drawing.Point(0, 86);
             this.vacuum_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.vacuum_btn.Name = "vacuum_btn";
             this.vacuum_btn.Size = new System.Drawing.Size(219, 45);
@@ -345,7 +345,7 @@ namespace mave_assistant
             this.pet_feeder_btn.ForeColor = System.Drawing.Color.White;
             this.pet_feeder_btn.Image = ((System.Drawing.Image)(resources.GetObject("pet_feeder_btn.Image")));
             this.pet_feeder_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.pet_feeder_btn.Location = new System.Drawing.Point(0, 0);
+            this.pet_feeder_btn.Location = new System.Drawing.Point(0, 41);
             this.pet_feeder_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pet_feeder_btn.Name = "pet_feeder_btn";
             this.pet_feeder_btn.Size = new System.Drawing.Size(219, 45);
@@ -358,6 +358,7 @@ namespace mave_assistant
             // 
             this.smart_closet_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(110)))), ((int)(((byte)(198)))));
             this.smart_closet_btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.smart_closet_btn.Dock = System.Windows.Forms.DockStyle.Top;
             this.smart_closet_btn.FlatAppearance.BorderSize = 0;
             this.smart_closet_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.smart_closet_btn.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -413,7 +414,7 @@ namespace mave_assistant
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = global::mave_assistant.Properties.Resources.watering_icon;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.Location = new System.Drawing.Point(0, 90);
             this.button7.Name = "button7";
@@ -431,7 +432,7 @@ namespace mave_assistant
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = global::mave_assistant.Properties.Resources.doorbell_icon;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.Location = new System.Drawing.Point(0, 45);
             this.button6.Name = "button6";
@@ -449,7 +450,7 @@ namespace mave_assistant
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = global::mave_assistant.Properties.Resources.alarm_icon;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.Location = new System.Drawing.Point(0, 0);
             this.button5.Name = "button5";
@@ -634,6 +635,7 @@ namespace mave_assistant
             // 
             // current_events_container
             // 
+            this.current_events_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("current_events_container.BackgroundImage")));
             this.current_events_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.current_events_container.Controls.Add(this.events_label);
             this.current_events_container.Location = new System.Drawing.Point(11, 67);
@@ -656,11 +658,12 @@ namespace mave_assistant
             // 
             // notification_container
             // 
+            this.notification_container.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("notification_container.BackgroundImage")));
             this.notification_container.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.notification_container.Controls.Add(this.notifications_label);
             this.notification_container.Location = new System.Drawing.Point(859, 61);
             this.notification_container.Name = "notification_container";
-            this.notification_container.Size = new System.Drawing.Size(250, 856);
+            this.notification_container.Size = new System.Drawing.Size(250, 821);
             this.notification_container.TabIndex = 62;
             // 
             // notifications_label
@@ -674,7 +677,6 @@ namespace mave_assistant
             this.notifications_label.Size = new System.Drawing.Size(149, 32);
             this.notifications_label.TabIndex = 25;
             this.notifications_label.Text = "Notifications";
-            this.notifications_label.Click += new System.EventHandler(this.notifications_label_Click);
             // 
             // panel2
             // 

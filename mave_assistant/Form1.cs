@@ -75,7 +75,7 @@ namespace mave_assistant
             {
                 UserControlNotifications w_notif = new UserControlNotifications();
                 w_notif.title.Text = "Out of Water!";
-                w_notif.details.Text = u.pet + "'s water bowl is empty.";
+                w_notif.details.Text = "Your pet's water bowl is empty.";
 
                 notification_container.Controls.Add(w_notif);
             }
@@ -331,11 +331,6 @@ namespace mave_assistant
             showSubMenu(panelSmartHome);
         }
 
-        private void button13_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Bin());
-        }
-
         //Method that increases progress bar value when a checkbox is checked 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -358,20 +353,6 @@ namespace mave_assistant
             }
         }
 
-        
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void notifications_label_Click(object sender, EventArgs e)
-        {
-        }
         private void button1_Click(object sender, EventArgs e)
         {
             openChildForm(new SmartCloset());

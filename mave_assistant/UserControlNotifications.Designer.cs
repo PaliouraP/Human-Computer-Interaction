@@ -40,25 +40,8 @@ namespace mave_assistant
             // title
             // 
             this.title.AutoSize = true;
-            this.title.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.title.Location = new System.Drawing.Point(15, 13);
-            this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(75, 21);
-            this.title.TabIndex = 0;
-            this.title.Text = "notif_title";
-            // 
-            // details
-            // 
-            this.details.AutoSize = true;
-            this.details.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.details.Location = new System.Drawing.Point(15, 34);
-            this.details.Name = "details";
-            this.details.Size = new System.Drawing.Size(71, 15);
-            this.details.TabIndex = 1;
-            this.details.Text = "notif_details";
-            // 
             this.title.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.title.Location = new System.Drawing.Point(7, 15);
+            this.title.Location = new System.Drawing.Point(8, 20);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(81, 23);
             this.title.TabIndex = 0;
@@ -68,8 +51,9 @@ namespace mave_assistant
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(222, 10);
+            this.pictureBox9.Size = new System.Drawing.Size(243, 13);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 38;
             this.pictureBox9.TabStop = false;
@@ -78,17 +62,21 @@ namespace mave_assistant
             // 
             this.details.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(215)))), ((int)(((byte)(241)))));
             this.details.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.details.Location = new System.Drawing.Point(7, 41);
+            this.details.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.details.Location = new System.Drawing.Point(8, 55);
+            this.details.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.details.Multiline = true;
             this.details.Name = "details";
             this.details.ReadOnly = true;
-            this.details.Size = new System.Drawing.Size(223, 67);
+            this.details.Size = new System.Drawing.Size(235, 67);
             this.details.TabIndex = 39;
+            this.details.Text = "notif_details";
             // 
             // delete
             // 
             this.delete.AutoSize = true;
-            this.delete.Location = new System.Drawing.Point(215, 17);
+            this.delete.BackColor = System.Drawing.Color.Transparent;
+            this.delete.Location = new System.Drawing.Point(225, 20);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(18, 20);
             this.delete.TabIndex = 40;
@@ -97,16 +85,15 @@ namespace mave_assistant
             // 
             // UserControlNotifications
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.delete);
             this.Controls.Add(this.details);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.title);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "UserControlNotifications";
-            this.Size = new System.Drawing.Size(213, 56);
+            this.Size = new System.Drawing.Size(250, 128);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
